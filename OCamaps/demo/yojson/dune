@@ -1,6 +1,0 @@
-(executable
- (name yojson_test)
- (modules yojson_test)
- (libraries yojson)
- (preprocess (pps ppx_inline_test))
-)
