@@ -14,9 +14,8 @@ While we intend on demonstrating this by mapping Homewood campus, we want this p
 
 This demonstration will be divided into two parts: a workflow that describes how a purely CLI-based version of this app would work, as well as a figma showing what our intended GUI would look like.
 
-Application basics: CLI interactivity
-	
-	Workflow can be separated into two major components:
+*Application basics: CLI interactivity*
+Workflow can be separated into two major components:
 
 Map generation: Before users can find shortest paths on a map, they need to “create” one first by providing a (latitude, longitude) coordinate pair, and a desired radius in meters from that point. An Overpass Turbo API call is then made to get all location and path information from the circle defined with a center and radius at the given coordinate pair and inputted radius respectively.
 
@@ -40,7 +39,7 @@ If path_to_map is not specified, the executable will first run map_gen.exe using
 < maybe show some possible errors? since we should be able to handle them gracefully >
 
 
-User interactivity: GUI Interactivity
+*User interactivity: GUI Interactivity*
 
 https://www.figma.com/design/lymHYOxwt07CWWN6l9actL/Untitled?node-id=0-1&t=Nb3YCVrkfvsoEvwv-1
 
