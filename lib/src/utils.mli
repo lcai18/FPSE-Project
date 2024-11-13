@@ -82,4 +82,8 @@ val coordinates_and_radius_to_ways_json : float -> float -> float -> Yojson.Safe
     location and radius [in meters], fetching location and path data *)
 val location_to_map : location -> float -> map option
 
+(** [connect_graph location] takes a map and creates a connected graph where each location is connected to nodes on the same way id *)
+val connect_graph : location list -> map option
+
+
 
