@@ -1,0 +1,4 @@
+(executable
+ (public_name OCamaps)
+ (name main)
+ (libraries OCamaps))
