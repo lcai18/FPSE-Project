@@ -13,7 +13,6 @@ depends: [
   "ocaml"
   "dune" {>= "3.16"}
   "odoc" {with-doc}
-  "yojson"
 ]
 build: [
   ["dune" "subst"] {dev}
@@ -29,4 +28,4 @@ build: [
     "@doc" {with-doc}
   ]
 ]
-dev-repo: "git+https://github.com/username/reponame.git"
+dev-repo: "git+https://github.com/lcai18/FPSE-Project.git"

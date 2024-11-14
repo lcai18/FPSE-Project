@@ -1,2 +1,4 @@
 (library
- (name OCamaps))
+ (name OCamaps)
+ (libraries yojson)
+ (modules_without_implementation utils))
