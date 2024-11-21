@@ -1,0 +1,6 @@
+(executable
+ (name api_call)
+ (modules api_call)
+ (libraries yojson cohttp-lwt-unix lwt)
+ (preprocess (pps ppx_inline_test))
+)
