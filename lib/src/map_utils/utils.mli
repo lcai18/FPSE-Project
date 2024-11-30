@@ -54,7 +54,7 @@
     (* --- MODULE SIGNATURES --- *)
     
     (** Module signature for a Map *)
-    module Map = sig
+    module Map : sig
       (** [generate_map center radius] generates a map around the [center] location
           with the given [radius] in meters, fetching location and path data using
           Overpass Turbo API *)
@@ -64,10 +64,10 @@
       val get_shortest_path : map -> location -> location -> route option
     
       (** [locations_to_json locs] converts a list of locations [locs] to a JSON format *)
-      val locations_to_json : location list -> Yojson.Safe.t
+      val locations_to_json : location list -> Yojson.Basic.t
     
       (** [json_to_locations json] parses JSON data [json] into a list of locations *)
-      val json_to_locations : Yojson.Safe.t -> location list option
+      val json_to_locations : Yojson.Basic.t -> location list option
     
     end
     

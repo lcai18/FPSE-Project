@@ -1,5 +1,5 @@
-(executable
+(library
  (name json_utils)
- (modules json_utils)
- (libraries yojson)
+ (libraries utils yojson)
+ (modules_without_implementation json_utils)
 )
