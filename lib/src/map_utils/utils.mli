@@ -54,7 +54,7 @@
     (* --- MODULE SIGNATURES --- *)
     
     (** Module signature for a Map *)
-    module Map = sig
+    module Map : sig
       (** [generate_map center radius] generates a map around the [center] location
           with the given [radius] in meters, fetching location and path data using
           Overpass Turbo API *)
