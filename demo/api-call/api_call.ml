@@ -197,9 +197,9 @@ let element_list_to_ways (list: element list) : string list list =
     ) list
 
 
-(* THIS WONT WORK UNTIL WE HAVE A MAP FROM NODE ID TO NODE*)
-let ways_and_base_map_to_full_map (ways: string list list) (base_graph: graph) (node_ids: id_map) : graph =
-  let rec process_way_list (way: string list) (g: graph) : graph =
+(* Takes list of ways, a base graph of just locations mapped to empty sets, and a map from node ids to nodes, and creates the full adjacency list representation *)
+let ways_and_base_map_to_full_map (ways: string list list) (base_graph: graph) (node_ids: id_map) : (graph * int) =
+  let rec process_way_list ((g, connections): (graph * int)) (way: string list) : (graph * int) =
     match way with
     | hd1 :: hd2 :: tl ->
       let hd1_node = hd1 |> Map.find_exn node_ids in
@@ -211,11 +211,11 @@ let ways_and_base_map_to_full_map (ways: string list list) (base_graph: graph) (
         |> Map.set ~key:hd1_node ~data:(Set.add hd1_set hd2_node) 
         |> Map.set ~key:hd2_node ~data:(Set.add hd2_set hd1_node)
       in
-      process_way_list (hd2 :: tl) new_graph
-    | [_] | _ -> g
+      process_way_list (new_graph, connections + 1) (hd2 :: tl)
+    | [_] | _ -> (g, connections)
   in
-  List.fold ~init:base_graph ~f:(fun accum elem ->
-      process_way_list elem accum
+  List.fold ~init:(base_graph, 0) ~f:(fun accum elem ->
+      process_way_list accum elem
     ) ways
 
 
@@ -233,6 +233,6 @@ let () =
      let loc_map = location_list |> locations_to_id_map in
      let base_graph = location_list |> locations_to_map in
      let ways_list = elems |> element_list_to_ways in
-     let full_graph = ways_and_base_map_to_full_map ways_list base_graph loc_map in
-     print_endline "graph constructed with no errors :)";
+     let (_, connections) = ways_and_base_map_to_full_map ways_list base_graph loc_map in
+     Printf.printf "Graph successfully constructed.\n%s Nodes\n%s connections made\n" (string_of_int (Map.length loc_map)) (string_of_int connections);
   | None -> Printf.printf "No locations found.\n"
