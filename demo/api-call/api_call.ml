@@ -59,14 +59,14 @@ type location = {
     location_name : string;
     lat : float;
     long : float;
-}
+} [@@deriving sexp, compare]
 
 
 (* When processing elements from the API call, we want to handle 'node' types differently from 'way' types, so this is how we will differentiate mid-parsing *)
 (* < my idea is that we will temporarily represent a Way as a list of integers, being Node IDs. then we use these lists to connect the nodes later. > *)
 
 (* "Way" tuple is (start, end, intermediate nodes list) *)
-type element = Location of location | Way of int list
+type element = Location of location | Way of string list
 
 (* Generic method to get the response body from an API call. Returns Some/None depending on if API call was successful *)
 let get_request ~(uri: string) : string option Lwt.t =
@@ -119,7 +119,7 @@ let json_elem_to_location_or_way (json_elem: Yojson.Basic.t) : element option =
     Some (Location loc)
   | "way" ->
     (* Extract "nodes" from 'way' attribute *)
-    let way_nodes = json_elem |> member "nodes" |> to_list |> List.map ~f:to_int in Some (Way way_nodes)
+    let way_nodes = json_elem |> member "nodes" |> to_list |> List.map ~f:(fun elem -> elem |> to_int |> string_of_int) in Some (Way way_nodes)
   | _ -> None (* this should never happen! *)
 
 (* Converts a list of Yojson objects to a list of locations. Utilizes [json_elem_to_location_or_way] to parse each JSON element *)
@@ -137,9 +137,88 @@ let print_element (e: element) : unit =
   match e with
   | Location loc -> Printf.printf "Location: %s, Lat: %.4f, Long: %.4f\n" loc.location_name loc.lat loc.long;
   | Way node_list ->
-    let node_list_str = (List.map ~f:string_of_int node_list) |> String.concat ~sep:", " in
+    let node_list_str = node_list |> String.concat ~sep:", " in
     Printf.printf "List of nodes in Way: %s\n"  node_list_str
+
+(* Parse element list into adjacency list representation *)
+
+(* step 0: type definitions for map *)
+
+module LocationKey = struct
+  type t = location [@@deriving sexp, compare]
+end
+
+module LocationMap = Map.Make(LocationKey)
+
+module LocationSet = Set.Make(LocationKey)
+
+type graph = LocationSet.t LocationMap.t
+
+let empty_loc_set = LocationSet.empty
+let empty_graph = LocationMap.empty
+
+(* step 1: load all Locations into a map *)
+
+(* Get all the Location nodes from received elements *)
+let element_list_to_locations (list: element list) : location list =
+  List.fold ~init:[] ~f: (fun accum elem ->
+      match elem with
+      | Location l -> l :: accum
+      | Way _ -> accum
+    ) list
+
+(* Create a map that maps node id to Location *)
+module StringMap = Map.Make(String)
+type id_map = location StringMap.t
+let empty_id_map = StringMap.empty
+
+let locations_to_id_map (loc_list: location list) : id_map =
+  List.fold ~init:empty_id_map ~f:(fun accum elem -> 
+      accum |> Map.set ~key:elem.location_name ~data:elem
+    ) loc_list
+
+(* Adds all nodes to the graph, all mapped to empty lists. *)
+let locations_to_map (loc_list: location list) : graph = 
+  List.fold ~init:empty_graph ~f:(fun accum elem ->
+      accum
+      |> Map.set ~key:elem ~data:empty_loc_set
+    ) loc_list
+
+
+(* step 2: look through all Ways and add all adjacencies to map *)
+
   
+(* Gets all Ways from received elements *)
+let element_list_to_ways (list: element list) : string list list =
+  List.fold ~init:[] ~f:(fun accum elem ->
+      match elem with
+      | Way w -> w :: accum
+      | Location _ -> accum
+    ) list
+
+
+(* THIS WONT WORK UNTIL WE HAVE A MAP FROM NODE ID TO NODE*)
+let ways_and_base_map_to_full_map (ways: string list list) (base_graph: graph) (node_ids: id_map) : graph =
+  let rec process_way_list (way: string list) (g: graph) : graph =
+    match way with
+    | hd1 :: hd2 :: tl ->
+      let hd1_node = hd1 |> Map.find_exn node_ids in
+      let hd2_node = hd2 |> Map.find_exn node_ids in
+      let hd1_set = hd1_node |> Map.find_exn g in
+      let hd2_set = hd2_node |> Map.find_exn g in
+      let new_graph = 
+        g 
+        |> Map.set ~key:hd1_node ~data:(Set.add hd1_set hd2_node) 
+        |> Map.set ~key:hd2_node ~data:(Set.add hd2_set hd1_node)
+      in
+      process_way_list (hd2 :: tl) new_graph
+    | [_] | _ -> g
+  in
+  List.fold ~init:base_graph ~f:(fun accum elem ->
+      process_way_list elem accum
+    ) ways
+
+
 (* Executable func: Gets nodes, converts them to json, converts json into location list *)
 let () =
   let elements = nodes_request ~radius:200 |> request_body_to_yojson |> yojson_list_to_element_list in
@@ -151,6 +230,3 @@ let () =
       ) elems;
      )
   | None -> Printf.printf "No locations found.\n"
-
-
-

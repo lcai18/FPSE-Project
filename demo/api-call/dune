@@ -2,5 +2,5 @@
  (name api_call)
  (modules api_call)
  (libraries core yojson cohttp-lwt-unix lwt)
- (preprocess (pps ppx_inline_test))
+ (preprocess (pps ppx_inline_test ppx_jane))
 )
