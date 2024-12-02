@@ -148,9 +148,13 @@ module LocationKey = struct
   type t = location [@@deriving sexp, compare]
 end
 
+module LocationSetKey = struct
+  type t = location * float [@@deriving sexp, compare]
+end
+
 module LocationMap = Map.Make(LocationKey)
 
-module LocationSet = Set.Make(LocationKey)
+module LocationSet = Set.Make(LocationSetKey)
 
 type graph = LocationSet.t LocationMap.t
 
@@ -196,6 +200,10 @@ let element_list_to_ways (list: element list) : string list list =
       | Location _ -> accum
     ) list
 
+(* acos(sin(lat1)sin(lat2) + cos(lat1)cos(lat2)cos(lon2-lon1)) *    6371 *)
+let nodes_to_path_cost (n1: location) (n2: location) : float =
+  let earth_rad = 6371. in
+    Float.acos(Float.sin(n1.lat) *. Float.sin(n2.lat) +. Float.cos(n1.lat) *. Float.cos(n2.lat) *. Float.cos(n2.long -. n1.long)) *. earth_rad
 
 (* Takes list of ways, a base graph of just locations mapped to empty sets, and a map from node ids to nodes, and creates the full adjacency list representation *)
 let ways_and_base_map_to_full_map (ways: string list list) (base_graph: graph) (node_ids: id_map) : (graph * int) =
@@ -206,10 +214,11 @@ let ways_and_base_map_to_full_map (ways: string list list) (base_graph: graph) (
       let hd2_node = hd2 |> Map.find_exn node_ids in
       let hd1_set = hd1_node |> Map.find_exn g in
       let hd2_set = hd2_node |> Map.find_exn g in
+      let path_cost = nodes_to_path_cost hd1_node hd2_node in
       let new_graph = 
         g 
-        |> Map.set ~key:hd1_node ~data:(Set.add hd1_set hd2_node) 
-        |> Map.set ~key:hd2_node ~data:(Set.add hd2_set hd1_node)
+        |> Map.set ~key:hd1_node ~data:(Set.add hd1_set (hd2_node, path_cost)) 
+        |> Map.set ~key:hd2_node ~data:(Set.add hd2_set (hd1_node, path_cost))
       in
       process_way_list (new_graph, connections + 1) (hd2 :: tl)
     | [_] | _ -> (g, connections)
