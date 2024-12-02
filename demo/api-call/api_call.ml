@@ -228,5 +228,11 @@ let () =
       List.iter ~f:(fun elem ->
         print_element elem
       ) elems;
-     )
+     );
+     let location_list = elems |> element_list_to_locations in
+     let loc_map = location_list |> locations_to_id_map in
+     let base_graph = location_list |> locations_to_map in
+     let ways_list = elems |> element_list_to_ways in
+     let full_graph = ways_and_base_map_to_full_map ways_list base_graph loc_map in
+     print_endline "graph constructed with no errors :)";
   | None -> Printf.printf "No locations found.\n"
