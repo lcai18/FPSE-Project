@@ -61,7 +61,7 @@ type location = {
     long : float;
 } [@@deriving sexp, compare]
 
-
+let 
 (* When processing elements from the API call, we want to handle 'node' types differently from 'way' types, so this is how we will differentiate mid-parsing *)
 (* < my idea is that we will temporarily represent a Way as a list of integers, being Node IDs. then we use these lists to connect the nodes later. > *)
 
