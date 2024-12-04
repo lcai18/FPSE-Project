@@ -1,5 +1,6 @@
 (library
- (name OCamaps)
- (libraries yojson)
- (modules_without_implementation utils)
+ (name OCamapsUtils)
+ (modules utils)
+ (libraries yojson core cohttp-lwt-unix lwt)
+ (preprocess (pps ppx_inline_test ppx_jane))
 )

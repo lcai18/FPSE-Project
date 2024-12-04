@@ -1,4 +1,4 @@
-
+(* 
 
 (** Represents a location with a name and geographic coordinates (latitude and longitude). 
     > If it is a landmark, the name will be the name of the landmark.
@@ -109,4 +109,46 @@
     
     
     
-    
+     *)
+
+(* open Yojson *)
+
+open Core
+
+type location = {
+    location_name : string;
+    lat : float;
+    long : float;
+}
+
+type element = Location of location | Way of string list
+
+val nodes_request: radius:int -> string option
+
+val request_body_to_yojson: string option -> Yojson.Basic.t list option
+
+val print_element: element -> unit
+
+val element_list_to_locations: element list -> location list
+
+type id_map = location Map.Make(String).t
+
+val locations_to_id_map: location list -> id_map
+
+module LocationKey : sig
+    type t = location [@@deriving sexp, compare]        
+end
+
+module LocationSetKey : sig
+    type t = location * float [@@deriving sexp, compare]    
+end
+
+type graph = Set.Make(LocationSetKey).t Map.Make(LocationKey).t
+
+val locations_to_map: location list -> graph
+
+val element_list_to_ways: element list -> string list list
+
+val ways_and_base_map_to_full_map: string list list -> graph -> id_map -> graph * int
+
+val yojson_list_to_element_list : Yojson.Basic.t list option -> element list option

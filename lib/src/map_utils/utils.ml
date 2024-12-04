@@ -25,9 +25,6 @@ way(around:200,39.3299,-76.6205)["highway"="footway"];
 out body geom;
 
 
-
-
-
 to get info for a way's node at an index:
 
 [out:json][timeout:25];
@@ -77,9 +74,7 @@ let get_request ~(uri: string) : string option Lwt.t =
     else
       Lwt.return_none
 
-(* Given a radius in meters, will make an API call to Overpass Turbo and return a response body (currently centered at Hopkins campus) consisting of all 'node's, 'way's, and all nodes on the 'way's.
-
-TODO: Make the lat/long center of the circle a function parameter *)
+(* Given a radius in meters, will make an API call to Overpass Turbo and return a response body (currently centered at Hopkins campus) consisting of all 'node's, 'way's, and all nodes on the 'way's. *)
 let nodes_request ~(radius: int) : string option =
   let rad_string = string_of_int radius in
   let uri_base = "https://overpass-api.de/api/interpreter" in
@@ -226,31 +221,3 @@ let ways_and_base_map_to_full_map (ways: string list list) (base_graph: graph) (
   List.fold ~init:(base_graph, 0) ~f:(fun accum elem ->
       process_way_list accum elem
     ) ways
-
-
-(* Executable func: Gets nodes, converts them to json, converts json into location list *)
-let () =
-  let elements = nodes_request ~radius:200 |> request_body_to_yojson |> yojson_list_to_element_list in
-  match elements with
-  | Some elems -> 
-     (
-      List.iter ~f:(fun elem ->
-        print_element elem
-      ) elems;
-     );
-     let location_list = elems |> element_list_to_locations in
-     let loc_map = location_list |> locations_to_id_map in
-     let base_graph = location_list |> locations_to_map in
-     let ways_list = elems |> element_list_to_ways in
-     let (full_graph, connections) = ways_and_base_map_to_full_map ways_list base_graph loc_map in
-     Printf.printf "Graph successfully constructed.\n%s Nodes\n%s connections made\n" (string_of_int (Map.length loc_map)) (string_of_int connections);
-     (* Calculating how many nodes in the graph have nonempty adjacency sets *)
-     let connected_nodes = Map.fold ~init:0 ~f:
-      (fun ~key:_ ~data:d accum:int ->
-        if Set.is_empty d then
-          accum
-        else
-          accum + 1
-      ) full_graph in
-      Printf.printf "Nodes with nonempty adjacency sets: %s\n" (string_of_int connected_nodes);
-  | None -> Printf.printf "No locations found.\n"
