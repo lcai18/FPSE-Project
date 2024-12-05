@@ -1,18 +1,16 @@
-(* Define the location type *)
-type location = {
-  location_name : string;
-  lat : float;
-  long : float;
-}
+open Types
 
-(* Define the heap element type *)
-type heap_element = float * location
+(** A purely functional priority queue of (float * location) pairs. 
+    The queue is a min-priority queue, with extract_min returning the smallest float. *)
 
-(* Create a new empty priority queue *)
-val create : unit -> (float * location) Pairing_heap.t
+type t
 
-(* Add an element to the priority queue *)
-val add_element : (float * location) Pairing_heap.t -> heap_element -> unit
+(** Create an empty priority queue *)
+val create : unit -> t
 
-(* Extract the maximum element from the priority queue *)
-val extract_max : (float * location) Pairing_heap.t -> heap_element option
+(** Add an element to the priority queue *)
+val add_element : t -> (float * location) -> t
+
+(** Extract the minimum element from the priority queue, 
+    returning None if the queue is empty or Some (elem, new_queue) otherwise. *)
+val extract_min : t -> ((float * location) * t) option
