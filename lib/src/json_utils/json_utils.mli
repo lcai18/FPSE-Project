@@ -1,25 +1,19 @@
-(** JSONUtils.mli *)
-open Yojson.Basic
+open Types
 
+(* Perform a GET request to a given URI *)
+val get_request : uri:string -> string option Lwt.t
 
-(** [coordinates_and_radius_to_locations_json lat long radius] generates JSON data
-    representing all locations within a specified radius around given [lat] and [long] *)
-val coordinates_and_radius_to_locations_json : float -> float -> float -> Yojson.Basic.t option
+(* Fetch all nodes and ways within a given radius *)
+val nodes_request : radius:int -> string option
 
-(** [locations_json_to_parsed_locations location_json] parses the JSON data from API call into a list of 'location' objects as defined earlier *)
-val locations_json_to_parsed_locations : Yojson.Basic.t option -> Utils.location list
+(* Convert a request body string into a list of Yojson elements *)
+val request_body_to_yojson : string option -> Yojson.Basic.t list option
 
-(** [coordinates_and_radius_to_ways_json lat long radius] generates JSON data
-    representing all paths ("ways") within a specified radius around given [lat] and [long] *)
-val coordinates_and_radius_to_ways_json : float -> float -> float -> Yojson.Basic.t option
+(* Convert a Yojson element to a `location` or `way` element *)
+val json_elem_to_location_or_way : Yojson.Basic.t -> element option
 
-(** [ways_json_to_ways_list ways_json] uses JSON data generated from previous step and parses it into lists of locations. 
-    > Each 'way' in Overpass is represented as a list of nodes which comprise the way.
-    > So, for each 'way', comprised of nodes, we need to parse these into a path, which happens in following functions. *)
-val ways_json_to_ways_list : Yojson.Basic.t option -> location list list
+(* Convert a list of Yojson elements to a list of `element`s *)
+val yojson_list_to_element_list : Yojson.Basic.t list option -> element list option
 
-(** [map_to_json map] will create a json file from a completed map from [locations_and_paths_to_map]. *)
-val json_of_map : map -> Yojson.Basic.t
-    
-(** [map_of_json json] will parse [json] into a [map] structure as described earlier. Returns [Some m] if [json] is validly formatted, or [None] if not. *)
-val map_of_json : Yojson.Basic.t -> map option
+(* Print an `element` for debugging *)
+val print_element : element -> unit

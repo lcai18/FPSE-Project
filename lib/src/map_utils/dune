@@ -1,5 +1,6 @@
 (library
- (name OCamaps)
- (libraries yojson)
- (modules_without_implementation utils)
+ (name graph)
+ (modules graph)
+ (libraries core json_utils types)
+ (preprocess (pps ppx_inline_test ppx_jane))
 )

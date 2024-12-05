@@ -1,5 +1,6 @@
 open Core
-open Priority_queue
+open Json_utils
+open Graph
 (*
 
 to execute this: dune exec _build/default/lib/src/path_finding/path_find.exe
@@ -13,7 +14,7 @@ to execute this: dune exec _build/default/lib/src/path_finding/path_find.exe
 [@@@warning "-69"]
 
 
-(* Example usage *)
+(* Example usage 
 let () =
   (* Initialize an empty heap *)
   let heap = Priority_queue.create () in
@@ -34,6 +35,24 @@ let () =
       Printf.printf "Max Float: %f, Location: %s\n" max_float max_loc.location_name
   | None ->
       Printf.printf "Heap is empty.\n"
+      *)
+
+let () =
+  let elements = nodes_request ~radius:200 |> request_body_to_yojson |> yojson_list_to_element_list in
+  match elements with
+  | Some elems -> 
+     (
+      List.iter ~f:(fun elem ->
+        print_element elem
+      ) elems;
+     );
+     let location_list = elems |> element_list_to_locations in
+     let loc_map = location_list |> locations_to_id_map in
+     let base_graph = location_list |> locations_to_map in
+     let ways_list = elems |> element_list_to_ways in
+     let (_, connections) = ways_and_base_map_to_full_map ways_list base_graph loc_map in
+     Printf.printf "Graph successfully constructed.\n%s Nodes\n%s connections made\n" (string_of_int (Map.length loc_map)) (string_of_int connections);
+  | None -> Printf.printf "No locations found.\n"
 
 
 

@@ -1,11 +1,11 @@
 (executable
  (name path_find)
  (modules path_find)
- (libraries core core_kernel.pairing_heap priority_queue)
+ (libraries core core_kernel.pairing_heap priority_queue json_utils graph types)
  (preprocess (pps ppx_inline_test ppx_jane))
 )       
 
 (library
  (name priority_queue)
  (modules priority_queue)
- (libraries core core_kernel.pairing_heap))
+ (libraries core core_kernel.pairing_heap types))
