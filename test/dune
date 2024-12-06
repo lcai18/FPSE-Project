@@ -12,9 +12,16 @@
     core
     ounit2
     map_utils_test
+    priority_queue_test
+    dijkstra_test
   ))
 
 (library
  (name priority_queue_test)
  (modules priority_queue_test)
  (libraries ounit2 core types priority_queue))
+
+(library
+ (name dijkstra_test)
+ (modules dijkstra_test)
+ (libraries ounit2 core types priority_queue graph dijkstra))

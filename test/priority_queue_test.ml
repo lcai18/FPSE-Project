@@ -4,12 +4,13 @@ open Priority_queue
 (* Helper function to create a location *)
 let create_location location_name lat long = { location_name; lat; long }
 
+(* testing empty pq behaves as expected *)
 let test_create _ =
   let pq = create () in
   match extract_min pq with
   | None -> ()
   | Some _ -> assert_failure "Expected empty priority queue"
-
+(* testing basic add and extract *)
 let test_add_and_extract_single _ =
   let pq = create () in
   let location = create_location "place1" 0.0 0.0 in
@@ -20,7 +21,7 @@ let test_add_and_extract_single _ =
     assert_equal loc location;
     assert_equal (extract_min new_pq) None
   | None -> assert_failure "Expected an element in the priority queue"
-
+(* testing multiple add and extract *)
 let test_add_and_extract_multiple _ =
   let pq = create () in
   let locations = [create_location "place1" 1.0 1.0; create_location  "place2" 2.0 2.0; create_location "place3" 3.0 3.0] in
@@ -37,7 +38,8 @@ let test_add_and_extract_multiple _ =
   let pq = check_priority pq 2.0 in
   let pq = check_priority pq 3.0 in
   assert_equal (extract_min pq) None
-
+  
+(* testing edge case of same weights*)
 let test_add_duplicate_priorities _ =
   let pq = create () in
   let location1 = create_location "place1" 1.0 1.0 in
@@ -56,7 +58,7 @@ let test_add_duplicate_priorities _ =
       assert_bool "Expected the other location" (loc2 = location1 || loc2 = location2);
       assert_equal (extract_min new_pq) None
     
-  
+
 
 let suite =
   "Tests" >::: [
@@ -66,4 +68,3 @@ let suite =
     "test_add_duplicate_priorities" >:: test_add_duplicate_priorities;
   ]
 
-let () = run_test_tt_main suite

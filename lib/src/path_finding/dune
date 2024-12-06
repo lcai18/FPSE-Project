@@ -9,12 +9,12 @@
  (name priority_queue)
  (modules priority_queue)
  (libraries core core_kernel.pairing_heap types)
- (preprocess (pps ppx_inline_test ppx_jane))
+ (preprocess (pps ppx_inline_test ppx_jane bisect_ppx))
  )
 
 (library
  (name dijkstra)
  (modules dijkstra)
  (libraries core priority_queue types graph)
- (preprocess (pps ppx_inline_test ppx_jane))
+ (preprocess (pps ppx_inline_test ppx_jane bisect_ppx))
  )
