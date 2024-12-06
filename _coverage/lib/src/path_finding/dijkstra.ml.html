@@ -18,7 +18,7 @@
       <h2>96.55%</h2>
     </div>
     <div id="navbar">
-      <span class="unvisited" style="bottom:43.86%"></span>
+      <span class="unvisited" style="bottom:46.30%"></span>
     </div>
     <div id="report">
       <div id="lines-layer">
@@ -40,21 +40,21 @@
 <a id="L15"></a><span > </span>
 <a id="L16"></a><span > </span>
 <a id="L17"></a><span > </span>
-<a id="L18"></a><span > </span>
+<a id="L18"></a><span class="visited"> </span>
 <a id="L19"></a><span class="visited"> </span>
 <a id="L20"></a><span > </span>
-<a id="L21"></a><span class="visited"> </span>
-<a id="L22"></a><span > </span>
+<a id="L21"></a><span > </span>
+<a id="L22"></a><span class="visited"> </span>
 <a id="L23"></a><span > </span>
-<a id="L24"></a><span > </span>
+<a id="L24"></a><span class="visited"> </span>
 <a id="L25"></a><span class="visited"> </span>
-<a id="L26"></a><span > </span>
+<a id="L26"></a><span class="visited"> </span>
 <a id="L27"></a><span class="visited"> </span>
-<a id="L28"></a><span class="visited"> </span>
-<a id="L29"></a><span class="visited"> </span>
-<a id="L30"></a><span class="visited"> </span>
-<a id="L31"></a><span > </span>
-<a id="L32"></a><span class="unvisited"> </span>
+<a id="L28"></a><span > </span>
+<a id="L29"></a><span class="unvisited"> </span>
+<a id="L30"></a><span > </span>
+<a id="L31"></a><span class="visited"> </span>
+<a id="L32"></a><span class="visited"> </span>
 <a id="L33"></a><span > </span>
 <a id="L34"></a><span class="visited"> </span>
 <a id="L35"></a><span class="visited"> </span>
@@ -63,23 +63,20 @@
 <a id="L38"></a><span class="visited"> </span>
 <a id="L39"></a><span > </span>
 <a id="L40"></a><span class="visited"> </span>
-<a id="L41"></a><span class="visited"> </span>
-<a id="L42"></a><span > </span>
+<a id="L41"></a><span > </span>
+<a id="L42"></a><span class="visited"> </span>
 <a id="L43"></a><span class="visited"> </span>
-<a id="L44"></a><span > </span>
+<a id="L44"></a><span class="visited"> </span>
 <a id="L45"></a><span class="visited"> </span>
 <a id="L46"></a><span class="visited"> </span>
 <a id="L47"></a><span class="visited"> </span>
 <a id="L48"></a><span class="visited"> </span>
-<a id="L49"></a><span class="visited"> </span>
+<a id="L49"></a><span > </span>
 <a id="L50"></a><span class="visited"> </span>
-<a id="L51"></a><span class="visited"> </span>
-<a id="L52"></a><span > </span>
-<a id="L53"></a><span class="visited"> </span>
+<a id="L51"></a><span > </span>
+<a id="L52"></a><span class="visited"> </span>
+<a id="L53"></a><span > </span>
 <a id="L54"></a><span > </span>
-<a id="L55"></a><span class="visited"> </span>
-<a id="L56"></a><span > </span>
-<a id="L57"></a><span > </span>
 </pre>
       </div>
       <div id="text-layer">
@@ -138,9 +135,6 @@
 <a href="#L52">52</a>
 <a href="#L53">53</a>
 <a href="#L54">54</a>
-<a href="#L55">55</a>
-<a href="#L56">56</a>
-<a href="#L57">57</a>
 </pre>
 <pre><code class="ocaml">[@@@warning "-32"]
 open Core
@@ -159,11 +153,8 @@ let rec reconstruct_path prev_map current accum =
 
 (* Dijkstra's to find shortest path and distance *)
 let shortest_path (graph: graph) ~(start: location) ~(dest: location) : (location list * float) option =
-  (* dist : location -&gt; float *)
   <span data-count="4">l</span>et dist = LocationMap.singleton start 0.0 in
-  (* prev : location -&gt; location *)
   <span data-count="4">l</span>et prev = LocationMap.empty in
-  (* visited : location -&gt; bool *)
   let visited = LocationMap.empty in
   let pq = create () in
   <span data-count="4">l</span>et pq = add_element pq (0.0, start) in
