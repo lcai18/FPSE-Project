@@ -1,25 +1,6 @@
 open Core
 open Types
-
-(* We'll implement a binomial heap as a functional priority queue.
-
-   A binomial heap is represented as a list of binomial trees.
-   Each tree is a node with:
-     - A rank (the order of the binomial tree)
-     - A root element
-     - A list of subtrees (children)
-
-   Invariant:
-     - Each tree in the list has a unique rank.
-     - The trees are kept in ascending order of rank.
-
-   Operations:
-   - create: O(1)
-   - add_element: O(log n)
-   - extract_min: O(log n) average
-
-   We'll define these types and helper functions first.
-*)
+(*binomial heap*)
 
 type element = float * location
 

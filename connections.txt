@@ -1,0 +1,5338 @@
+Location: 49409570, Lat: 39.3293, Long: -76.6191
+Location: 49409571, Lat: 39.3293, Long: -76.6191
+Location: 49409576, Lat: 39.3294, Long: -76.6192
+Location: 49409578, Lat: 39.3295, Long: -76.6193
+Location: 49409579, Lat: 39.3295, Long: -76.6194
+Location: 49409580, Lat: 39.3296, Long: -76.6195
+Location: 49409581, Lat: 39.3297, Long: -76.6196
+Location: 49409585, Lat: 39.3298, Long: -76.6197
+Location: 49409589, Lat: 39.3299, Long: -76.6197
+Location: 49409604, Lat: 39.3300, Long: -76.6212
+Location: 49418310, Lat: 39.3298, Long: -76.6212
+Location: 49418315, Lat: 39.3295, Long: -76.6214
+Location: 244355192, Lat: 39.3320, Long: -76.6203
+Location: 244357712, Lat: 39.3300, Long: -76.6198
+Location: 244357713, Lat: 39.3302, Long: -76.6198
+Location: 244357715, Lat: 39.3303, Long: -76.6198
+Location: 244357716, Lat: 39.3304, Long: -76.6198
+Location: 244357717, Lat: 39.3305, Long: -76.6198
+Location: 244357719, Lat: 39.3307, Long: -76.6199
+Location: 244357720, Lat: 39.3308, Long: -76.6200
+Location: 244357721, Lat: 39.3309, Long: -76.6200
+Location: 244357722, Lat: 39.3311, Long: -76.6200
+Location: 244357723, Lat: 39.3311, Long: -76.6200
+Location: 244357724, Lat: 39.3313, Long: -76.6200
+Location: 244357728, Lat: 39.3316, Long: -76.6201
+Location: 244357729, Lat: 39.3317, Long: -76.6202
+Location: 244357731, Lat: 39.3319, Long: -76.6203
+Location: 244453009, Lat: 39.3296, Long: -76.6183
+Location: 244453010, Lat: 39.3298, Long: -76.6184
+Location: 244453011, Lat: 39.3299, Long: -76.6186
+Location: 244453012, Lat: 39.3301, Long: -76.6188
+Location: 244453013, Lat: 39.3302, Long: -76.6189
+Location: 244453014, Lat: 39.3304, Long: -76.6189
+Location: 244453016, Lat: 39.3307, Long: -76.6189
+Location: 244453017, Lat: 39.3306, Long: -76.6191
+Location: 244453018, Lat: 39.3304, Long: -76.6192
+Location: 244453019, Lat: 39.3303, Long: -76.6194
+Location: 244453020, Lat: 39.3302, Long: -76.6196
+Location: 244453021, Lat: 39.3301, Long: -76.6198
+Location: 244453022, Lat: 39.3303, Long: -76.6193
+Location: 244453023, Lat: 39.3301, Long: -76.6193
+Location: 244453024, Lat: 39.3300, Long: -76.6193
+Location: 244453025, Lat: 39.3297, Long: -76.6194
+Location: 244453055, Lat: 39.3293, Long: -76.6198
+Location: 244453056, Lat: 39.3288, Long: -76.6197
+Location: 244453057, Lat: 39.3288, Long: -76.6193
+Location: 244453058, Lat: 39.3308, Long: -76.6191
+Location: 244453059, Lat: 39.3310, Long: -76.6193
+Location: 244453060, Lat: 39.3310, Long: -76.6194
+Location: 244453061, Lat: 39.3310, Long: -76.6197
+Location: 244453217, Lat: 39.3299, Long: -76.6201
+Location: 244453218, Lat: 39.3299, Long: -76.6202
+Location: 244453219, Lat: 39.3299, Long: -76.6206
+Location: 244453220, Lat: 39.3299, Long: -76.6209
+Location: 244453221, Lat: 39.3293, Long: -76.6204
+Location: 244453222, Lat: 39.3293, Long: -76.6205
+Location: 244453223, Lat: 39.3292, Long: -76.6210
+Location: 244453225, Lat: 39.3287, Long: -76.6210
+Location: 244453226, Lat: 39.3288, Long: -76.6205
+Location: 244453227, Lat: 39.3288, Long: -76.6204
+Location: 244453235, Lat: 39.3292, Long: -76.6202
+Location: 244453236, Lat: 39.3291, Long: -76.6201
+Location: 244453237, Lat: 39.3290, Long: -76.6200
+Location: 244453238, Lat: 39.3290, Long: -76.6199
+Location: 244453239, Lat: 39.3288, Long: -76.6198
+Location: 244453240, Lat: 39.3289, Long: -76.6201
+Location: 244453241, Lat: 39.3292, Long: -76.6199
+Location: 244453242, Lat: 39.3293, Long: -76.6198
+Location: 244453248, Lat: 39.3290, Long: -76.6197
+Location: 244453293, Lat: 39.3288, Long: -76.6192
+Location: 244453294, Lat: 39.3287, Long: -76.6191
+Location: 244453295, Lat: 39.3287, Long: -76.6190
+Location: 244453296, Lat: 39.3287, Long: -76.6187
+Location: 244453307, Lat: 39.3283, Long: -76.6189
+Location: 244453308, Lat: 39.3285, Long: -76.6190
+Location: 244453309, Lat: 39.3288, Long: -76.6191
+Location: 244453314, Lat: 39.3299, Long: -76.6198
+Location: 244453315, Lat: 39.3300, Long: -76.6202
+Location: 244453316, Lat: 39.3301, Long: -76.6204
+Location: 244453317, Lat: 39.3301, Long: -76.6206
+Location: 244453318, Lat: 39.3300, Long: -76.6207
+Location: 244453382, Lat: 39.3314, Long: -76.6202
+Location: 244453383, Lat: 39.3314, Long: -76.6203
+Location: 244453387, Lat: 39.3314, Long: -76.6209
+Location: 244453388, Lat: 39.3313, Long: -76.6212
+Location: 244453389, Lat: 39.3313, Long: -76.6213
+Location: 244453391, Lat: 39.3312, Long: -76.6217
+Location: 244453392, Lat: 39.3313, Long: -76.6220
+Location: 244453393, Lat: 39.3314, Long: -76.6223
+Location: 244453394, Lat: 39.3315, Long: -76.6224
+Location: 244453395, Lat: 39.3316, Long: -76.6224
+Location: 244453396, Lat: 39.3309, Long: -76.6213
+Location: 244453397, Lat: 39.3311, Long: -76.6214
+Location: 244453398, Lat: 39.3315, Long: -76.6212
+Location: 244453399, Lat: 39.3315, Long: -76.6212
+Location: 244453400, Lat: 39.3316, Long: -76.6211
+Location: 244453401, Lat: 39.3317, Long: -76.6210
+Location: 244453402, Lat: 39.3319, Long: -76.6209
+Location: 244453403, Lat: 39.3320, Long: -76.6206
+Location: 244453406, Lat: 39.3306, Long: -76.6213
+Location: 244453409, Lat: 39.3306, Long: -76.6211
+Location: 244453411, Lat: 39.3304, Long: -76.6208
+Location: 244453412, Lat: 39.3304, Long: -76.6207
+Location: 244453413, Lat: 39.3303, Long: -76.6205
+Location: 244453414, Lat: 39.3303, Long: -76.6204
+Location: 244453415, Lat: 39.3305, Long: -76.6201
+Location: 244453416, Lat: 39.3306, Long: -76.6199
+Location: 244453417, Lat: 39.3305, Long: -76.6205
+Location: 244453418, Lat: 39.3301, Long: -76.6205
+Location: 244453419, Lat: 39.3299, Long: -76.6205
+Location: 244453421, Lat: 39.3295, Long: -76.6205
+Location: 247671241, Lat: 39.3283, Long: -76.6204
+Location: 247671272, Lat: 39.3283, Long: -76.6206
+Location: 247671273, Lat: 39.3283, Long: -76.6200
+Location: 247671324, Lat: 39.3269, Long: -76.6205
+Location: 247671325, Lat: 39.3269, Long: -76.6201
+Location: 247671326, Lat: 39.3283, Long: -76.6202
+Location: 247671340, Lat: 39.3281, Long: -76.6202
+Location: 247671341, Lat: 39.3281, Long: -76.6200
+Location: 247671346, Lat: 39.3277, Long: -76.6206
+Location: 247671353, Lat: 39.3276, Long: -76.6201
+Location: 247671368, Lat: 39.3274, Long: -76.6205
+Location: 247671369, Lat: 39.3274, Long: -76.6201
+Location: 247671370, Lat: 39.3303, Long: -76.6212
+Location: 247671380, Lat: 39.3304, Long: -76.6210
+Location: 247671381, Lat: 39.3305, Long: -76.6208
+Location: 247671409, Lat: 39.3311, Long: -76.6190
+Location: 247671570, Lat: 39.3285, Long: -76.6212
+Location: 247671571, Lat: 39.3285, Long: -76.6213
+Location: 247671572, Lat: 39.3286, Long: -76.6214
+Location: 247671573, Lat: 39.3286, Long: -76.6214
+Location: 1676517727, Lat: 39.3287, Long: -76.6211
+Location: 1676517737, Lat: 39.3292, Long: -76.6211
+Location: 1808834393, Lat: 39.3300, Long: -76.6225
+Location: 1909366871, Lat: 39.3279, Long: -76.6212
+Location: 1909366952, Lat: 39.3291, Long: -76.6199
+Location: 1909366973, Lat: 39.3295, Long: -76.6196
+Location: 1909367172, Lat: 39.3299, Long: -76.6194
+Location: 1909367176, Lat: 39.3299, Long: -76.6208
+Location: 1909367178, Lat: 39.3299, Long: -76.6204
+Location: 1909367182, Lat: 39.3299, Long: -76.6199
+Location: 1909367187, Lat: 39.3300, Long: -76.6211
+Location: 1909367190, Lat: 39.3300, Long: -76.6200
+Location: 1909367197, Lat: 39.3300, Long: -76.6227
+Location: 1909367201, Lat: 39.3300, Long: -76.6203
+Location: 1909367218, Lat: 39.3301, Long: -76.6206
+Location: 1909367221, Lat: 39.3301, Long: -76.6204
+Location: 1909367231, Lat: 39.3301, Long: -76.6197
+Location: 1909367255, Lat: 39.3304, Long: -76.6203
+Location: 1909367259, Lat: 39.3305, Long: -76.6203
+Location: 1909367277, Lat: 39.3306, Long: -76.6191
+Location: 1909367314, Lat: 39.3309, Long: -76.6192
+Location: 1909367327, Lat: 39.3310, Long: -76.6194
+Location: 1909367332, Lat: 39.3311, Long: -76.6198
+Location: 1909367334, Lat: 39.3311, Long: -76.6192
+Location: 1909367335, Lat: 39.3311, Long: -76.6199
+Location: 1909367356, Lat: 39.3312, Long: -76.6215
+Location: 1909367368, Lat: 39.3312, Long: -76.6216
+Location: 1909367376, Lat: 39.3312, Long: -76.6218
+Location: 1909367378, Lat: 39.3312, Long: -76.6222
+Location: 1909367380, Lat: 39.3314, Long: -76.6207
+Location: 1909367381, Lat: 39.3313, Long: -76.6225
+Location: 1909367386, Lat: 39.3313, Long: -76.6226
+Location: 1909367389, Lat: 39.3314, Long: -76.6228
+Location: 1909367412, Lat: 39.3317, Long: -76.6225
+Location: 1909367421, Lat: 39.3318, Long: -76.6225
+Location: 1909367428, Lat: 39.3319, Long: -76.6226
+Location: 1909367437, Lat: 39.3320, Long: -76.6226
+Location: 2044048296, Lat: 39.3283, Long: -76.6189
+Location: 2044048298, Lat: 39.3283, Long: -76.6204
+Location: 2044048299, Lat: 39.3283, Long: -76.6204
+Location: 2044048300, Lat: 39.3283, Long: -76.6204
+Location: 2044048301, Lat: 39.3283, Long: -76.6204
+Location: 2044048303, Lat: 39.3284, Long: -76.6205
+Location: 2044048305, Lat: 39.3284, Long: -76.6203
+Location: 2044048306, Lat: 39.3284, Long: -76.6205
+Location: 2044048307, Lat: 39.3284, Long: -76.6203
+Location: 2044048308, Lat: 39.3284, Long: -76.6205
+Location: 2044048309, Lat: 39.3284, Long: -76.6203
+Location: 2044048311, Lat: 39.3284, Long: -76.6204
+Location: 2044048312, Lat: 39.3284, Long: -76.6203
+Location: 2044048313, Lat: 39.3284, Long: -76.6190
+Location: 2044048314, Lat: 39.3284, Long: -76.6204
+Location: 2044048317, Lat: 39.3284, Long: -76.6204
+Location: 2044048318, Lat: 39.3285, Long: -76.6204
+Location: 2044048324, Lat: 39.3285, Long: -76.6204
+Location: 2044048325, Lat: 39.3285, Long: -76.6204
+Location: 2044048332, Lat: 39.3285, Long: -76.6205
+Location: 2044048334, Lat: 39.3285, Long: -76.6203
+Location: 2044048335, Lat: 39.3286, Long: -76.6191
+Location: 2044048336, Lat: 39.3286, Long: -76.6212
+Location: 2044048350, Lat: 39.3287, Long: -76.6188
+Location: 2044048352, Lat: 39.3288, Long: -76.6196
+Location: 2044048355, Lat: 39.3288, Long: -76.6191
+Location: 2044048361, Lat: 39.3288, Long: -76.6196
+Location: 2044048363, Lat: 39.3288, Long: -76.6189
+Location: 2044048369, Lat: 39.3289, Long: -76.6190
+Location: 2044048374, Lat: 39.3290, Long: -76.6190
+Location: 2044048392, Lat: 39.3292, Long: -76.6191
+Location: 2044048394, Lat: 39.3292, Long: -76.6219
+Location: 2044048398, Lat: 39.3293, Long: -76.6221
+Location: 2044048406, Lat: 39.3293, Long: -76.6190
+Location: 2044048411, Lat: 39.3294, Long: -76.6229
+Location: 2044048412, Lat: 39.3294, Long: -76.6213
+Location: 2044048413, Lat: 39.3294, Long: -76.6213
+Location: 2044048414, Lat: 39.3294, Long: -76.6214
+Location: 2044048418, Lat: 39.3295, Long: -76.6190
+Location: 2044048426, Lat: 39.3295, Long: -76.6189
+Location: 2044048427, Lat: 39.3295, Long: -76.6216
+Location: 2044048428, Lat: 39.3295, Long: -76.6217
+Location: 2044048429, Lat: 39.3296, Long: -76.6189
+Location: 2044048434, Lat: 39.3296, Long: -76.6217
+Location: 2044048437, Lat: 39.3296, Long: -76.6189
+Location: 2044048439, Lat: 39.3296, Long: -76.6218
+Location: 2044048440, Lat: 39.3296, Long: -76.6188
+Location: 2044048442, Lat: 39.3297, Long: -76.6187
+Location: 2044048449, Lat: 39.3297, Long: -76.6184
+Location: 2044048451, Lat: 39.3297, Long: -76.6218
+Location: 2044048452, Lat: 39.3297, Long: -76.6185
+Location: 2044048453, Lat: 39.3297, Long: -76.6186
+Location: 2044048454, Lat: 39.3297, Long: -76.6219
+Location: 2044048455, Lat: 39.3297, Long: -76.6192
+Location: 2044048456, Lat: 39.3298, Long: -76.6219
+Location: 2044048458, Lat: 39.3298, Long: -76.6191
+Location: 2044048459, Lat: 39.3298, Long: -76.6218
+Location: 2044048460, Lat: 39.3298, Long: -76.6218
+Location: 2044048461, Lat: 39.3298, Long: -76.6217
+Location: 2044048462, Lat: 39.3298, Long: -76.6216
+Location: 2044048464, Lat: 39.3298, Long: -76.6191
+Location: 2044048465, Lat: 39.3298, Long: -76.6215
+Location: 2044048469, Lat: 39.3299, Long: -76.6190
+Location: 2044048471, Lat: 39.3299, Long: -76.6189
+Location: 2044048472, Lat: 39.3299, Long: -76.6214
+Location: 2044048473, Lat: 39.3299, Long: -76.6219
+Location: 2044048476, Lat: 39.3299, Long: -76.6227
+Location: 2044048477, Lat: 39.3299, Long: -76.6189
+Location: 2044048478, Lat: 39.3299, Long: -76.6219
+Location: 2044048482, Lat: 39.3299, Long: -76.6226
+Location: 2044048483, Lat: 39.3299, Long: -76.6214
+Location: 2044048484, Lat: 39.3300, Long: -76.6227
+Location: 2044048485, Lat: 39.3299, Long: -76.6220
+Location: 2044048487, Lat: 39.3300, Long: -76.6221
+Location: 2044048491, Lat: 39.3300, Long: -76.6187
+Location: 2044048492, Lat: 39.3300, Long: -76.6225
+Location: 2044048493, Lat: 39.3301, Long: -76.6225
+Location: 2044048496, Lat: 39.3301, Long: -76.6188
+Location: 2044048498, Lat: 39.3301, Long: -76.6226
+Location: 2044048501, Lat: 39.3301, Long: -76.6226
+Location: 2044048504, Lat: 39.3302, Long: -76.6227
+Location: 2044048517, Lat: 39.3302, Long: -76.6185
+Location: 2044048518, Lat: 39.3302, Long: -76.6227
+Location: 2044048519, Lat: 39.3302, Long: -76.6185
+Location: 2044048520, Lat: 39.3302, Long: -76.6227
+Location: 2044048523, Lat: 39.3303, Long: -76.6184
+Location: 2044048524, Lat: 39.3303, Long: -76.6227
+Location: 2044048526, Lat: 39.3303, Long: -76.6228
+Location: 2044048527, Lat: 39.3303, Long: -76.6183
+Location: 2044048528, Lat: 39.3303, Long: -76.6227
+Location: 2044048533, Lat: 39.3304, Long: -76.6227
+Location: 2044048534, Lat: 39.3304, Long: -76.6183
+Location: 2044048537, Lat: 39.3304, Long: -76.6183
+Location: 2044048539, Lat: 39.3304, Long: -76.6182
+Location: 2044048540, Lat: 39.3304, Long: -76.6226
+Location: 2044048541, Lat: 39.3305, Long: -76.6182
+Location: 2044048543, Lat: 39.3305, Long: -76.6226
+Location: 2044048545, Lat: 39.3305, Long: -76.6182
+Location: 2044048546, Lat: 39.3305, Long: -76.6226
+Location: 2451200794, Lat: 39.3272, Long: -76.6201
+Location: 2451200820, Lat: 39.3274, Long: -76.6201
+Location: 2459264440, Lat: 39.3307, Long: -76.6213
+Location: 2459264444, Lat: 39.3309, Long: -76.6213
+Location: 2496874920, Lat: 39.3271, Long: -76.6205
+Location: 2539142830, Lat: 39.3316, Long: -76.6201
+Location: 2539142833, Lat: 39.3315, Long: -76.6205
+Location: 2539142834, Lat: 39.3315, Long: -76.6207
+Location: 2539142836, Lat: 39.3315, Long: -76.6207
+Location: 2539142838, Lat: 39.3315, Long: -76.6208
+Location: 2539142840, Lat: 39.3315, Long: -76.6209
+Location: 2539142841, Lat: 39.3316, Long: -76.6205
+Location: 2539142844, Lat: 39.3317, Long: -76.6205
+Location: 2539142846, Lat: 39.3318, Long: -76.6204
+Location: 2539142848, Lat: 39.3318, Long: -76.6204
+Location: 2539142850, Lat: 39.3318, Long: -76.6203
+Location: 2539142851, Lat: 39.3319, Long: -76.6203
+Location: 2539142854, Lat: 39.3316, Long: -76.6206
+Location: 2539142855, Lat: 39.3316, Long: -76.6206
+Location: 2539142857, Lat: 39.3317, Long: -76.6207
+Location: 2539142859, Lat: 39.3317, Long: -76.6207
+Location: 2539142861, Lat: 39.3316, Long: -76.6207
+Location: 2539142864, Lat: 39.3316, Long: -76.6208
+Location: 2539142865, Lat: 39.3317, Long: -76.6208
+Location: 2539142867, Lat: 39.3317, Long: -76.6208
+Location: 2539142869, Lat: 39.3317, Long: -76.6209
+Location: 2539142871, Lat: 39.3317, Long: -76.6209
+Location: 2539142873, Lat: 39.3316, Long: -76.6209
+Location: 2539142875, Lat: 39.3316, Long: -76.6209
+Location: 2539142877, Lat: 39.3316, Long: -76.6208
+Location: 2539142879, Lat: 39.3314, Long: -76.6209
+Location: 2539142881, Lat: 39.3314, Long: -76.6210
+Location: 2539142883, Lat: 39.3314, Long: -76.6210
+Location: 2539142885, Lat: 39.3314, Long: -76.6211
+Location: 2539142887, Lat: 39.3314, Long: -76.6212
+Location: 2539142888, Lat: 39.3314, Long: -76.6213
+Location: 2838797679, Lat: 39.3314, Long: -76.6201
+Location: 3299492362, Lat: 39.3287, Long: -76.6218
+Location: 3299492363, Lat: 39.3287, Long: -76.6219
+Location: 3299492364, Lat: 39.3288, Long: -76.6219
+Location: 3299492365, Lat: 39.3288, Long: -76.6220
+Location: 3299492366, Lat: 39.3289, Long: -76.6220
+Location: 3299492367, Lat: 39.3289, Long: -76.6220
+Location: 3299492368, Lat: 39.3290, Long: -76.6220
+Location: 3299492369, Lat: 39.3291, Long: -76.6220
+Location: 3299492370, Lat: 39.3292, Long: -76.6220
+Location: 3299495604, Lat: 39.3280, Long: -76.6214
+Location: 3299495609, Lat: 39.3281, Long: -76.6214
+Location: 3299495613, Lat: 39.3281, Long: -76.6214
+Location: 3299495616, Lat: 39.3281, Long: -76.6212
+Location: 3299495618, Lat: 39.3282, Long: -76.6214
+Location: 3299495622, Lat: 39.3282, Long: -76.6213
+Location: 3299495623, Lat: 39.3283, Long: -76.6214
+Location: 3299495624, Lat: 39.3283, Long: -76.6214
+Location: 3299495626, Lat: 39.3284, Long: -76.6215
+Location: 3299495627, Lat: 39.3284, Long: -76.6214
+Location: 3299495628, Lat: 39.3284, Long: -76.6214
+Location: 3299495629, Lat: 39.3284, Long: -76.6213
+Location: 3299495630, Lat: 39.3286, Long: -76.6214
+Location: 3299495631, Lat: 39.3286, Long: -76.6214
+Location: 3299495632, Lat: 39.3287, Long: -76.6217
+Location: 3299495633, Lat: 39.3287, Long: -76.6215
+Location: 3299505770, Lat: 39.3286, Long: -76.6213
+Location: 3299505771, Lat: 39.3286, Long: -76.6211
+Location: 3299505773, Lat: 39.3287, Long: -76.6213
+Location: 3299505775, Lat: 39.3293, Long: -76.6214
+Location: 3299505776, Lat: 39.3294, Long: -76.6214
+Location: 3299505777, Lat: 39.3294, Long: -76.6211
+Location: 4402679628, Lat: 39.3307, Long: -76.6228
+Location: 4402679632, Lat: 39.3308, Long: -76.6228
+Location: 4402679634, Lat: 39.3308, Long: -76.6224
+Location: 4402679635, Lat: 39.3308, Long: -76.6221
+Location: 4402679638, Lat: 39.3308, Long: -76.6229
+Location: 4402679642, Lat: 39.3308, Long: -76.6219
+Location: 4402679649, Lat: 39.3308, Long: -76.6229
+Location: 4402679803, Lat: 39.3317, Long: -76.6225
+Location: 4408342768, Lat: 39.3282, Long: -76.6193
+Location: 4408342769, Lat: 39.3282, Long: -76.6194
+Location: 4408342770, Lat: 39.3282, Long: -76.6193
+Location: 4408342772, Lat: 39.3282, Long: -76.6192
+Location: 4408342776, Lat: 39.3282, Long: -76.6192
+Location: 4408342779, Lat: 39.3283, Long: -76.6191
+Location: 4408342782, Lat: 39.3283, Long: -76.6191
+Location: 4408342783, Lat: 39.3283, Long: -76.6196
+Location: 4408342784, Lat: 39.3283, Long: -76.6197
+Location: 4408342785, Lat: 39.3284, Long: -76.6191
+Location: 4519782306, Lat: 39.3283, Long: -76.6204
+Location: 4519782307, Lat: 39.3283, Long: -76.6204
+Location: 4519782308, Lat: 39.3284, Long: -76.6204
+Location: 4519782310, Lat: 39.3281, Long: -76.6206
+Location: 4519782316, Lat: 39.3282, Long: -76.6213
+Location: 4519817351, Lat: 39.3324, Long: -76.6220
+Location: 4519817352, Lat: 39.3309, Long: -76.6197
+Location: 4519817353, Lat: 39.3308, Long: -76.6197
+Location: 4519817354, Lat: 39.3308, Long: -76.6197
+Location: 4519817355, Lat: 39.3307, Long: -76.6198
+Location: 4519817356, Lat: 39.3291, Long: -76.6191
+Location: 4519817357, Lat: 39.3291, Long: -76.6193
+Location: 4519817359, Lat: 39.3296, Long: -76.6191
+Location: 4519817361, Lat: 39.3296, Long: -76.6190
+Location: 4519817362, Lat: 39.3295, Long: -76.6189
+Location: 4519817363, Lat: 39.3297, Long: -76.6187
+Location: 4519817364, Lat: 39.3298, Long: -76.6188
+Location: 4519817365, Lat: 39.3298, Long: -76.6188
+Location: 4519817366, Lat: 39.3298, Long: -76.6187
+Location: 4519817367, Lat: 39.3299, Long: -76.6188
+Location: 4519817372, Lat: 39.3311, Long: -76.6186
+Location: 4519817387, Lat: 39.3316, Long: -76.6198
+Location: 4519817388, Lat: 39.3314, Long: -76.6198
+Location: 4519817389, Lat: 39.3313, Long: -76.6198
+Location: 4519817393, Lat: 39.3312, Long: -76.6200
+Location: 4519817394, Lat: 39.3312, Long: -76.6197
+Location: 4519817395, Lat: 39.3312, Long: -76.6197
+Location: 4519817396, Lat: 39.3313, Long: -76.6196
+Location: 4519817398, Lat: 39.3312, Long: -76.6196
+Location: 4519817399, Lat: 39.3314, Long: -76.6196
+Location: 4519817400, Lat: 39.3312, Long: -76.6198
+Location: 4519817401, Lat: 39.3312, Long: -76.6200
+Location: 4519817402, Lat: 39.3308, Long: -76.6197
+Location: 4519817403, Lat: 39.3305, Long: -76.6194
+Location: 4519817405, Lat: 39.3307, Long: -76.6186
+Location: 4519817406, Lat: 39.3307, Long: -76.6187
+Location: 4519817409, Lat: 39.3305, Long: -76.6186
+Location: 4519817410, Lat: 39.3309, Long: -76.6186
+Location: 4519817431, Lat: 39.3312, Long: -76.6213
+Location: 4519817440, Lat: 39.3306, Long: -76.6212
+Location: 4519817441, Lat: 39.3304, Long: -76.6212
+Location: 4519817442, Lat: 39.3303, Long: -76.6206
+Location: 4519817443, Lat: 39.3304, Long: -76.6204
+Location: 4519817444, Lat: 39.3305, Long: -76.6202
+Location: 4519817445, Lat: 39.3306, Long: -76.6203
+Location: 4519817446, Lat: 39.3305, Long: -76.6204
+Location: 4519817447, Lat: 39.3305, Long: -76.6203
+Location: 4519817448, Lat: 39.3305, Long: -76.6201
+Location: 4519817449, Lat: 39.3304, Long: -76.6199
+Location: 4519817450, Lat: 39.3303, Long: -76.6198
+Location: 4519817451, Lat: 39.3304, Long: -76.6200
+Location: 4519817452, Lat: 39.3306, Long: -76.6205
+Location: 4519817453, Lat: 39.3298, Long: -76.6201
+Location: 4519817454, Lat: 39.3299, Long: -76.6207
+Location: 4519817455, Lat: 39.3298, Long: -76.6207
+Location: 4519817456, Lat: 39.3300, Long: -76.6213
+Location: 4519817457, Lat: 39.3299, Long: -76.6213
+Location: 4519817458, Lat: 39.3300, Long: -76.6212
+Location: 4519817459, Lat: 39.3299, Long: -76.6212
+Location: 4519817460, Lat: 39.3299, Long: -76.6212
+Location: 4519817461, Lat: 39.3298, Long: -76.6212
+Location: 4519817462, Lat: 39.3298, Long: -76.6213
+Location: 4519817463, Lat: 39.3298, Long: -76.6212
+Location: 4519817464, Lat: 39.3297, Long: -76.6212
+Location: 4519817465, Lat: 39.3297, Long: -76.6212
+Location: 4519817466, Lat: 39.3295, Long: -76.6214
+Location: 4519817467, Lat: 39.3295, Long: -76.6214
+Location: 4519817468, Lat: 39.3293, Long: -76.6220
+Location: 4519817469, Lat: 39.3293, Long: -76.6219
+Location: 4519817470, Lat: 39.3294, Long: -76.6219
+Location: 4519817471, Lat: 39.3294, Long: -76.6218
+Location: 4519817472, Lat: 39.3295, Long: -76.6217
+Location: 4519817474, Lat: 39.3296, Long: -76.6214
+Location: 4519817475, Lat: 39.3297, Long: -76.6213
+Location: 4519817476, Lat: 39.3297, Long: -76.6213
+Location: 4519817477, Lat: 39.3298, Long: -76.6213
+Location: 4519817478, Lat: 39.3299, Long: -76.6213
+Location: 4519817479, Lat: 39.3292, Long: -76.6220
+Location: 4519817480, Lat: 39.3292, Long: -76.6220
+Location: 4519817481, Lat: 39.3292, Long: -76.6221
+Location: 4519817482, Lat: 39.3291, Long: -76.6221
+Location: 4519817483, Lat: 39.3291, Long: -76.6221
+Location: 4519817484, Lat: 39.3290, Long: -76.6221
+Location: 4519817485, Lat: 39.3289, Long: -76.6221
+Location: 4519817486, Lat: 39.3286, Long: -76.6220
+Location: 4519817487, Lat: 39.3283, Long: -76.6220
+Location: 4519817488, Lat: 39.3282, Long: -76.6220
+Location: 4519817589, Lat: 39.3282, Long: -76.6220
+Location: 4519817590, Lat: 39.3281, Long: -76.6223
+Location: 4519817591, Lat: 39.3281, Long: -76.6224
+Location: 4519871449, Lat: 39.3293, Long: -76.6197
+Location: 4519871452, Lat: 39.3279, Long: -76.6201
+Location: 4519935149, Lat: 39.3316, Long: -76.6197
+Location: 4519935150, Lat: 39.3317, Long: -76.6197
+Location: 4519935152, Lat: 39.3316, Long: -76.6198
+Location: 4519935157, Lat: 39.3311, Long: -76.6202
+Location: 4519935158, Lat: 39.3293, Long: -76.6210
+Location: 4519935159, Lat: 39.3293, Long: -76.6211
+Location: 4519935160, Lat: 39.3287, Long: -76.6210
+Location: 4519935161, Lat: 39.3287, Long: -76.6211
+Location: 4519935162, Lat: 39.3286, Long: -76.6211
+Location: 4519935163, Lat: 39.3287, Long: -76.6213
+Location: 4519935164, Lat: 39.3290, Long: -76.6210
+Location: 4519935165, Lat: 39.3290, Long: -76.6211
+Location: 4519935166, Lat: 39.3290, Long: -76.6212
+Location: 4519935167, Lat: 39.3290, Long: -76.6198
+Location: 4519935168, Lat: 39.3290, Long: -76.6198
+Location: 4519935169, Lat: 39.3291, Long: -76.6195
+Location: 4519935170, Lat: 39.3290, Long: -76.6197
+Location: 4519935171, Lat: 39.3297, Long: -76.6185
+Location: 4519935172, Lat: 39.3299, Long: -76.6199
+Location: 4519935173, Lat: 39.3300, Long: -76.6199
+Location: 4519935174, Lat: 39.3311, Long: -76.6213
+Location: 4519935175, Lat: 39.3308, Long: -76.6213
+Location: 4519935184, Lat: 39.3308, Long: -76.6214
+Location: 4519935185, Lat: 39.3308, Long: -76.6215
+Location: 4519935186, Lat: 39.3308, Long: -76.6215
+Location: 4519935187, Lat: 39.3308, Long: -76.6216
+Location: 4519935188, Lat: 39.3307, Long: -76.6216
+Location: 4519935289, Lat: 39.3307, Long: -76.6216
+Location: 4519935290, Lat: 39.3306, Long: -76.6216
+Location: 4519935291, Lat: 39.3306, Long: -76.6216
+Location: 4519935292, Lat: 39.3305, Long: -76.6216
+Location: 4519935293, Lat: 39.3304, Long: -76.6216
+Location: 4519935294, Lat: 39.3303, Long: -76.6216
+Location: 4519935295, Lat: 39.3303, Long: -76.6216
+Location: 4519935296, Lat: 39.3302, Long: -76.6216
+Location: 4519935297, Lat: 39.3302, Long: -76.6216
+Location: 4519935298, Lat: 39.3301, Long: -76.6216
+Location: 4519935299, Lat: 39.3301, Long: -76.6216
+Location: 4519935300, Lat: 39.3301, Long: -76.6216
+Location: 4519935301, Lat: 39.3301, Long: -76.6214
+Location: 4519935302, Lat: 39.3301, Long: -76.6213
+Location: 4519935303, Lat: 39.3300, Long: -76.6212
+Location: 4519935304, Lat: 39.3292, Long: -76.6221
+Location: 4520038547, Lat: 39.3306, Long: -76.6190
+Location: 4520038548, Lat: 39.3305, Long: -76.6190
+Location: 4520038549, Lat: 39.3305, Long: -76.6189
+Location: 4520038550, Lat: 39.3305, Long: -76.6190
+Location: 4520038551, Lat: 39.3294, Long: -76.6190
+Location: 4520038552, Lat: 39.3294, Long: -76.6194
+Location: 4520038553, Lat: 39.3313, Long: -76.6214
+Location: 4520038589, Lat: 39.3308, Long: -76.6189
+Location: 4520038590, Lat: 39.3309, Long: -76.6191
+Location: 4520038591, Lat: 39.3307, Long: -76.6188
+Location: 4520038592, Lat: 39.3305, Long: -76.6187
+Location: 4520038663, Lat: 39.3306, Long: -76.6208
+Location: 4520038664, Lat: 39.3305, Long: -76.6208
+Location: 4520038665, Lat: 39.3306, Long: -76.6208
+Location: 4520038666, Lat: 39.3306, Long: -76.6208
+Location: 4520038723, Lat: 39.3299, Long: -76.6219
+Location: 4520038724, Lat: 39.3299, Long: -76.6219
+Location: 4520038725, Lat: 39.3299, Long: -76.6218
+Location: 4520038726, Lat: 39.3300, Long: -76.6218
+Location: 4520038727, Lat: 39.3301, Long: -76.6218
+Location: 4520038729, Lat: 39.3298, Long: -76.6218
+Location: 4520038730, Lat: 39.3298, Long: -76.6217
+Location: 4520038731, Lat: 39.3298, Long: -76.6216
+Location: 4520038735, Lat: 39.3287, Long: -76.6218
+Location: 4520038772, Lat: 39.3282, Long: -76.6200
+Location: 4520038773, Lat: 39.3283, Long: -76.6200
+Location: 4520038774, Lat: 39.3283, Long: -76.6199
+Location: 4520038775, Lat: 39.3283, Long: -76.6200
+Location: 4520038776, Lat: 39.3283, Long: -76.6196
+Location: 4520038777, Lat: 39.3283, Long: -76.6196
+Location: 4520038778, Lat: 39.3284, Long: -76.6196
+Location: 4520038779, Lat: 39.3284, Long: -76.6197
+Location: 4520038780, Lat: 39.3283, Long: -76.6196
+Location: 4520038959, Lat: 39.3301, Long: -76.6225
+Location: 4520038960, Lat: 39.3301, Long: -76.6220
+Location: 4520038973, Lat: 39.3281, Long: -76.6200
+Location: 4520038974, Lat: 39.3282, Long: -76.6200
+Location: 4520077126, Lat: 39.3292, Long: -76.6202
+Location: 4520077191, Lat: 39.3302, Long: -76.6189
+Location: 4520077192, Lat: 39.3303, Long: -76.6190
+Location: 4520077193, Lat: 39.3303, Long: -76.6189
+Location: 4520096241, Lat: 39.3296, Long: -76.6183
+Location: 4520172030, Lat: 39.3292, Long: -76.6213
+Location: 4520172033, Lat: 39.3298, Long: -76.6219
+Location: 4520172048, Lat: 39.3298, Long: -76.6212
+Location: 4520172049, Lat: 39.3295, Long: -76.6216
+Location: 4520172050, Lat: 39.3295, Long: -76.6215
+Location: 4520172051, Lat: 39.3295, Long: -76.6217
+Location: 4520172052, Lat: 39.3299, Long: -76.6227
+Location: 4520172053, Lat: 39.3307, Long: -76.6226
+Location: 4520172054, Lat: 39.3308, Long: -76.6226
+Location: 4520237259, Lat: 39.3299, Long: -76.6197
+Location: 4520237285, Lat: 39.3309, Long: -76.6187
+Location: 4520237286, Lat: 39.3310, Long: -76.6186
+Location: 4520237287, Lat: 39.3309, Long: -76.6187
+Location: 4520237288, Lat: 39.3304, Long: -76.6185
+Location: 4520237289, Lat: 39.3305, Long: -76.6187
+Location: 4520237290, Lat: 39.3305, Long: -76.6186
+Location: 4520237291, Lat: 39.3309, Long: -76.6186
+Location: 4520237292, Lat: 39.3309, Long: -76.6188
+Location: 4520237293, Lat: 39.3304, Long: -76.6187
+Location: 4520237294, Lat: 39.3297, Long: -76.6228
+Location: 4520237295, Lat: 39.3297, Long: -76.6228
+Location: 4520237300, Lat: 39.3282, Long: -76.6196
+Location: 4520237304, Lat: 39.3282, Long: -76.6195
+Location: 5138208548, Lat: 39.3298, Long: -76.6219
+Location: 5674121514, Lat: 39.3282, Long: -76.6211
+Location: 5674121519, Lat: 39.3282, Long: -76.6212
+Location: 5674142960, Lat: 39.3290, Long: -76.6221
+Location: 5914369186, Lat: 39.3307, Long: -76.6226
+Location: 6007131819, Lat: 39.3298, Long: -76.6219
+Location: 8272440305, Lat: 39.3308, Long: -76.6196
+Location: 8303170136, Lat: 39.3310, Long: -76.6200
+Location: 8321647663, Lat: 39.3299, Long: -76.6213
+Location: 8325111644, Lat: 39.3305, Long: -76.6201
+Location: 8325111645, Lat: 39.3306, Long: -76.6199
+Location: 8325233515, Lat: 39.3320, Long: -76.6203
+Location: 8325252322, Lat: 39.3294, Long: -76.6211
+Location: 8325252323, Lat: 39.3290, Long: -76.6212
+Location: 8325252325, Lat: 39.3292, Long: -76.6213
+Location: 8325252326, Lat: 39.3290, Long: -76.6212
+Location: 8325252327, Lat: 39.3287, Long: -76.6212
+Location: 8325252328, Lat: 39.3290, Long: -76.6211
+Location: 8325252329, Lat: 39.3287, Long: -76.6211
+Location: 8325252330, Lat: 39.3292, Long: -76.6211
+Location: 8325678374, Lat: 39.3293, Long: -76.6197
+Location: 8325678375, Lat: 39.3292, Long: -76.6197
+Location: 8325678376, Lat: 39.3292, Long: -76.6197
+Location: 8325678377, Lat: 39.3288, Long: -76.6197
+Location: 8325678378, Lat: 39.3289, Long: -76.6197
+Location: 8325678379, Lat: 39.3289, Long: -76.6197
+Location: 8325678393, Lat: 39.3288, Long: -76.6196
+Location: 8325678395, Lat: 39.3287, Long: -76.6196
+Location: 8325678396, Lat: 39.3301, Long: -76.6212
+Location: 8325678397, Lat: 39.3301, Long: -76.6212
+Location: 8325678398, Lat: 39.3301, Long: -76.6213
+Location: 8750045845, Lat: 39.3297, Long: -76.6194
+Location: 8750045846, Lat: 39.3291, Long: -76.6191
+Location: 8750045849, Lat: 39.3292, Long: -76.6190
+Location: 8750045850, Lat: 39.3292, Long: -76.6191
+Location: 8750045851, Lat: 39.3294, Long: -76.6192
+Location: 8750045852, Lat: 39.3294, Long: -76.6192
+Location: 8750045855, Lat: 39.3294, Long: -76.6193
+Location: 8750045858, Lat: 39.3297, Long: -76.6192
+Location: 8750045859, Lat: 39.3296, Long: -76.6192
+Location: 8750045860, Lat: 39.3296, Long: -76.6193
+Location: 8750045861, Lat: 39.3295, Long: -76.6192
+Location: 8750045862, Lat: 39.3295, Long: -76.6192
+Location: 8796666264, Lat: 39.3281, Long: -76.6224
+Location: 8796666265, Lat: 39.3284, Long: -76.6220
+Location: 8796666361, Lat: 39.3300, Long: -76.6228
+Location: 8796666362, Lat: 39.3300, Long: -76.6228
+Location: 8796666363, Lat: 39.3300, Long: -76.6228
+Location: 8796666364, Lat: 39.3300, Long: -76.6228
+Location: 8796666365, Lat: 39.3300, Long: -76.6228
+Location: 8796666366, Lat: 39.3300, Long: -76.6229
+Location: 8796666367, Lat: 39.3300, Long: -76.6229
+Location: 8796666368, Lat: 39.3299, Long: -76.6229
+Location: 8796666369, Lat: 39.3299, Long: -76.6230
+Location: 8796666370, Lat: 39.3299, Long: -76.6230
+Location: 8796666371, Lat: 39.3298, Long: -76.6230
+Location: 8796666372, Lat: 39.3297, Long: -76.6230
+Location: 8796666373, Lat: 39.3297, Long: -76.6231
+Location: 8796666375, Lat: 39.3299, Long: -76.6227
+Location: 8796666376, Lat: 39.3299, Long: -76.6227
+Location: 8813102264, Lat: 39.3302, Long: -76.6218
+Location: 8813102265, Lat: 39.3302, Long: -76.6217
+Location: 8813102266, Lat: 39.3302, Long: -76.6217
+Location: 8813102268, Lat: 39.3303, Long: -76.6217
+Location: 8813102269, Lat: 39.3303, Long: -76.6217
+Location: 8813102271, Lat: 39.3303, Long: -76.6218
+Location: 8902171324, Lat: 39.3287, Long: -76.6189
+Location: 8902171325, Lat: 39.3289, Long: -76.6191
+Location: 8902171326, Lat: 39.3289, Long: -76.6190
+Location: 8907123781, Lat: 39.3294, Long: -76.6189
+Location: 8907123782, Lat: 39.3294, Long: -76.6189
+Location: 8907123783, Lat: 39.3294, Long: -76.6190
+Location: 8907123788, Lat: 39.3297, Long: -76.6184
+Location: 8907123789, Lat: 39.3297, Long: -76.6188
+Location: 8907123790, Lat: 39.3299, Long: -76.6202
+Location: 8907123792, Lat: 39.3299, Long: -76.6203
+Location: 8907123793, Lat: 39.3300, Long: -76.6210
+Location: 8907123795, Lat: 39.3299, Long: -76.6213
+Location: 8907123797, Lat: 39.3296, Long: -76.6214
+Location: 8907123798, Lat: 39.3299, Long: -76.6213
+Location: 8907123799, Lat: 39.3299, Long: -76.6213
+Location: 8907123800, Lat: 39.3299, Long: -76.6213
+Location: 8907123801, Lat: 39.3299, Long: -76.6213
+Location: 8907123802, Lat: 39.3299, Long: -76.6213
+Location: 8907123803, Lat: 39.3299, Long: -76.6213
+Location: 8907123804, Lat: 39.3298, Long: -76.6213
+Location: 8907123805, Lat: 39.3298, Long: -76.6212
+Location: 8907123806, Lat: 39.3300, Long: -76.6212
+Location: 8907123807, Lat: 39.3292, Long: -76.6219
+Location: 8907123808, Lat: 39.3292, Long: -76.6220
+Location: 8942020489, Lat: 39.3288, Long: -76.6195
+Location: 8942020491, Lat: 39.3282, Long: -76.6211
+Location: 8942020492, Lat: 39.3285, Long: -76.6211
+Location: 8942020493, Lat: 39.3286, Long: -76.6203
+Location: 8942020494, Lat: 39.3287, Long: -76.6205
+Location: 8942020495, Lat: 39.3286, Long: -76.6203
+Location: 8942020496, Lat: 39.3287, Long: -76.6203
+Location: 8942020505, Lat: 39.3286, Long: -76.6205
+Location: 8942020506, Lat: 39.3286, Long: -76.6205
+Location: 8942020509, Lat: 39.3283, Long: -76.6204
+Location: 8942020511, Lat: 39.3294, Long: -76.6214
+Location: 8942020513, Lat: 39.3285, Long: -76.6213
+Location: 8942020514, Lat: 39.3289, Long: -76.6212
+Location: 8942020515, Lat: 39.3290, Long: -76.6212
+Location: 8942038150, Lat: 39.3306, Long: -76.6213
+Location: 8942038152, Lat: 39.3308, Long: -76.6213
+Location: 8942038153, Lat: 39.3309, Long: -76.6213
+Location: 8942038154, Lat: 39.3309, Long: -76.6214
+Location: 8944064151, Lat: 39.3294, Long: -76.6205
+Location: 8944064152, Lat: 39.3294, Long: -76.6205
+Location: 8944064153, Lat: 39.3294, Long: -76.6205
+Location: 8944064154, Lat: 39.3294, Long: -76.6205
+Location: 8944064155, Lat: 39.3294, Long: -76.6204
+Location: 8957884270, Lat: 39.3316, Long: -76.6201
+Location: 8957884271, Lat: 39.3316, Long: -76.6200
+Location: 8957884272, Lat: 39.3316, Long: -76.6200
+Location: 8957884273, Lat: 39.3318, Long: -76.6200
+Location: 8960958470, Lat: 39.3295, Long: -76.6196
+Location: 8960958471, Lat: 39.3295, Long: -76.6195
+Location: 8960958472, Lat: 39.3294, Long: -76.6193
+Location: 8960988163, Lat: 39.3299, Long: -76.6190
+Location: 8960988164, Lat: 39.3299, Long: -76.6189
+Location: 8960988186, Lat: 39.3297, Long: -76.6190
+Location: 8963067855, Lat: 39.3282, Long: -76.6208
+Location: 8963067856, Lat: 39.3283, Long: -76.6208
+Location: 8963067858, Lat: 39.3281, Long: -76.6208
+Location: 8963067859, Lat: 39.3281, Long: -76.6208
+Location: 8963067860, Lat: 39.3281, Long: -76.6207
+Location: 8963067861, Lat: 39.3282, Long: -76.6207
+Location: 8963067862, Lat: 39.3282, Long: -76.6208
+Location: 8963067878, Lat: 39.3283, Long: -76.6203
+Location: 8963067879, Lat: 39.3283, Long: -76.6204
+Location: 8963067880, Lat: 39.3283, Long: -76.6203
+Location: 8963067881, Lat: 39.3283, Long: -76.6205
+Location: 8963067882, Lat: 39.3283, Long: -76.6204
+Location: 8980949887, Lat: 39.3282, Long: -76.6187
+Location: 9005850722, Lat: 39.3293, Long: -76.6190
+Location: 9005850725, Lat: 39.3313, Long: -76.6197
+Location: 9051814331, Lat: 39.3305, Long: -76.6187
+Location: 9051814332, Lat: 39.3309, Long: -76.6188
+Location: 9124532038, Lat: 39.3296, Long: -76.6182
+Location: 9124532039, Lat: 39.3296, Long: -76.6182
+Location: 9124532044, Lat: 39.3302, Long: -76.6186
+Location: 9124532045, Lat: 39.3303, Long: -76.6184
+Location: 9124532046, Lat: 39.3304, Long: -76.6182
+Location: 9124532047, Lat: 39.3304, Long: -76.6182
+Location: 9124532048, Lat: 39.3304, Long: -76.6183
+Location: 9159295826, Lat: 39.3305, Long: -76.6188
+Location: 9159295828, Lat: 39.3305, Long: -76.6188
+Location: 9159297040, Lat: 39.3307, Long: -76.6190
+Location: 9159297041, Lat: 39.3307, Long: -76.6190
+Location: 9159297042, Lat: 39.3307, Long: -76.6191
+Location: 9159297043, Lat: 39.3307, Long: -76.6191
+Location: 9159297044, Lat: 39.3306, Long: -76.6191
+Location: 9159297045, Lat: 39.3305, Long: -76.6191
+Location: 9159297046, Lat: 39.3309, Long: -76.6187
+Location: 9159297047, Lat: 39.3309, Long: -76.6187
+Location: 9159297048, Lat: 39.3309, Long: -76.6192
+Location: 9159297049, Lat: 39.3309, Long: -76.6191
+Location: 9159297050, Lat: 39.3308, Long: -76.6190
+Location: 9159297051, Lat: 39.3309, Long: -76.6192
+Location: 9159297052, Lat: 39.3311, Long: -76.6193
+Location: 9159297053, Lat: 39.3310, Long: -76.6195
+Location: 9159297054, Lat: 39.3310, Long: -76.6196
+Location: 9159297055, Lat: 39.3307, Long: -76.6196
+Location: 9159297056, Lat: 39.3305, Long: -76.6194
+Location: 9159297057, Lat: 39.3304, Long: -76.6193
+Location: 9159297058, Lat: 39.3309, Long: -76.6193
+Location: 9159297059, Lat: 39.3308, Long: -76.6192
+Location: 9159357567, Lat: 39.3311, Long: -76.6189
+Location: 9159428211, Lat: 39.3283, Long: -76.6199
+Location: 9159428212, Lat: 39.3283, Long: -76.6196
+Location: 9159428213, Lat: 39.3283, Long: -76.6196
+Location: 9159428214, Lat: 39.3282, Long: -76.6195
+Location: 9159493627, Lat: 39.3283, Long: -76.6188
+Location: 9159493632, Lat: 39.3314, Long: -76.6191
+Location: 9159493633, Lat: 39.3312, Long: -76.6191
+Location: 9159493634, Lat: 39.3312, Long: -76.6191
+Location: 9159493635, Lat: 39.3312, Long: -76.6193
+Location: 9159493636, Lat: 39.3311, Long: -76.6192
+Location: 9159493637, Lat: 39.3312, Long: -76.6192
+Location: 9159493638, Lat: 39.3312, Long: -76.6190
+Location: 9159493639, Lat: 39.3312, Long: -76.6190
+Location: 9159493640, Lat: 39.3312, Long: -76.6190
+Location: 9159493641, Lat: 39.3311, Long: -76.6190
+Location: 9159493642, Lat: 39.3312, Long: -76.6191
+Location: 9159493643, Lat: 39.3312, Long: -76.6191
+Location: 9159493649, Lat: 39.3316, Long: -76.6198
+Location: 9159493650, Lat: 39.3312, Long: -76.6197
+Location: 9159493651, Lat: 39.3314, Long: -76.6196
+Location: 9159493715, Lat: 39.3307, Long: -76.6189
+Location: 9159493716, Lat: 39.3308, Long: -76.6189
+Location: 9159493717, Lat: 39.3305, Long: -76.6189
+Location: 9159493726, Lat: 39.3307, Long: -76.6185
+Location: 9159493731, Lat: 39.3307, Long: -76.6188
+Location: 9159493732, Lat: 39.3307, Long: -76.6188
+Location: 9162696990, Lat: 39.3298, Long: -76.6193
+Location: 9163271037, Lat: 39.3298, Long: -76.6197
+Location: 9163271038, Lat: 39.3297, Long: -76.6197
+Location: 9163274188, Lat: 39.3297, Long: -76.6193
+Location: 9163274189, Lat: 39.3297, Long: -76.6193
+Location: 9163274190, Lat: 39.3297, Long: -76.6193
+Location: 9163274191, Lat: 39.3297, Long: -76.6194
+Location: 9163280366, Lat: 39.3293, Long: -76.6198
+Location: 9163280367, Lat: 39.3298, Long: -76.6190
+Location: 9163280368, Lat: 39.3296, Long: -76.6188
+Location: 9163280369, Lat: 39.3296, Long: -76.6188
+Location: 9163280371, Lat: 39.3297, Long: -76.6192
+Location: 9163282351, Lat: 39.3286, Long: -76.6192
+Location: 9163282352, Lat: 39.3285, Long: -76.6191
+Location: 9163282359, Lat: 39.3286, Long: -76.6196
+Location: 9163282515, Lat: 39.3297, Long: -76.6196
+Location: 9163285482, Lat: 39.3294, Long: -76.6189
+Location: 9163290051, Lat: 39.3298, Long: -76.6190
+Location: 9163291326, Lat: 39.3287, Long: -76.6211
+Location: 9163291327, Lat: 39.3288, Long: -76.6203
+Location: 9163292801, Lat: 39.3286, Long: -76.6193
+Location: 9163292802, Lat: 39.3286, Long: -76.6192
+Location: 9163292803, Lat: 39.3286, Long: -76.6192
+Location: 9163305875, Lat: 39.3297, Long: -76.6183
+Location: 9163305876, Lat: 39.3297, Long: -76.6192
+Location: 9163305877, Lat: 39.3297, Long: -76.6191
+Location: 9163305878, Lat: 39.3298, Long: -76.6191
+Location: 9163305879, Lat: 39.3298, Long: -76.6191
+Location: 9163312925, Lat: 39.3294, Long: -76.6205
+Location: 9166179122, Lat: 39.3290, Long: -76.6211
+Location: 9166179126, Lat: 39.3292, Long: -76.6211
+Location: 9166179136, Lat: 39.3289, Long: -76.6197
+Location: 9166179137, Lat: 39.3292, Long: -76.6197
+Location: 9166179138, Lat: 39.3288, Long: -76.6196
+Location: 9166179139, Lat: 39.3288, Long: -76.6197
+Location: 9166179140, Lat: 39.3288, Long: -76.6197
+Location: 9166179141, Lat: 39.3293, Long: -76.6197
+Location: 9166179142, Lat: 39.3293, Long: -76.6197
+Location: 9166179143, Lat: 39.3290, Long: -76.6197
+Location: 9166179144, Lat: 39.3290, Long: -76.6197
+Location: 9166179157, Lat: 39.3290, Long: -76.6199
+Location: 9166179158, Lat: 39.3289, Long: -76.6199
+Location: 9166179159, Lat: 39.3291, Long: -76.6201
+Location: 9166179160, Lat: 39.3292, Long: -76.6203
+Location: 9166179161, Lat: 39.3292, Long: -76.6199
+Location: 9166179162, Lat: 39.3291, Long: -76.6199
+Location: 9166179163, Lat: 39.3290, Long: -76.6200
+Location: 9166179164, Lat: 39.3289, Long: -76.6201
+Location: 9166179165, Lat: 39.3289, Long: -76.6201
+Location: 9166179166, Lat: 39.3289, Long: -76.6200
+Location: 9166179167, Lat: 39.3290, Long: -76.6198
+Location: 9167456857, Lat: 39.3284, Long: -76.6204
+Location: 9167456858, Lat: 39.3284, Long: -76.6204
+Location: 9167456870, Lat: 39.3287, Long: -76.6188
+Location: 9167456871, Lat: 39.3287, Long: -76.6188
+Location: 9167456915, Lat: 39.3284, Long: -76.6191
+Location: 9167456916, Lat: 39.3283, Long: -76.6191
+Location: 9167476918, Lat: 39.3282, Long: -76.6192
+Location: 9167476921, Lat: 39.3283, Long: -76.6191
+Location: 9169650983, Lat: 39.3313, Long: -76.6218
+Location: 9169650984, Lat: 39.3318, Long: -76.6226
+Location: 9169665954, Lat: 39.3281, Long: -76.6224
+Location: 9170515129, Lat: 39.3294, Long: -76.6193
+Location: 9170515130, Lat: 39.3293, Long: -76.6196
+Location: 9170515131, Lat: 39.3293, Long: -76.6195
+Location: 9170515132, Lat: 39.3294, Long: -76.6193
+Location: 9170515133, Lat: 39.3294, Long: -76.6192
+Location: 9170515134, Lat: 39.3293, Long: -76.6196
+Location: 9170515135, Lat: 39.3295, Long: -76.6196
+Location: 9170515136, Lat: 39.3293, Long: -76.6196
+Location: 9173531353, Lat: 39.3285, Long: -76.6191
+Location: 9175775027, Lat: 39.3314, Long: -76.6210
+Location: 9175775028, Lat: 39.3314, Long: -76.6209
+Location: 9175775029, Lat: 39.3315, Long: -76.6209
+Location: 9175775030, Lat: 39.3314, Long: -76.6212
+Location: 9175775031, Lat: 39.3316, Long: -76.6208
+Location: 9175775032, Lat: 39.3317, Long: -76.6209
+Location: 9175775033, Lat: 39.3317, Long: -76.6210
+Location: 9175775034, Lat: 39.3317, Long: -76.6208
+Location: 9175775035, Lat: 39.3316, Long: -76.6205
+Location: 9175775036, Lat: 39.3316, Long: -76.6205
+Location: 9175775037, Lat: 39.3317, Long: -76.6206
+Location: 9175775038, Lat: 39.3317, Long: -76.6207
+Location: 9175775039, Lat: 39.3315, Long: -76.6203
+Location: 9175775040, Lat: 39.3315, Long: -76.6205
+Location: 9175775041, Lat: 39.3315, Long: -76.6206
+Location: 9175775042, Lat: 39.3315, Long: -76.6206
+Location: 9175775043, Lat: 39.3315, Long: -76.6207
+Location: 9175775044, Lat: 39.3315, Long: -76.6207
+Location: 9175775045, Lat: 39.3315, Long: -76.6207
+Location: 9175775046, Lat: 39.3315, Long: -76.6208
+Location: 9178196266, Lat: 39.3314, Long: -76.6211
+Location: 9178218838, Lat: 39.3317, Long: -76.6206
+Location: 9178218840, Lat: 39.3316, Long: -76.6210
+Location: 9178218841, Lat: 39.3316, Long: -76.6209
+Location: 9178218842, Lat: 39.3320, Long: -76.6203
+Location: 9178218845, Lat: 39.3317, Long: -76.6205
+Location: 9178218847, Lat: 39.3317, Long: -76.6205
+Location: 9178840060, Lat: 39.3314, Long: -76.6208
+Location: 9178851806, Lat: 39.3307, Long: -76.6216
+Location: 9178851807, Lat: 39.3310, Long: -76.6212
+Location: 9178851808, Lat: 39.3311, Long: -76.6213
+Location: 9178851809, Lat: 39.3311, Long: -76.6213
+Location: 9178851810, Lat: 39.3311, Long: -76.6213
+Location: 9178851811, Lat: 39.3311, Long: -76.6213
+Location: 9180101314, Lat: 39.3320, Long: -76.6207
+Location: 9180193546, Lat: 39.3306, Long: -76.6213
+Location: 9180193547, Lat: 39.3307, Long: -76.6213
+Location: 9180193548, Lat: 39.3307, Long: -76.6213
+Location: 9180193549, Lat: 39.3307, Long: -76.6213
+Location: 9184285849, Lat: 39.3298, Long: -76.6209
+Location: 9184285850, Lat: 39.3298, Long: -76.6210
+Location: 9184285851, Lat: 39.3299, Long: -76.6210
+Location: 9184285852, Lat: 39.3298, Long: -76.6210
+Location: 9191938998, Lat: 39.3298, Long: -76.6207
+Location: 9191938999, Lat: 39.3298, Long: -76.6209
+Location: 9196378934, Lat: 39.3284, Long: -76.6215
+Location: 9196378935, Lat: 39.3284, Long: -76.6215
+Location: 9196603853, Lat: 39.3279, Long: -76.6214
+Location: 9261775896, Lat: 39.3280, Long: -76.6212
+Location: 9261775898, Lat: 39.3301, Long: -76.6211
+Location: 9261775899, Lat: 39.3303, Long: -76.6211
+Location: 9261775902, Lat: 39.3303, Long: -76.6210
+Location: 9261775904, Lat: 39.3301, Long: -76.6212
+Location: 9261775905, Lat: 39.3303, Long: -76.6212
+Location: 9261775906, Lat: 39.3303, Long: -76.6211
+Location: 9261775907, Lat: 39.3302, Long: -76.6211
+Location: 9261775910, Lat: 39.3302, Long: -76.6211
+Location: 9261775911, Lat: 39.3301, Long: -76.6211
+Location: 9261775912, Lat: 39.3301, Long: -76.6211
+Location: 9261799118, Lat: 39.3303, Long: -76.6210
+Location: 9261829385, Lat: 39.3283, Long: -76.6211
+Location: 9261829387, Lat: 39.3283, Long: -76.6212
+Location: 9261829388, Lat: 39.3280, Long: -76.6212
+Location: 9261829416, Lat: 39.3280, Long: -76.6212
+Location: 9456927371, Lat: 39.3302, Long: -76.6218
+Location: 9456927377, Lat: 39.3301, Long: -76.6218
+Location: 9456927414, Lat: 39.3283, Long: -76.6214
+Location: 9456927447, Lat: 39.3283, Long: -76.6203
+Location: 9456927448, Lat: 39.3284, Long: -76.6204
+Location: 9456927449, Lat: 39.3284, Long: -76.6203
+Location: 9456927450, Lat: 39.3284, Long: -76.6203
+Location: 9460606420, Lat: 39.3303, Long: -76.6216
+Location: 9460606421, Lat: 39.3303, Long: -76.6217
+Location: 9460606429, Lat: 39.3307, Long: -76.6226
+Location: 9460606430, Lat: 39.3306, Long: -76.6226
+Location: 9460606431, Lat: 39.3306, Long: -76.6226
+Location: 9460606432, Lat: 39.3307, Long: -76.6226
+Location: 9460606433, Lat: 39.3306, Long: -76.6226
+Location: 9460618364, Lat: 39.3308, Long: -76.6229
+Location: 9460618365, Lat: 39.3308, Long: -76.6229
+Location: 9483861095, Lat: 39.3317, Long: -76.6212
+Location: 9483861096, Lat: 39.3313, Long: -76.6211
+Location: 9483861097, Lat: 39.3314, Long: -76.6210
+Location: 9483861098, Lat: 39.3314, Long: -76.6205
+Location: 9483901817, Lat: 39.3314, Long: -76.6227
+Location: 9483901818, Lat: 39.3313, Long: -76.6223
+Location: 9483901819, Lat: 39.3312, Long: -76.6221
+Location: 9483901820, Lat: 39.3312, Long: -76.6219
+Location: 9483901822, Lat: 39.3312, Long: -76.6216
+Location: 9483901823, Lat: 39.3313, Long: -76.6215
+Location: 9483901824, Lat: 39.3313, Long: -76.6215
+Location: 9483901825, Lat: 39.3311, Long: -76.6214
+Location: 9483901826, Lat: 39.3311, Long: -76.6214
+Location: 9483901827, Lat: 39.3312, Long: -76.6216
+Location: 9501430361, Lat: 39.3305, Long: -76.6181
+Location: 9501474637, Lat: 39.3306, Long: -76.6183
+Location: 9501474638, Lat: 39.3312, Long: -76.6200
+Location: 9501474640, Lat: 39.3306, Long: -76.6183
+Location: 9501474641, Lat: 39.3314, Long: -76.6200
+Location: 9501474643, Lat: 39.3314, Long: -76.6200
+Location: 9501474648, Lat: 39.3306, Long: -76.6184
+Location: 9501474652, Lat: 39.3305, Long: -76.6183
+Location: 9501474653, Lat: 39.3305, Long: -76.6183
+Location: 9501474654, Lat: 39.3312, Long: -76.6200
+Location: 9501474656, Lat: 39.3313, Long: -76.6200
+Location: 9501474657, Lat: 39.3312, Long: -76.6200
+Location: 9501474659, Lat: 39.3306, Long: -76.6184
+Location: 9501474660, Lat: 39.3312, Long: -76.6200
+Location: 9501474661, Lat: 39.3313, Long: -76.6200
+Location: 9501474662, Lat: 39.3306, Long: -76.6184
+Location: 9505942033, Lat: 39.3277, Long: -76.6201
+Location: 9725280982, Lat: 39.3286, Long: -76.6213
+Location: 9725281221, Lat: 39.3282, Long: -76.6208
+Location: 9725281222, Lat: 39.3282, Long: -76.6208
+Location: 9727032332, Lat: 39.3294, Long: -76.6213
+Location: 9727070774, Lat: 39.3284, Long: -76.6207
+Location: 9727070775, Lat: 39.3284, Long: -76.6209
+Location: 9727070782, Lat: 39.3283, Long: -76.6208
+Location: 9727070783, Lat: 39.3283, Long: -76.6208
+Location: 9727070784, Lat: 39.3284, Long: -76.6208
+Location: 9732729073, Lat: 39.3287, Long: -76.6199
+Location: 9732729074, Lat: 39.3287, Long: -76.6197
+Location: 9732729075, Lat: 39.3286, Long: -76.6197
+Location: 9732729076, Lat: 39.3288, Long: -76.6198
+Location: 9732729078, Lat: 39.3285, Long: -76.6203
+Location: 9732729079, Lat: 39.3285, Long: -76.6205
+Location: 9733327311, Lat: 39.3305, Long: -76.6193
+Location: 9733327312, Lat: 39.3306, Long: -76.6195
+Location: 9765148568, Lat: 39.3279, Long: -76.6212
+Location: 9765148590, Lat: 39.3281, Long: -76.6200
+Location: 9768096379, Lat: 39.3297, Long: -76.6191
+Location: 9770539394, Lat: 39.3297, Long: -76.6192
+Location: 9770539407, Lat: 39.3303, Long: -76.6206
+Location: 9770539408, Lat: 39.3303, Long: -76.6205
+Location: 9770548522, Lat: 39.3300, Long: -76.6207
+Location: 9770548523, Lat: 39.3299, Long: -76.6208
+Location: 9770548531, Lat: 39.3301, Long: -76.6207
+Location: 9770548532, Lat: 39.3301, Long: -76.6208
+Location: 9770548533, Lat: 39.3301, Long: -76.6208
+Location: 9770548534, Lat: 39.3301, Long: -76.6206
+Location: 9770548535, Lat: 39.3301, Long: -76.6206
+Location: 9770548536, Lat: 39.3301, Long: -76.6207
+Location: 9785464529, Lat: 39.3314, Long: -76.6196
+Location: 9785464530, Lat: 39.3313, Long: -76.6197
+Location: 9785464531, Lat: 39.3314, Long: -76.6198
+Location: 9785464532, Lat: 39.3314, Long: -76.6196
+Location: 9796811892, Lat: 39.3283, Long: -76.6200
+Location: 9855925673, Lat: 39.3298, Long: -76.6211
+Location: 9855925706, Lat: 39.3300, Long: -76.6211
+Location: 9855987917, Lat: 39.3289, Long: -76.6191
+Location: 9863980940, Lat: 39.3311, Long: -76.6188
+Location: 9863980942, Lat: 39.3309, Long: -76.6214
+Location: 9893775390, Lat: 39.3305, Long: -76.6182
+List of nodes in Way: 244453016, 9159297041, 4520038547, 1909367277, 244453017, 244453018, 244453019, 244453020, 1909367231, 244453021, 4519935173, 1909367190, 244453217, 8907123790, 244453218, 8907123792, 1909367178, 244453419, 244453219, 4519817454, 1909367176, 244453220, 8907123793, 1909367187, 9855925706, 49409604, 8325678397, 247671370, 244453406
+List of nodes in Way: 244453018, 244453022, 244453023, 244453024, 1909367172, 244453025, 8750045845, 49409580, 1909366973
+List of nodes in Way: 8750045849, 2044048392, 8750045850, 49409570, 49409571, 8750045852, 9170515133, 8750045851, 49409576, 8750045855, 4520038552, 8960958471, 8960958470, 9170515135, 1909366973, 9163280366, 244453242
+List of nodes in Way: 244453016, 9159297040, 9159297042, 244453058, 9159297059, 1909367314, 9159297051, 9159297058, 244453059, 244453060, 9159297053, 9159297054, 244453061, 1909367332, 1909367335, 244357722
+List of nodes in Way: 8942020494, 244453226, 244453222, 8944064154, 8944064153, 8944064155, 244453221, 244453227, 8942020496
+List of nodes in Way: 244453221, 9166179160, 244453235, 4520077126, 9166179159, 244453236, 244453237, 9166179157, 244453238, 9166179158, 9732729076, 244453239
+List of nodes in Way: 9163291327, 244453240, 9166179164, 9166179163, 244453237, 9166179162, 1909366952, 9166179161, 244453241, 244453242
+List of nodes in Way: 244453240, 9166179165, 9166179166, 244453238, 9166179167, 4519935167, 244453248
+List of nodes in Way: 244453294, 244453295, 8902171324, 9167456871, 244453296
+List of nodes in Way: 9163271037, 4520237259, 244453314, 4519935172, 1909367182, 244453217, 244453315, 1909367201, 244453316, 1909367221, 244453418, 244453317, 9770548534, 1909367218, 244453318, 9770548522, 9770548523, 244453220, 9184285851, 9855925673, 49418310
+List of nodes in Way: 244453058, 9159297043, 9159297044, 244453017
+List of nodes in Way: 2838797679, 244453382, 244453383, 9483861098, 1909367380, 9178840060, 244453387, 9483861097, 9483861096, 244453388, 244453389, 4520038553, 9483901824, 9483901823, 9483901822, 244453391, 9169650983, 244453392, 244453393, 244453394, 244453395, 1909367412, 4402679803, 1909367421, 9169650984, 1909367428, 1909367437
+List of nodes in Way: 2459264440, 4519935175
+List of nodes in Way: 244453406, 4519817440, 244453409, 247671381, 244453411, 244453412, 9770539407, 4519817442, 244453413, 9770539408, 244453414, 4519817443, 1909367255, 4519817444, 244453415, 8325111644, 8325111645, 244453416
+List of nodes in Way: 4519817452, 244453417, 244453413, 244453418, 244453419, 244453421
+List of nodes in Way: 8944064151, 8944064152
+List of nodes in Way: 247671272, 4519782310, 247671346, 247671368, 2496874920, 247671324
+List of nodes in Way: 247671370, 4519817441, 247671380, 247671381, 244453417, 4519817446, 4519817447, 1909367259, 244453415, 4519817448, 4519817451, 4519817449, 4519817450
+List of nodes in Way: 244453060, 1909367327, 9159297052, 1909367334, 9159493641, 247671409, 4520038589, 244453016
+List of nodes in Way: 247671570, 8942020513, 247671571, 3299495630, 3299495631, 247671572, 247671573, 3299495633, 3299495632, 3299492362, 4520038735, 3299492363, 3299492364, 3299492365, 3299492366, 3299492367, 3299492368, 3299492369, 3299492370, 2044048394
+List of nodes in Way: 1676517737, 4519935165, 1676517727
+List of nodes in Way: 244453397, 9483901826, 1909367356, 9483901827, 1909367368, 244453391, 1909367376, 9483901820, 9483901819, 1909367378, 9483901818, 1909367381, 1909367386, 9483901817, 1909367389
+List of nodes in Way: 9166179140, 8325678377, 244453056, 244453239, 9163291327, 244453227, 244453226, 244453225
+List of nodes in Way: 4519817367, 2044048477, 8960988164, 2044048471, 2044048469, 8960988163, 9163290051, 2044048464, 9163305879, 9163305878, 2044048458, 2044048455, 9770539394, 9163305876
+List of nodes in Way: 9501430361, 2044048541, 9893775390, 9124532046, 2044048539, 9124532047, 9124532048, 2044048537, 2044048534, 2044048527, 9124532045, 2044048523, 2044048519, 2044048517, 9124532044, 2044048496
+List of nodes in Way: 4519782308, 2044048317, 2044048314, 2044048311, 2044048308, 2044048306, 2044048303, 2044048299, 4519782306, 4519782307, 2044048298, 2044048300, 2044048301, 2044048305, 2044048307, 2044048309, 2044048312, 9456927448, 4519782308
+List of nodes in Way: 2044048336, 2044048412
+List of nodes in Way: 2044048524, 2044048526
+List of nodes in Way: 2044048298, 8942020509
+List of nodes in Way: 2044048398, 2044048456, 4520172033
+List of nodes in Way: 2044048476, 4520172052, 2044048482, 1808834393
+List of nodes in Way: 9727032332, 2044048414, 4519817467
+List of nodes in Way: 244453296, 9167456870, 2044048350, 2044048363, 2044048369, 8902171326, 2044048374
+List of nodes in Way: 4519817480, 2044048398, 2044048411, 4520237294, 8796666375, 2044048476, 8796666376, 2044048484
+List of nodes in Way: 5138208548, 2044048454, 2044048451, 2044048439, 2044048434, 2044048428, 2044048427, 4520172049
+List of nodes in Way: 2044048456, 5138208548, 2044048459, 4520038729, 2044048460, 4520038730, 2044048461, 4520038731, 2044048462, 2044048465, 2044048472, 2044048483, 8321647663
+List of nodes in Way: 3299495624, 3299495623, 9456927414, 3299495622, 4519782316
+List of nodes in Way: 2539142830, 9175775039, 9175775040, 2539142833, 9175775041, 9175775042, 9175775043, 2539142834, 9175775044, 9175775045, 2539142836, 9175775046, 2539142838, 2539142840
+List of nodes in Way: 2539142833, 2539142841, 2539142844, 9178218845, 2539142846, 2539142848, 2539142850, 2539142851
+List of nodes in Way: 2539142841, 9175775035, 9175775036, 2539142854, 2539142855, 9175775037, 2539142857, 9175775038, 2539142859, 2539142861, 2539142864, 9175775034, 2539142865, 2539142867, 2539142869, 9175775032, 2539142871
+List of nodes in Way: 2539142869, 2539142873, 2539142875, 9175775031, 2539142877, 2539142838
+List of nodes in Way: 2539142840, 9175775029, 9175775028, 2539142879, 2539142881, 2539142883, 9175775027, 2539142885, 9178196266
+List of nodes in Way: 9196603853, 3299495604, 3299495609, 3299495613, 3299495618, 3299495624, 3299495627
+List of nodes in Way: 3299495627, 3299495626
+List of nodes in Way: 3299505775, 3299505776, 8325252322, 3299505777
+List of nodes in Way: 3299505773, 3299505770, 4519935162, 3299505771
+List of nodes in Way: 4402679649, 9460618364, 4402679638, 9460618365, 4402679632, 4402679628, 4520172054, 4402679634, 4402679635, 4402679642, 244453396
+List of nodes in Way: 9167476918, 4408342776, 4408342772, 4408342770, 4408342768, 4408342769, 9159428214, 4520237304, 4520237300, 9159428213, 9159428212, 4408342783
+List of nodes in Way: 244453293, 2044048355
+List of nodes in Way: 1909366871, 9765148568, 9261775896, 9261829388, 9261829416, 3299495616, 5674121519, 9261829387, 247671570, 2044048336
+List of nodes in Way: 3299495627, 3299495628, 3299495629, 247671571
+List of nodes in Way: 5674121514, 8963067856, 247671272, 8963067881, 8963067879, 247671241, 8963067878, 8963067880, 247671326, 247671273
+List of nodes in Way: 247671273, 247671341
+List of nodes in Way: 247671325, 2451200794, 247671369, 2451200820, 247671353, 9505942033, 4519871452, 247671340, 247671326
+List of nodes in Way: 4519817351, 9483861095, 244453400
+List of nodes in Way: 244453061, 4519817352, 4519817353, 4519817402, 4519817354, 4519817355, 244453416
+List of nodes in Way: 4519817356, 4519817357
+List of nodes in Way: 9163305876, 4519817359, 4519817361
+List of nodes in Way: 4519817361, 4519817362
+List of nodes in Way: 4519817363, 4519817365, 4519817364
+List of nodes in Way: 4519817365, 4519817366, 4519817367
+List of nodes in Way: 247671409, 9159357567
+List of nodes in Way: 4519817387, 4519817388
+List of nodes in Way: 4519817389, 4519817400
+List of nodes in Way: 4519817393, 9501474638, 4519817394
+List of nodes in Way: 9159493650, 4519817395, 4519817398, 4519817396
+List of nodes in Way: 4519817398, 9785464532, 4519817399
+List of nodes in Way: 4519817400, 4519817401
+List of nodes in Way: 4519817402, 8272440305, 9159297055, 9733327312
+List of nodes in Way: 9159493726, 4519817405, 4519817406, 9159493731
+List of nodes in Way: 4519817410, 4520237291, 4520237287, 9159297046, 4520237285
+List of nodes in Way: 1909367255, 1909367259, 4519817445
+List of nodes in Way: 244453217, 4519817453
+List of nodes in Way: 4519817454, 4519817455, 9184285849, 9184285852, 9184285851
+List of nodes in Way: 4519817457, 4519817456, 8907123806
+List of nodes in Way: 49409604, 4519817458, 4519817459, 4519817460, 49418310
+List of nodes in Way: 8907123805, 4519817461, 8907123804
+List of nodes in Way: 49418310, 4519817463, 4520172048, 4519817464, 4519817465
+List of nodes in Way: 4519817480, 4519817468, 4519817469, 4519817470, 4519817471, 4520172051, 4519817472, 4520172049, 4520172050, 4519817466, 4519817474, 8907123797, 4519817475, 4519817476, 4519817477, 4519817462, 4519817478, 8907123803, 8907123802, 8907123801, 8907123800, 8907123799, 8907123798
+List of nodes in Way: 8907123808, 4519817479, 8907123807
+List of nodes in Way: 4519817480, 4519817481, 4519935304, 4519817482, 4519817483, 4519817484
+List of nodes in Way: 4519817484, 5674142960, 4519817485
+List of nodes in Way: 4519817485, 4519817486, 8796666265, 4519817487, 4519817488, 4519817589, 4519817590, 9169665954, 8796666264, 4519817591
+List of nodes in Way: 2044048361, 9166179138, 8325678379, 4519935170, 8325678376, 4519871449
+List of nodes in Way: 2044048361, 2044048352
+List of nodes in Way: 2044048352, 8325678393, 8942020489
+List of nodes in Way: 4520096241, 244453009, 244453010, 244453011, 2044048491, 2044048496, 244453012, 4520077191, 244453013, 4520077193, 244453014, 4520038549, 244453016
+List of nodes in Way: 4519817387, 4519935152, 4519935149, 4519935150
+List of nodes in Way: 244357723, 4519935157
+List of nodes in Way: 244453223, 4519935158, 4519935159
+List of nodes in Way: 1676517737, 4519935159
+List of nodes in Way: 244453225, 4519935160, 4519935161
+List of nodes in Way: 1676517727, 4519935161, 4519935162
+List of nodes in Way: 1676517727, 8325252327, 4519935163
+List of nodes in Way: 4519935170, 4519935169
+List of nodes in Way: 244453397, 9178851811
+List of nodes in Way: 244453396, 9863980942, 8942038154, 244453397, 9483901825, 4519817431, 244453389, 2539142888, 244453398, 244453399, 244453400, 9175775033, 244453401, 244453402, 9180101314, 244453403
+List of nodes in Way: 8942038152, 2459264444, 8942038153
+List of nodes in Way: 4519935175, 4519935184, 4519935185, 4519935186, 4519935187, 9178851806, 4519935188, 4519935289, 4519935290, 4519935291, 4519935292, 4519935293, 4519935294, 4519935295, 4519935296, 4519935297, 4519935298, 4519935299, 4519935300, 4519935301, 4519935302, 4519935303, 49409604
+List of nodes in Way: 244453018, 9159297045, 4520038548, 4520038550, 4520038549
+List of nodes in Way: 49409576, 8960958472, 49409578, 49409579, 49409580, 49409581, 9163282515, 9163271038, 49409585, 9163271037, 49409589, 244357712, 244453021, 244357713, 244357715, 4519817450, 244357716, 244357717, 244453416, 244357719, 244357720, 244357721, 8303170136, 244357722, 244357723, 4519817393, 244357724, 2838797679, 2539142830, 244357728, 244357729, 2539142851, 244357731, 9178218842, 8325233515, 244355192
+List of nodes in Way: 9051814332, 9159493716, 4520038589, 9159297050, 4520038590, 9159297049, 9159297048, 1909367314
+List of nodes in Way: 9159493732, 4520038591
+List of nodes in Way: 4520038549, 9159493717, 9159295826
+List of nodes in Way: 244453409, 4520038665, 4520038663
+List of nodes in Way: 247671381, 4520038664, 4520038665, 4520038666
+List of nodes in Way: 2044048473, 4520038723, 4520038724, 4520038725, 4520038726, 9456927377, 4520038727
+List of nodes in Way: 247671341, 9765148590, 4520038973, 4520038772, 4520038974, 4520038773, 9159428211
+List of nodes in Way: 247671273, 9796811892
+List of nodes in Way: 4520038775, 9159428211, 4520038774
+List of nodes in Way: 4520038776, 4520038777, 4520038778, 4520038779
+List of nodes in Way: 4520038780, 4408342783
+List of nodes in Way: 4408342783, 4520038776
+List of nodes in Way: 4520038960, 2044048487
+List of nodes in Way: 4520077191, 4520077192, 244453018
+List of nodes in Way: 9166179126, 1676517737, 8325252325, 4520172030
+List of nodes in Way: 2044048473, 2044048478, 2044048485, 2044048487, 2044048492, 2044048493, 4520038959, 2044048498, 2044048501, 2044048504, 2044048518, 2044048520, 2044048524, 2044048528, 2044048533, 2044048540, 2044048543, 2044048546, 9460606431
+List of nodes in Way: 4520172033, 6007131819, 2044048473
+List of nodes in Way: 4519817394, 244453061
+List of nodes in Way: 4519817394, 4519817395
+List of nodes in Way: 4520237288, 4519817409, 4519817405, 4519817410, 4520237286
+List of nodes in Way: 9051814331, 4520038592, 4520237289, 4520237290, 4519817409
+List of nodes in Way: 4520237293, 4520038592, 4519817406, 9159297047, 4520237285, 4520237292
+List of nodes in Way: 4520237294, 4520237295
+List of nodes in Way: 4519817402, 8303170136
+List of nodes in Way: 4519935159, 8325252322
+List of nodes in Way: 8325252323, 8325252326
+List of nodes in Way: 8325252325, 8942020515
+List of nodes in Way: 8942020515, 8325252326, 8942020514
+List of nodes in Way: 4519935166, 4519935165, 9166179122
+List of nodes in Way: 8325252328, 4519935164
+List of nodes in Way: 1676517727, 9163291326
+List of nodes in Way: 8325252329, 244453225
+List of nodes in Way: 244453223, 8325252330
+List of nodes in Way: 4519935168, 9166179144
+List of nodes in Way: 8325678374, 8325678375, 9166179137, 8325678376
+List of nodes in Way: 8325678377, 8325678378, 9166179136, 8325678379
+List of nodes in Way: 8325678393, 8325678395, 9163282359
+List of nodes in Way: 9261775905, 9261775899, 9261775902, 9261799118
+List of nodes in Way: 8325678397, 8325678398
+List of nodes in Way: 4520172053, 5914369186, 9460606429
+List of nodes in Way: 8980949887, 9159493627, 2044048296, 244453307, 2044048313, 244453308, 2044048335, 244453294, 2044048355, 244453309, 9855987917, 8902171325, 2044048374, 4519817356, 8750045846, 2044048392
+List of nodes in Way: 9163285482, 8907123782, 8907123783, 4520038551
+List of nodes in Way: 49409585, 1909366973
+List of nodes in Way: 49409576, 8750045862, 8750045861, 8750045860, 8750045859, 8750045858
+List of nodes in Way: 1909367197, 8796666361, 8796666362, 8796666363, 8796666364, 8796666365, 8796666366, 8796666367, 8796666368, 8796666369, 8796666370, 8796666371, 8796666372, 8796666373
+List of nodes in Way: 8813102264, 9456927371, 4520038727
+List of nodes in Way: 8813102264, 8813102265, 8813102266, 8813102268
+List of nodes in Way: 9460606421, 8813102269, 9460606420
+List of nodes in Way: 8813102268, 8813102271
+List of nodes in Way: 8907123795, 8907123798, 4519817457
+List of nodes in Way: 8907123804, 4519817462
+List of nodes in Way: 49418310, 8907123805
+List of nodes in Way: 8907123806, 49409604
+List of nodes in Way: 8907123807, 2044048394
+List of nodes in Way: 4519817480, 8907123808
+List of nodes in Way: 8942020489, 244453057
+List of nodes in Way: 8942020492, 9261829385, 8942020491
+List of nodes in Way: 8942020493, 9732729078, 2044048334
+List of nodes in Way: 8942020494, 8942020505
+List of nodes in Way: 8942020496, 8942020495
+List of nodes in Way: 8942020506, 9732729079, 2044048332
+List of nodes in Way: 2044048318, 9167456858
+List of nodes in Way: 2044048324, 2044048318
+List of nodes in Way: 2044048325, 2044048318
+List of nodes in Way: 2044048414, 8942020511
+List of nodes in Way: 8942020513, 9725280982
+List of nodes in Way: 8942038150, 244453406
+List of nodes in Way: 4519935175, 8942038152
+List of nodes in Way: 8942038153, 244453396
+List of nodes in Way: 8944064153, 9163312925
+List of nodes in Way: 2539142830, 8957884270, 8957884271, 8957884272, 8957884273
+List of nodes in Way: 4519817361, 8960988186
+List of nodes in Way: 9727070783, 8963067856, 9725281221
+List of nodes in Way: 8963067862, 8963067855, 8963067861, 8963067860, 8963067858, 8963067859, 8963067862
+List of nodes in Way: 8963067882, 247671241
+List of nodes in Way: 2044048412, 2044048413
+List of nodes in Way: 9124532038, 9124532039
+List of nodes in Way: 9159295828, 9051814331
+List of nodes in Way: 9159493635, 9159493636, 1909367334, 9159297051
+List of nodes in Way: 9159357567, 9863980940, 4519817372
+List of nodes in Way: 2044048392, 9005850722, 2044048406, 4520038551, 2044048418, 2044048426, 4519817362, 2044048429, 2044048437, 9163280369, 2044048440, 8907123789, 4519817363, 2044048442, 2044048453, 2044048452, 4519935171, 2044048449, 8907123788, 9163305875
+List of nodes in Way: 4520038774, 4408342784
+List of nodes in Way: 9159493633, 9159493634
+List of nodes in Way: 9159297047, 9051814332
+List of nodes in Way: 4520038591, 9159493731
+List of nodes in Way: 9159493634, 9159493632
+List of nodes in Way: 9159493643, 9159493633
+List of nodes in Way: 9159493639, 9159493638, 9159493642, 9159493637, 9159493636
+List of nodes in Way: 9159493641, 9159493639, 9159493640
+List of nodes in Way: 9159493643, 9159493642
+List of nodes in Way: 4519935152, 9159493649
+List of nodes in Way: 4519817400, 9159493650
+List of nodes in Way: 9005850725, 9159493651
+List of nodes in Way: 9159493717, 9159493715, 9159493716
+List of nodes in Way: 244453016, 9159493715, 9159493732
+List of nodes in Way: 8750045858, 9162696990, 1909367172
+List of nodes in Way: 9163282352, 9163282351, 9163292803, 9163292802, 9163292801
+List of nodes in Way: 9163280368, 9163280369
+List of nodes in Way: 9163290051, 9163280367
+List of nodes in Way: 9163305875, 244453009
+List of nodes in Way: 2044048458, 9163305877
+List of nodes in Way: 8907123781, 9163285482
+List of nodes in Way: 4519817467, 49418315
+List of nodes in Way: 9166179139, 2044048361
+List of nodes in Way: 244453223, 244453222, 244453221, 244453242, 244453055, 8325678374, 9166179142
+List of nodes in Way: 244453225, 4519935164, 244453223
+List of nodes in Way: 244453056, 244453248, 4519935168, 244453055
+List of nodes in Way: 9166179141, 4519871449
+List of nodes in Way: 9166179143, 4519935170
+List of nodes in Way: 9167456857, 2044048317
+List of nodes in Way: 244453308, 9167456915, 4408342785, 9167456916, 4408342782, 4408342779, 9167476921
+List of nodes in Way: 9170515129, 9170515133
+List of nodes in Way: 9170515131, 9170515132
+List of nodes in Way: 9170515130, 9170515131
+List of nodes in Way: 9170515135, 9170515134
+List of nodes in Way: 9163280366, 9170515134, 9170515136
+List of nodes in Way: 9173531353, 244453308
+List of nodes in Way: 9163282352, 9173531353
+List of nodes in Way: 9178196266, 9175775030, 2539142887, 2539142888
+List of nodes in Way: 9178840060, 2539142840, 9178218840, 244453400
+List of nodes in Way: 2539142875, 9178218841, 9178218840
+List of nodes in Way: 9175775037, 9178218838, 9178218847, 9178218845
+List of nodes in Way: 4519935174, 9178851807
+List of nodes in Way: 9178851808, 4519935174
+List of nodes in Way: 9178851810, 9178851809
+List of nodes in Way: 8325252327, 8942020514
+List of nodes in Way: 9180193547, 9180193546
+List of nodes in Way: 9180193549, 9180193548
+List of nodes in Way: 4519817455, 9191938998
+List of nodes in Way: 9184285849, 9191938999
+List of nodes in Way: 9184285852, 9184285850
+List of nodes in Way: 9196378934, 9196378935
+List of nodes in Way: 9261775899, 9261775906
+List of nodes in Way: 9261775898, 9261775907, 9261775910
+List of nodes in Way: 9261775904, 9261775912, 9261775911
+List of nodes in Way: 8325678396, 9261775905
+List of nodes in Way: 49409604, 9261775904, 8325678396
+List of nodes in Way: 4519782316, 5674121519, 8942020491, 5674121514
+List of nodes in Way: 8963067880, 9456927447
+List of nodes in Way: 9456927449, 9456927448
+List of nodes in Way: 9456927447, 9456927450, 9456927449
+List of nodes in Way: 9460606420, 4519935296
+List of nodes in Way: 8813102268, 9460606421
+List of nodes in Way: 9460606430, 9460606433
+List of nodes in Way: 9460606432, 4520172053
+List of nodes in Way: 9501474652, 9501474653
+List of nodes in Way: 9501474637, 9501474640, 9501474659, 9501474648, 9501474662
+List of nodes in Way: 9501474654, 9501474638
+List of nodes in Way: 2044048534, 9501474652, 2044048545
+List of nodes in Way: 4519817401, 9501474660, 9501474656, 9501474661, 9501474643, 9501474641
+List of nodes in Way: 9501474660, 9501474657
+List of nodes in Way: 9725281222, 8963067855
+List of nodes in Way: 2044048413, 9727032332
+List of nodes in Way: 9727070774, 9727070784, 9727070775
+List of nodes in Way: 9727070784, 9727070782
+List of nodes in Way: 4520038551, 8750045852
+List of nodes in Way: 9732729075, 9732729074, 244453056
+List of nodes in Way: 9732729074, 9732729073
+List of nodes in Way: 9732729079, 9732729078
+List of nodes in Way: 2044048491, 4519817367
+List of nodes in Way: 9163305876, 8750045858, 9163274188, 9163274189, 9163274190, 9163274191, 8750045845
+List of nodes in Way: 9733327311, 9159297057, 244453018
+List of nodes in Way: 9733327312, 4519817403, 9159297056, 9733327311
+List of nodes in Way: 9163305877, 9768096379
+List of nodes in Way: 9770539394, 9163280371
+List of nodes in Way: 9770548532, 9770548533, 9770548531
+List of nodes in Way: 9770548536, 9770548535, 9770548534
+List of nodes in Way: 9159493651, 9785464529
+List of nodes in Way: 9005850725, 9785464530
+List of nodes in Way: 9785464532, 9785464529, 9785464531, 9785464530, 9159493650
+9785464532
+39.331375
+-76.619615
+9785464532
+9785464529
+39.331374
+-76.619637
+9785464529
+9785464531
+39.331371
+-76.619753
+9785464531
+9785464530
+39.331254
+-76.619748
+9785464530
+9005850725
+39.331263
+-76.619739
+9005850725
+9159493651
+39.331366
+-76.619645
+9159493651
+9770548536
+39.330104
+-76.620712
+9770548536
+9770548535
+39.330105
+-76.620646
+9770548535
+9770548532
+39.330114
+-76.620755
+9770548532
+9770548533
+39.330103
+-76.620755
+9770548533
+9770539394
+39.329723
+-76.619179
+9770539394
+9163305877
+39.329715
+-76.619088
+9163305877
+9733327312
+39.330618
+-76.619507
+9733327312
+4519817403
+39.330542
+-76.619423
+4519817403
+9159297056
+39.330492
+-76.619357
+9159297056
+9733327311
+39.330475
+-76.619334
+9733327311
+9159297057
+39.330434
+-76.619275
+9159297057
+9163305876
+39.329699
+-76.619221
+9163305876
+8750045858
+39.329690
+-76.619235
+8750045858
+9163274188
+39.329677
+-76.619257
+9163274188
+9163274189
+39.329668
+-76.619285
+9163274189
+9163274190
+39.329661
+-76.619330
+9163274190
+9163274191
+39.329660
+-76.619366
+9163274191
+2044048491
+39.330011
+-76.618690
+2044048491
+9732729079
+39.328536
+-76.620464
+9732729079
+9732729074
+39.328717
+-76.619730
+9732729074
+9732729075
+39.328610
+-76.619723
+9732729075
+9732729074
+39.328717
+-76.619730
+9732729074
+4520038551
+39.329393
+-76.619013
+4520038551
+9727070784
+39.328373
+-76.620787
+9727070784
+9727070774
+39.328377
+-76.620688
+9727070774
+9727070784
+39.328373
+-76.620787
+9727070784
+2044048413
+39.329411
+-76.621257
+2044048413
+9725281222
+39.328229
+-76.620779
+9725281222
+9501474660
+39.331241
+-76.619970
+9501474660
+4519817401
+39.331241
+-76.619956
+4519817401
+9501474660
+39.331241
+-76.619970
+9501474660
+9501474656
+39.331296
+-76.619968
+9501474656
+9501474661
+39.331299
+-76.619978
+9501474661
+9501474643
+39.331358
+-76.619982
+9501474643
+2044048534
+39.330368
+-76.618324
+2044048534
+9501474652
+39.330514
+-76.618332
+9501474652
+9501474654
+39.331212
+-76.619967
+9501474654
+9501474637
+39.330551
+-76.618335
+9501474637
+9501474640
+39.330601
+-76.618339
+9501474640
+9501474659
+39.330602
+-76.618357
+9501474659
+9501474648
+39.330633
+-76.618359
+9501474648
+9501474652
+39.330514
+-76.618332
+9501474652
+9460606432
+39.330660
+-76.622579
+9460606432
+9460606430
+39.330573
+-76.622573
+9460606430
+8813102268
+39.330268
+-76.621739
+8813102268
+9460606420
+39.330251
+-76.621640
+9460606420
+9456927447
+39.328302
+-76.620258
+9456927447
+9456927450
+39.328433
+-76.620265
+9456927450
+9456927449
+39.328431
+-76.620324
+9456927449
+8963067880
+39.328269
+-76.620256
+8963067880
+4519782316
+39.328235
+-76.621291
+4519782316
+5674121519
+39.328239
+-76.621174
+5674121519
+8942020491
+39.328243
+-76.621072
+8942020491
+49409604
+39.330007
+-76.621210
+49409604
+9261775904
+39.330061
+-76.621153
+9261775904
+8325678396
+39.330101
+-76.621155
+8325678396
+9261775904
+39.330061
+-76.621153
+9261775904
+9261775912
+39.330063
+-76.621118
+9261775912
+9261775898
+39.330100
+-76.621120
+9261775898
+9261775907
+39.330179
+-76.621125
+9261775907
+9261775899
+39.330274
+-76.621135
+9261775899
+9196378934
+39.328356
+-76.621499
+9196378934
+9184285852
+39.329815
+-76.620996
+9184285852
+9184285849
+39.329819
+-76.620881
+9184285849
+4519817455
+39.329824
+-76.620705
+4519817455
+9180193549
+39.330712
+-76.621314
+9180193549
+9180193547
+39.330659
+-76.621305
+9180193547
+8325252327
+39.328736
+-76.621225
+8325252327
+9178851810
+39.331063
+-76.621308
+9178851810
+9178851808
+39.331060
+-76.621282
+9178851808
+4519935174
+39.331056
+-76.621253
+4519935174
+9175775037
+39.331654
+-76.620632
+9175775037
+9178218838
+39.331683
+-76.620576
+9178218838
+9178218847
+39.331712
+-76.620507
+9178218847
+2539142875
+39.331620
+-76.620857
+2539142875
+9178218841
+39.331596
+-76.620908
+9178218841
+9178840060
+39.331406
+-76.620795
+9178840060
+2539142840
+39.331465
+-76.620860
+2539142840
+9178218840
+39.331560
+-76.620981
+9178218840
+9178196266
+39.331433
+-76.621124
+9178196266
+9175775030
+39.331434
+-76.621159
+9175775030
+2539142887
+39.331426
+-76.621202
+2539142887
+9163282352
+39.328528
+-76.619108
+9163282352
+9173531353
+39.328515
+-76.619071
+9173531353
+9163280366
+39.329338
+-76.619803
+9163280366
+9170515134
+39.329346
+-76.619620
+9170515134
+9170515135
+39.329450
+-76.619631
+9170515135
+9170515130
+39.329347
+-76.619587
+9170515130
+9170515131
+39.329350
+-76.619534
+9170515131
+9170515129
+39.329360
+-76.619297
+9170515129
+244453308
+39.328506
+-76.619045
+244453308
+9167456915
+39.328435
+-76.619053
+9167456915
+4408342785
+39.328384
+-76.619063
+4408342785
+9167456916
+39.328347
+-76.619075
+9167456916
+4408342782
+39.328312
+-76.619088
+4408342782
+4408342779
+39.328290
+-76.619118
+4408342779
+9167456857
+39.328436
+-76.620396
+9167456857
+9166179143
+39.329047
+-76.619691
+9166179143
+9166179141
+39.329297
+-76.619707
+9166179141
+244453056
+39.328794
+-76.619736
+244453056
+244453248
+39.328986
+-76.619749
+244453248
+4519935168
+39.329045
+-76.619753
+4519935168
+244453225
+39.328744
+-76.620993
+244453225
+4519935164
+39.328993
+-76.621007
+4519935164
+244453223
+39.329246
+-76.621021
+244453223
+244453222
+39.329265
+-76.620510
+244453222
+244453221
+39.329270
+-76.620384
+244453221
+244453242
+39.329291
+-76.619831
+244453242
+244453055
+39.329294
+-76.619769
+244453055
+8325678374
+39.329295
+-76.619737
+8325678374
+9166179139
+39.328796
+-76.619675
+9166179139
+4519817467
+39.329463
+-76.621371
+4519817467
+8907123781
+39.329421
+-76.618851
+8907123781
+2044048458
+39.329758
+-76.619129
+2044048458
+9163305875
+39.329659
+-76.618308
+9163305875
+9163290051
+39.329839
+-76.619046
+9163290051
+9163280368
+39.329631
+-76.618847
+9163280368
+9163282352
+39.328528
+-76.619108
+9163282352
+9163282351
+39.328574
+-76.619154
+9163282351
+9163292803
+39.328597
+-76.619193
+9163292803
+9163292802
+39.328606
+-76.619227
+9163292802
+8750045858
+39.329690
+-76.619235
+8750045858
+9162696990
+39.329777
+-76.619301
+9162696990
+244453016
+39.330674
+-76.618938
+244453016
+9159493715
+39.330677
+-76.618867
+9159493715
+9159493717
+39.330506
+-76.618855
+9159493717
+9159493715
+39.330677
+-76.618867
+9159493715
+9005850725
+39.331263
+-76.619739
+9005850725
+4519817400
+39.331248
+-76.619770
+4519817400
+4519935152
+39.331605
+-76.619758
+4519935152
+9159493643
+39.331184
+-76.619117
+9159493643
+9159493641
+39.331077
+-76.618973
+9159493641
+9159493639
+39.331156
+-76.618980
+9159493639
+9159493639
+39.331156
+-76.618980
+9159493639
+9159493638
+39.331169
+-76.619049
+9159493638
+9159493642
+39.331168
+-76.619116
+9159493642
+9159493637
+39.331164
+-76.619175
+9159493637
+9159493643
+39.331184
+-76.619117
+9159493643
+9159493634
+39.331212
+-76.619119
+9159493634
+4520038591
+39.330680
+-76.618771
+4520038591
+9159297047
+39.330855
+-76.618747
+9159297047
+9159493633
+39.331198
+-76.619118
+9159493633
+4520038774
+39.328282
+-76.619889
+4520038774
+2044048392
+39.329200
+-76.619058
+2044048392
+9005850722
+39.329278
+-76.619043
+9005850722
+2044048406
+39.329341
+-76.619028
+2044048406
+4520038551
+39.329393
+-76.619013
+4520038551
+2044048418
+39.329466
+-76.618977
+2044048418
+2044048426
+39.329515
+-76.618947
+2044048426
+4519817362
+39.329545
+-76.618922
+4519817362
+2044048429
+39.329577
+-76.618895
+2044048429
+2044048437
+39.329610
+-76.618852
+2044048437
+9163280369
+39.329620
+-76.618835
+9163280369
+2044048440
+39.329630
+-76.618817
+2044048440
+8907123789
+39.329651
+-76.618773
+8907123789
+4519817363
+39.329670
+-76.618720
+4519817363
+2044048442
+39.329683
+-76.618658
+2044048442
+2044048453
+39.329691
+-76.618599
+2044048453
+2044048452
+39.329693
+-76.618540
+2044048452
+4519935171
+39.329691
+-76.618478
+4519935171
+2044048449
+39.329684
+-76.618421
+2044048449
+8907123788
+39.329671
+-76.618355
+8907123788
+9159357567
+39.331080
+-76.618859
+9159357567
+9863980940
+39.331082
+-76.618752
+9863980940
+9159493635
+39.331205
+-76.619253
+9159493635
+9159493636
+39.331143
+-76.619249
+9159493636
+1909367334
+39.331066
+-76.619244
+1909367334
+9159295828
+39.330506
+-76.618808
+9159295828
+9124532038
+39.329602
+-76.618219
+9124532038
+2044048412
+39.329383
+-76.621257
+2044048412
+8963067882
+39.328266
+-76.620384
+8963067882
+8963067862
+39.328209
+-76.620819
+8963067862
+8963067855
+39.328211
+-76.620778
+8963067855
+8963067861
+39.328212
+-76.620739
+8963067861
+8963067860
+39.328085
+-76.620731
+8963067860
+8963067858
+39.328084
+-76.620772
+8963067858
+8963067859
+39.328082
+-76.620812
+8963067859
+9727070783
+39.328272
+-76.620782
+9727070783
+8963067856
+39.328255
+-76.620781
+8963067856
+4519817361
+39.329635
+-76.619011
+4519817361
+2539142830
+39.331560
+-76.620108
+2539142830
+8957884270
+39.331575
+-76.620056
+8957884270
+8957884271
+39.331588
+-76.620043
+8957884271
+8957884272
+39.331621
+-76.620035
+8957884272
+8944064153
+39.329358
+-76.620453
+8944064153
+8942038153
+39.330900
+-76.621343
+8942038153
+4519935175
+39.330824
+-76.621331
+4519935175
+8942038150
+39.330606
+-76.621296
+8942038150
+8942020513
+39.328513
+-76.621307
+8942020513
+2044048414
+39.329408
+-76.621369
+2044048414
+2044048325
+39.328462
+-76.620428
+2044048325
+2044048324
+39.328463
+-76.620366
+2044048324
+2044048318
+39.328458
+-76.620398
+2044048318
+8942020506
+39.328562
+-76.620466
+8942020506
+9732729079
+39.328536
+-76.620464
+9732729079
+8942020496
+39.328666
+-76.620347
+8942020496
+8942020494
+39.328662
+-76.620474
+8942020494
+8942020493
+39.328566
+-76.620341
+8942020493
+9732729078
+39.328540
+-76.620339
+9732729078
+8942020492
+39.328538
+-76.621092
+8942020492
+9261829385
+39.328256
+-76.621073
+9261829385
+8942020489
+39.328757
+-76.619496
+8942020489
+4519817480
+39.329239
+-76.622035
+4519817480
+8907123807
+39.329214
+-76.621948
+8907123807
+8907123806
+39.329996
+-76.621219
+8907123806
+49418310
+39.329837
+-76.621161
+49418310
+8907123804
+39.329794
+-76.621257
+8907123804
+8907123795
+39.329934
+-76.621318
+8907123795
+8907123798
+39.329939
+-76.621305
+8907123798
+8813102268
+39.330268
+-76.621739
+8813102268
+9460606421
+39.330264
+-76.621717
+9460606421
+8813102269
+39.330257
+-76.621677
+8813102269
+8813102264
+39.330194
+-76.621764
+8813102264
+8813102265
+39.330222
+-76.621744
+8813102265
+8813102266
+39.330243
+-76.621738
+8813102266
+8813102264
+39.330194
+-76.621764
+8813102264
+9456927371
+39.330170
+-76.621762
+9456927371
+1909367197
+39.330013
+-76.622692
+1909367197
+8796666361
+39.330011
+-76.622751
+8796666361
+8796666362
+39.330012
+-76.622779
+8796666362
+8796666363
+39.330008
+-76.622803
+8796666363
+8796666364
+39.330005
+-76.622819
+8796666364
+8796666365
+39.329997
+-76.622836
+8796666365
+8796666366
+39.329981
+-76.622873
+8796666366
+8796666367
+39.329957
+-76.622907
+8796666367
+8796666368
+39.329932
+-76.622939
+8796666368
+8796666369
+39.329901
+-76.622978
+8796666369
+8796666370
+39.329875
+-76.622988
+8796666370
+8796666371
+39.329832
+-76.623003
+8796666371
+8796666372
+39.329740
+-76.623032
+8796666372
+49409576
+39.329412
+-76.619229
+49409576
+8750045862
+39.329453
+-76.619231
+8750045862
+8750045861
+39.329524
+-76.619248
+8750045861
+8750045860
+39.329578
+-76.619254
+8750045860
+8750045859
+39.329635
+-76.619248
+8750045859
+49409585
+39.329797
+-76.619690
+49409585
+9163285482
+39.329419
+-76.618885
+9163285482
+8907123782
+39.329418
+-76.618903
+8907123782
+8907123783
+39.329408
+-76.618959
+8907123783
+8980949887
+39.328216
+-76.618684
+8980949887
+9159493627
+39.328263
+-76.618809
+9159493627
+2044048296
+39.328295
+-76.618875
+2044048296
+244453307
+39.328334
+-76.618924
+244453307
+2044048313
+39.328421
+-76.618996
+2044048313
+244453308
+39.328506
+-76.619045
+244453308
+2044048335
+39.328582
+-76.619062
+2044048335
+244453294
+39.328689
+-76.619078
+244453294
+2044048355
+39.328773
+-76.619079
+2044048355
+244453309
+39.328839
+-76.619071
+244453309
+9855987917
+39.328899
+-76.619061
+9855987917
+8902171325
+39.328947
+-76.619052
+8902171325
+2044048374
+39.328989
+-76.619044
+2044048374
+4519817356
+39.329073
+-76.619068
+4519817356
+8750045846
+39.329137
+-76.619070
+8750045846
+4520172053
+39.330683
+-76.622581
+4520172053
+5914369186
+39.330716
+-76.622583
+5914369186
+8325678397
+39.330145
+-76.621219
+8325678397
+9261775905
+39.330273
+-76.621168
+9261775905
+9261775899
+39.330274
+-76.621135
+9261775899
+9261775902
+39.330280
+-76.620994
+9261775902
+8325678393
+39.328754
+-76.619562
+8325678393
+8325678395
+39.328738
+-76.619560
+8325678395
+8325678377
+39.328795
+-76.619703
+8325678377
+8325678378
+39.328928
+-76.619711
+8325678378
+9166179136
+39.328929
+-76.619683
+9166179136
+8325678374
+39.329295
+-76.619737
+8325678374
+8325678375
+39.329163
+-76.619729
+8325678375
+9166179137
+39.329165
+-76.619698
+9166179137
+4519935168
+39.329045
+-76.619753
+4519935168
+244453223
+39.329246
+-76.621021
+244453223
+8325252329
+39.328742
+-76.621053
+8325252329
+1676517727
+39.328741
+-76.621106
+1676517727
+8325252328
+39.328991
+-76.621066
+8325252328
+4519935166
+39.328988
+-76.621175
+4519935166
+4519935165
+39.328990
+-76.621120
+4519935165
+8942020515
+39.329036
+-76.621243
+8942020515
+8325252326
+39.328986
+-76.621240
+8325252326
+8325252325
+39.329235
+-76.621257
+8325252325
+8325252323
+39.328987
+-76.621209
+8325252323
+4519935159
+39.329305
+-76.621139
+4519935159
+4519817402
+39.330825
+-76.619709
+4519817402
+4520237294
+39.329687
+-76.622789
+4520237294
+4520237293
+39.330417
+-76.618717
+4520237293
+4520038592
+39.330508
+-76.618723
+4520038592
+4519817406
+39.330681
+-76.618735
+4519817406
+9159297047
+39.330855
+-76.618747
+9159297047
+4520237285
+39.330860
+-76.618747
+4520237285
+9051814331
+39.330508
+-76.618742
+9051814331
+4520038592
+39.330508
+-76.618723
+4520038592
+4520237289
+39.330511
+-76.618660
+4520237289
+4520237290
+39.330504
+-76.618608
+4520237290
+4520237288
+39.330423
+-76.618547
+4520237288
+4519817409
+39.330489
+-76.618551
+4519817409
+4519817405
+39.330688
+-76.618565
+4519817405
+4519817410
+39.330892
+-76.618578
+4519817410
+4519817394
+39.331183
+-76.619682
+4519817394
+4519817394
+39.331183
+-76.619682
+4519817394
+4520172033
+39.329808
+-76.621937
+4520172033
+6007131819
+39.329834
+-76.621930
+6007131819
+2044048473
+39.329874
+-76.621921
+2044048473
+2044048478
+39.329900
+-76.621948
+2044048478
+2044048485
+39.329926
+-76.622006
+2044048485
+2044048487
+39.329961
+-76.622077
+2044048487
+2044048492
+39.330045
+-76.622500
+2044048492
+2044048493
+39.330071
+-76.622522
+2044048493
+4520038959
+39.330092
+-76.622541
+4520038959
+2044048498
+39.330105
+-76.622564
+2044048498
+2044048501
+39.330126
+-76.622610
+2044048501
+2044048504
+39.330154
+-76.622662
+2044048504
+2044048518
+39.330201
+-76.622701
+2044048518
+2044048520
+39.330240
+-76.622725
+2044048520
+2044048524
+39.330286
+-76.622725
+2044048524
+2044048528
+39.330321
+-76.622710
+2044048528
+2044048533
+39.330366
+-76.622676
+2044048533
+2044048540
+39.330436
+-76.622608
+2044048540
+2044048543
+39.330486
+-76.622577
+2044048543
+2044048546
+39.330536
+-76.622570
+2044048546
+9166179126
+39.329242
+-76.621122
+9166179126
+1676517737
+39.329239
+-76.621135
+1676517737
+8325252325
+39.329235
+-76.621257
+8325252325
+4520077191
+39.330178
+-76.618857
+4520077191
+4520077192
+39.330285
+-76.619027
+4520077192
+4520038960
+39.330076
+-76.622040
+4520038960
+4408342783
+39.328289
+-76.619628
+4408342783
+4520038780
+39.328289
+-76.619641
+4520038780
+4520038776
+39.328315
+-76.619629
+4520038776
+4520038777
+39.328314
+-76.619644
+4520038777
+4520038778
+39.328359
+-76.619648
+4520038778
+4520038775
+39.328279
+-76.619967
+4520038775
+9159428211
+39.328280
+-76.619948
+9159428211
+247671273
+39.328277
+-76.620016
+247671273
+247671341
+39.328072
+-76.620002
+247671341
+9765148590
+39.328073
+-76.619975
+9765148590
+4520038973
+39.328135
+-76.619978
+4520038973
+4520038772
+39.328178
+-76.619978
+4520038772
+4520038974
+39.328228
+-76.619972
+4520038974
+4520038773
+39.328269
+-76.619954
+4520038773
+2044048473
+39.329874
+-76.621921
+2044048473
+4520038723
+39.329881
+-76.621894
+4520038723
+4520038724
+39.329895
+-76.621853
+4520038724
+4520038725
+39.329918
+-76.621819
+4520038725
+4520038726
+39.329959
+-76.621796
+4520038726
+9456927377
+39.330117
+-76.621760
+9456927377
+247671381
+39.330469
+-76.620839
+247671381
+4520038664
+39.330500
+-76.620819
+4520038664
+4520038665
+39.330590
+-76.620822
+4520038665
+244453409
+39.330571
+-76.621096
+244453409
+4520038665
+39.330590
+-76.620822
+4520038665
+4520038549
+39.330505
+-76.618928
+4520038549
+9159493717
+39.330506
+-76.618855
+9159493717
+9159493732
+39.330680
+-76.618788
+9159493732
+9051814332
+39.330853
+-76.618765
+9051814332
+9159493716
+39.330849
+-76.618878
+9159493716
+4520038589
+39.330846
+-76.618949
+4520038589
+9159297050
+39.330847
+-76.619021
+9159297050
+4520038590
+39.330854
+-76.619098
+4520038590
+9159297049
+39.330864
+-76.619146
+9159297049
+9159297048
+39.330877
+-76.619190
+9159297048
+49409576
+39.329412
+-76.619229
+49409576
+8960958472
+39.329450
+-76.619260
+8960958472
+49409578
+39.329482
+-76.619304
+49409578
+49409579
+39.329539
+-76.619387
+49409579
+49409580
+39.329606
+-76.619491
+49409580
+49409581
+39.329656
+-76.619561
+49409581
+9163282515
+39.329702
+-76.619611
+9163282515
+9163271038
+39.329746
+-76.619653
+9163271038
+49409585
+39.329797
+-76.619690
+49409585
+9163271037
+39.329835
+-76.619712
+9163271037
+49409589
+39.329881
+-76.619738
+49409589
+244357712
+39.329959
+-76.619767
+244357712
+244453021
+39.330061
+-76.619788
+244453021
+244357713
+39.330155
+-76.619793
+244357713
+244357715
+39.330289
+-76.619793
+244357715
+4519817450
+39.330324
+-76.619799
+4519817450
+244357716
+39.330382
+-76.619809
+244357716
+244357717
+39.330489
+-76.619843
+244357717
+244453416
+39.330579
+-76.619880
+244453416
+244357719
+39.330706
+-76.619923
+244357719
+244357720
+39.330807
+-76.619955
+244357720
+244357721
+39.330926
+-76.619978
+244357721
+8303170136
+39.330977
+-76.619985
+8303170136
+244357722
+39.331077
+-76.620000
+244357722
+244357723
+39.331145
+-76.620005
+244357723
+4519817393
+39.331167
+-76.620007
+4519817393
+244357724
+39.331254
+-76.620020
+244357724
+2838797679
+39.331401
+-76.620058
+2838797679
+2539142830
+39.331560
+-76.620108
+2539142830
+244357728
+39.331616
+-76.620126
+244357728
+244357729
+39.331747
+-76.620181
+244357729
+2539142851
+39.331886
+-76.620254
+2539142851
+244357731
+39.331942
+-76.620284
+244357731
+9178218842
+39.331978
+-76.620305
+9178218842
+8325233515
+39.332003
+-76.620319
+8325233515
+244453018
+39.330407
+-76.619216
+244453018
+9159297045
+39.330467
+-76.619093
+9159297045
+4520038548
+39.330492
+-76.619035
+4520038548
+4520038550
+39.330505
+-76.618973
+4520038550
+4519935175
+39.330824
+-76.621331
+4519935175
+4519935184
+39.330822
+-76.621405
+4519935184
+4519935185
+39.330809
+-76.621465
+4519935185
+4519935186
+39.330790
+-76.621520
+4519935186
+4519935187
+39.330765
+-76.621562
+4519935187
+9178851806
+39.330745
+-76.621580
+9178851806
+4519935188
+39.330725
+-76.621588
+4519935188
+4519935289
+39.330685
+-76.621588
+4519935289
+4519935290
+39.330610
+-76.621567
+4519935290
+4519935291
+39.330564
+-76.621564
+4519935291
+4519935292
+39.330507
+-76.621567
+4519935292
+4519935293
+39.330436
+-76.621582
+4519935293
+4519935294
+39.330348
+-76.621607
+4519935294
+4519935295
+39.330278
+-76.621624
+4519935295
+4519935296
+39.330249
+-76.621628
+4519935296
+4519935297
+39.330179
+-76.621628
+4519935297
+4519935298
+39.330131
+-76.621615
+4519935298
+4519935299
+39.330107
+-76.621597
+4519935299
+4519935300
+39.330097
+-76.621568
+4519935300
+4519935301
+39.330073
+-76.621367
+4519935301
+4519935302
+39.330062
+-76.621306
+4519935302
+4519935303
+39.330034
+-76.621244
+4519935303
+8942038152
+39.330830
+-76.621327
+8942038152
+2459264444
+39.330870
+-76.621336
+2459264444
+244453396
+39.330917
+-76.621348
+244453396
+9863980942
+39.330930
+-76.621352
+9863980942
+8942038154
+39.330944
+-76.621357
+8942038154
+244453397
+39.331069
+-76.621365
+244453397
+9483901825
+39.331131
+-76.621356
+9483901825
+4519817431
+39.331188
+-76.621346
+4519817431
+244453389
+39.331303
+-76.621319
+244453389
+2539142888
+39.331399
+-76.621279
+2539142888
+244453398
+39.331465
+-76.621236
+244453398
+244453399
+39.331524
+-76.621197
+244453399
+244453400
+39.331629
+-76.621068
+244453400
+9175775033
+39.331704
+-76.620969
+9175775033
+244453401
+39.331715
+-76.620954
+244453401
+244453402
+39.331862
+-76.620858
+244453402
+9180101314
+39.332024
+-76.620653
+9180101314
+244453397
+39.331069
+-76.621365
+244453397
+4519935170
+39.329048
+-76.619665
+4519935170
+1676517727
+39.328741
+-76.621106
+1676517727
+8325252327
+39.328736
+-76.621225
+8325252327
+1676517727
+39.328741
+-76.621106
+1676517727
+4519935161
+39.328672
+-76.621101
+4519935161
+244453225
+39.328744
+-76.620993
+244453225
+4519935160
+39.328677
+-76.620989
+4519935160
+1676517737
+39.329239
+-76.621135
+1676517737
+244453223
+39.329246
+-76.621021
+244453223
+4519935158
+39.329309
+-76.621025
+4519935158
+244357723
+39.331145
+-76.620005
+244357723
+4519817387
+39.331604
+-76.619792
+4519817387
+4519935152
+39.331605
+-76.619758
+4519935152
+4519935149
+39.331606
+-76.619711
+4519935149
+4520096241
+39.329638
+-76.618256
+4520096241
+244453009
+39.329648
+-76.618266
+244453009
+244453010
+39.329794
+-76.618436
+244453010
+244453011
+39.329889
+-76.618558
+244453011
+2044048491
+39.330011
+-76.618690
+2044048491
+2044048496
+39.330079
+-76.618765
+2044048496
+244453012
+39.330135
+-76.618824
+244453012
+4520077191
+39.330178
+-76.618857
+4520077191
+244453013
+39.330245
+-76.618885
+244453013
+4520077193
+39.330296
+-76.618907
+4520077193
+244453014
+39.330352
+-76.618919
+244453014
+4520038549
+39.330505
+-76.618928
+4520038549
+2044048352
+39.328751
+-76.619645
+2044048352
+8325678393
+39.328754
+-76.619562
+8325678393
+2044048361
+39.328797
+-76.619648
+2044048361
+2044048361
+39.328797
+-76.619648
+2044048361
+9166179138
+39.328815
+-76.619649
+9166179138
+8325678379
+39.328930
+-76.619657
+8325678379
+4519935170
+39.329048
+-76.619665
+4519935170
+8325678376
+39.329166
+-76.619673
+8325678376
+4519817485
+39.328946
+-76.622121
+4519817485
+4519817486
+39.328594
+-76.622026
+4519817486
+8796666265
+39.328405
+-76.621998
+8796666265
+4519817487
+39.328278
+-76.621988
+4519817487
+4519817488
+39.328241
+-76.622005
+4519817488
+4519817589
+39.328231
+-76.622019
+4519817589
+4519817590
+39.328133
+-76.622255
+4519817590
+9169665954
+39.328094
+-76.622368
+9169665954
+8796666264
+39.328088
+-76.622384
+8796666264
+4519817484
+39.329030
+-76.622127
+4519817484
+5674142960
+39.328987
+-76.622126
+5674142960
+4519817480
+39.329239
+-76.622035
+4519817480
+4519817481
+39.329193
+-76.622058
+4519817481
+4519935304
+39.329161
+-76.622077
+4519935304
+4519817482
+39.329111
+-76.622101
+4519817482
+4519817483
+39.329069
+-76.622117
+4519817483
+8907123808
+39.329231
+-76.622014
+8907123808
+4519817479
+39.329223
+-76.621981
+4519817479
+4519817480
+39.329239
+-76.622035
+4519817480
+4519817468
+39.329279
+-76.622003
+4519817468
+4519817469
+39.329335
+-76.621945
+4519817469
+4519817470
+39.329388
+-76.621874
+4519817470
+4519817471
+39.329436
+-76.621785
+4519817471
+4520172051
+39.329458
+-76.621736
+4520172051
+4519817472
+39.329484
+-76.621662
+4519817472
+4520172049
+39.329506
+-76.621559
+4520172049
+4520172050
+39.329523
+-76.621506
+4520172050
+4519817466
+39.329549
+-76.621448
+4519817466
+4519817474
+39.329583
+-76.621397
+4519817474
+8907123797
+39.329620
+-76.621351
+8907123797
+4519817475
+39.329659
+-76.621320
+4519817475
+4519817476
+39.329722
+-76.621286
+4519817476
+4519817477
+39.329762
+-76.621275
+4519817477
+4519817462
+39.329795
+-76.621266
+4519817462
+4519817478
+39.329861
+-76.621255
+4519817478
+8907123803
+39.329882
+-76.621255
+8907123803
+8907123802
+39.329897
+-76.621260
+8907123802
+8907123801
+39.329910
+-76.621267
+8907123801
+8907123800
+39.329922
+-76.621279
+8907123800
+8907123799
+39.329932
+-76.621292
+8907123799
+49418310
+39.329837
+-76.621161
+49418310
+4519817463
+39.329794
+-76.621170
+4519817463
+4520172048
+39.329760
+-76.621173
+4520172048
+4519817464
+39.329728
+-76.621171
+4519817464
+8907123805
+39.329823
+-76.621179
+8907123805
+4519817461
+39.329809
+-76.621216
+4519817461
+49409604
+39.330007
+-76.621210
+49409604
+4519817458
+39.329974
+-76.621180
+4519817458
+4519817459
+39.329924
+-76.621162
+4519817459
+4519817460
+39.329861
+-76.621157
+4519817460
+4519817457
+39.329943
+-76.621299
+4519817457
+4519817456
+39.329975
+-76.621251
+4519817456
+4519817454
+39.329868
+-76.620707
+4519817454
+4519817455
+39.329824
+-76.620705
+4519817455
+9184285849
+39.329819
+-76.620881
+9184285849
+9184285852
+39.329815
+-76.620996
+9184285852
+244453217
+39.329938
+-76.620109
+244453217
+1909367255
+39.330432
+-76.620250
+1909367255
+1909367259
+39.330490
+-76.620255
+1909367259
+4519817410
+39.330892
+-76.618578
+4519817410
+4520237291
+39.330873
+-76.618636
+4520237291
+4520237287
+39.330863
+-76.618677
+4520237287
+9159297046
+39.330861
+-76.618709
+9159297046
+9159493726
+39.330689
+-76.618534
+9159493726
+4519817405
+39.330688
+-76.618565
+4519817405
+4519817406
+39.330681
+-76.618735
+4519817406
+4519817402
+39.330825
+-76.619709
+4519817402
+8272440305
+39.330774
+-76.619641
+8272440305
+9159297055
+39.330720
+-76.619588
+9159297055
+4519817400
+39.331248
+-76.619770
+4519817400
+4519817398
+39.331249
+-76.619611
+4519817398
+9785464532
+39.331375
+-76.619615
+9785464532
+9159493650
+39.331245
+-76.619747
+9159493650
+4519817395
+39.331247
+-76.619687
+4519817395
+4519817398
+39.331249
+-76.619611
+4519817398
+4519817393
+39.331167
+-76.620007
+4519817393
+9501474638
+39.331170
+-76.619963
+9501474638
+4519817389
+39.331285
+-76.619772
+4519817389
+4519817387
+39.331604
+-76.619792
+4519817387
+247671409
+39.331078
+-76.618960
+247671409
+4519817365
+39.329758
+-76.618807
+4519817365
+4519817366
+39.329818
+-76.618706
+4519817366
+4519817363
+39.329670
+-76.618720
+4519817363
+4519817365
+39.329758
+-76.618807
+4519817365
+4519817361
+39.329635
+-76.619011
+4519817361
+9163305876
+39.329699
+-76.619221
+9163305876
+4519817359
+39.329582
+-76.619112
+4519817359
+4519817356
+39.329073
+-76.619068
+4519817356
+244453061
+39.331012
+-76.619669
+244453061
+4519817352
+39.330929
+-76.619681
+4519817352
+4519817353
+39.330849
+-76.619699
+4519817353
+4519817402
+39.330825
+-76.619709
+4519817402
+4519817354
+39.330781
+-76.619726
+4519817354
+4519817355
+39.330657
+-76.619808
+4519817355
+4519817351
+39.332393
+-76.622004
+4519817351
+9483861095
+39.331739
+-76.621225
+9483861095
+247671325
+39.326926
+-76.620081
+247671325
+2451200794
+39.327153
+-76.620093
+2451200794
+247671369
+39.327371
+-76.620110
+247671369
+2451200820
+39.327427
+-76.620114
+2451200820
+247671353
+39.327565
+-76.620124
+247671353
+9505942033
+39.327745
+-76.620136
+9505942033
+4519871452
+39.327927
+-76.620147
+4519871452
+247671340
+39.328067
+-76.620154
+247671340
+247671273
+39.328277
+-76.620016
+247671273
+5674121514
+39.328243
+-76.621053
+5674121514
+8963067856
+39.328255
+-76.620781
+8963067856
+247671272
+39.328263
+-76.620597
+247671272
+8963067881
+39.328266
+-76.620520
+8963067881
+8963067879
+39.328257
+-76.620427
+8963067879
+247671241
+39.328257
+-76.620383
+247671241
+8963067878
+39.328260
+-76.620338
+8963067878
+8963067880
+39.328269
+-76.620256
+8963067880
+247671326
+39.328271
+-76.620167
+247671326
+3299495627
+39.328359
+-76.621414
+3299495627
+3299495628
+39.328378
+-76.621382
+3299495628
+3299495629
+39.328425
+-76.621346
+3299495629
+1909366871
+39.327898
+-76.621162
+1909366871
+9765148568
+39.327930
+-76.621155
+9765148568
+9261775896
+39.328005
+-76.621157
+9261775896
+9261829388
+39.328018
+-76.621158
+9261829388
+9261829416
+39.328026
+-76.621159
+9261829416
+3299495616
+39.328135
+-76.621167
+3299495616
+5674121519
+39.328239
+-76.621174
+5674121519
+9261829387
+39.328252
+-76.621175
+9261829387
+247671570
+39.328517
+-76.621199
+247671570
+244453293
+39.328769
+-76.619188
+244453293
+9167476918
+39.328237
+-76.619226
+9167476918
+4408342776
+39.328234
+-76.619239
+4408342776
+4408342772
+39.328222
+-76.619238
+4408342772
+4408342770
+39.328215
+-76.619281
+4408342770
+4408342768
+39.328211
+-76.619348
+4408342768
+4408342769
+39.328212
+-76.619428
+4408342769
+9159428214
+39.328215
+-76.619475
+9159428214
+4520237304
+39.328211
+-76.619514
+4520237304
+4520237300
+39.328232
+-76.619566
+4520237300
+9159428213
+39.328251
+-76.619595
+9159428213
+9159428212
+39.328273
+-76.619616
+9159428212
+4402679649
+39.330822
+-76.622948
+4402679649
+9460618364
+39.330807
+-76.622930
+9460618364
+4402679638
+39.330784
+-76.622902
+4402679638
+9460618365
+39.330765
+-76.622863
+9460618365
+4402679632
+39.330751
+-76.622816
+4402679632
+4402679628
+39.330748
+-76.622752
+4402679628
+4520172054
+39.330757
+-76.622586
+4520172054
+4402679634
+39.330769
+-76.622366
+4402679634
+4402679635
+39.330792
+-76.622145
+4402679635
+4402679642
+39.330822
+-76.621879
+4402679642
+3299505773
+39.328704
+-76.621319
+3299505773
+3299505770
+39.328604
+-76.621312
+3299505770
+4519935162
+39.328612
+-76.621095
+4519935162
+3299505775
+39.329261
+-76.621354
+3299505775
+3299505776
+39.329360
+-76.621361
+3299505776
+8325252322
+39.329369
+-76.621143
+8325252322
+3299495627
+39.328359
+-76.621414
+3299495627
+9196603853
+39.327920
+-76.621393
+9196603853
+3299495604
+39.327970
+-76.621397
+3299495604
+3299495609
+39.328068
+-76.621402
+3299495609
+3299495613
+39.328126
+-76.621404
+3299495613
+3299495618
+39.328186
+-76.621406
+3299495618
+3299495624
+39.328312
+-76.621412
+3299495624
+2539142840
+39.331465
+-76.620860
+2539142840
+9175775029
+39.331452
+-76.620889
+9175775029
+9175775028
+39.331443
+-76.620917
+9175775028
+2539142879
+39.331446
+-76.620949
+2539142879
+2539142881
+39.331447
+-76.620987
+2539142881
+2539142883
+39.331435
+-76.621017
+2539142883
+9175775027
+39.331431
+-76.621050
+9175775027
+2539142885
+39.331433
+-76.621098
+2539142885
+2539142869
+39.331651
+-76.620885
+2539142869
+2539142873
+39.331637
+-76.620868
+2539142873
+2539142875
+39.331620
+-76.620857
+2539142875
+9175775031
+39.331595
+-76.620837
+9175775031
+2539142877
+39.331572
+-76.620827
+2539142877
+2539142841
+39.331608
+-76.620461
+2539142841
+9175775035
+39.331617
+-76.620486
+9175775035
+9175775036
+39.331626
+-76.620527
+9175775036
+2539142854
+39.331631
+-76.620565
+2539142854
+2539142855
+39.331638
+-76.620599
+2539142855
+9175775037
+39.331654
+-76.620632
+9175775037
+2539142857
+39.331664
+-76.620662
+2539142857
+9175775038
+39.331666
+-76.620690
+9175775038
+2539142859
+39.331664
+-76.620723
+2539142859
+2539142861
+39.331648
+-76.620748
+2539142861
+2539142864
+39.331650
+-76.620775
+2539142864
+9175775034
+39.331668
+-76.620797
+9175775034
+2539142865
+39.331683
+-76.620820
+2539142865
+2539142867
+39.331683
+-76.620844
+2539142867
+2539142869
+39.331651
+-76.620885
+2539142869
+9175775032
+39.331663
+-76.620907
+9175775032
+2539142833
+39.331478
+-76.620530
+2539142833
+2539142841
+39.331608
+-76.620461
+2539142841
+2539142844
+39.331680
+-76.620466
+2539142844
+9178218845
+39.331722
+-76.620456
+9178218845
+2539142846
+39.331757
+-76.620447
+2539142846
+2539142848
+39.331807
+-76.620402
+2539142848
+2539142850
+39.331846
+-76.620343
+2539142850
+2539142830
+39.331560
+-76.620108
+2539142830
+9175775039
+39.331522
+-76.620302
+9175775039
+9175775040
+39.331489
+-76.620455
+9175775040
+2539142833
+39.331478
+-76.620530
+2539142833
+9175775041
+39.331474
+-76.620574
+9175775041
+9175775042
+39.331474
+-76.620634
+9175775042
+9175775043
+39.331477
+-76.620661
+9175775043
+2539142834
+39.331485
+-76.620677
+2539142834
+9175775044
+39.331502
+-76.620692
+9175775044
+9175775045
+39.331512
+-76.620710
+9175775045
+2539142836
+39.331516
+-76.620733
+2539142836
+9175775046
+39.331517
+-76.620768
+9175775046
+2539142838
+39.331512
+-76.620819
+2539142838
+3299495624
+39.328312
+-76.621412
+3299495624
+3299495623
+39.328280
+-76.621381
+3299495623
+9456927414
+39.328260
+-76.621355
+9456927414
+3299495622
+39.328246
+-76.621328
+3299495622
+2044048456
+39.329775
+-76.621949
+2044048456
+5138208548
+39.329754
+-76.621895
+5138208548
+2044048459
+39.329762
+-76.621846
+2044048459
+4520038729
+39.329777
+-76.621795
+4520038729
+2044048460
+39.329798
+-76.621755
+2044048460
+4520038730
+39.329805
+-76.621730
+4520038730
+2044048461
+39.329799
+-76.621693
+2044048461
+4520038731
+39.329794
+-76.621647
+4520038731
+2044048462
+39.329798
+-76.621608
+2044048462
+2044048465
+39.329823
+-76.621523
+2044048465
+2044048472
+39.329877
+-76.621425
+2044048472
+2044048483
+39.329894
+-76.621401
+2044048483
+5138208548
+39.329754
+-76.621895
+5138208548
+2044048454
+39.329712
+-76.621861
+2044048454
+2044048451
+39.329680
+-76.621832
+2044048451
+2044048439
+39.329644
+-76.621796
+2044048439
+2044048434
+39.329588
+-76.621719
+2044048434
+2044048428
+39.329550
+-76.621658
+2044048428
+2044048427
+39.329524
+-76.621589
+2044048427
+4519817480
+39.329239
+-76.622035
+4519817480
+2044048398
+39.329252
+-76.622112
+2044048398
+2044048411
+39.329397
+-76.622875
+2044048411
+4520237294
+39.329687
+-76.622789
+4520237294
+8796666375
+39.329870
+-76.622727
+8796666375
+2044048476
+39.329890
+-76.622718
+2044048476
+8796666376
+39.329943
+-76.622719
+8796666376
+244453296
+39.328681
+-76.618732
+244453296
+9167456870
+39.328714
+-76.618793
+9167456870
+2044048350
+39.328745
+-76.618844
+2044048350
+2044048363
+39.328797
+-76.618905
+2044048363
+2044048369
+39.328869
+-76.618964
+2044048369
+8902171326
+39.328941
+-76.619016
+8902171326
+9727032332
+39.329410
+-76.621292
+9727032332
+2044048414
+39.329408
+-76.621369
+2044048414
+2044048476
+39.329890
+-76.622718
+2044048476
+4520172052
+39.329897
+-76.622679
+4520172052
+2044048482
+39.329918
+-76.622622
+2044048482
+2044048398
+39.329252
+-76.622112
+2044048398
+2044048456
+39.329775
+-76.621949
+2044048456
+2044048298
+39.328320
+-76.620388
+2044048298
+2044048524
+39.330286
+-76.622725
+2044048524
+2044048336
+39.328588
+-76.621203
+2044048336
+4519782308
+39.328423
+-76.620370
+4519782308
+2044048317
+39.328428
+-76.620396
+2044048317
+2044048314
+39.328420
+-76.620423
+2044048314
+2044048311
+39.328410
+-76.620441
+2044048311
+2044048308
+39.328395
+-76.620451
+2044048308
+2044048306
+39.328379
+-76.620454
+2044048306
+2044048303
+39.328362
+-76.620452
+2044048303
+2044048299
+39.328345
+-76.620445
+2044048299
+4519782306
+39.328333
+-76.620430
+4519782306
+4519782307
+39.328326
+-76.620410
+4519782307
+2044048298
+39.328320
+-76.620388
+2044048298
+2044048300
+39.328329
+-76.620367
+2044048300
+2044048301
+39.328337
+-76.620350
+2044048301
+2044048305
+39.328351
+-76.620341
+2044048305
+2044048307
+39.328364
+-76.620335
+2044048307
+2044048309
+39.328379
+-76.620333
+2044048309
+2044048312
+39.328396
+-76.620337
+2044048312
+9456927448
+39.328414
+-76.620353
+9456927448
+9501430361
+39.330473
+-76.618146
+9501430361
+2044048541
+39.330472
+-76.618196
+2044048541
+9893775390
+39.330460
+-76.618196
+9893775390
+9124532046
+39.330445
+-76.618204
+9124532046
+2044048539
+39.330427
+-76.618220
+2044048539
+9124532047
+39.330407
+-76.618243
+9124532047
+9124532048
+39.330387
+-76.618272
+9124532048
+2044048537
+39.330375
+-76.618296
+2044048537
+2044048534
+39.330368
+-76.618324
+2044048534
+2044048527
+39.330318
+-76.618346
+2044048527
+9124532045
+39.330292
+-76.618363
+9124532045
+2044048523
+39.330272
+-76.618402
+2044048523
+2044048519
+39.330234
+-76.618462
+2044048519
+2044048517
+39.330186
+-76.618539
+2044048517
+9124532044
+39.330153
+-76.618608
+9124532044
+4519817367
+39.329935
+-76.618815
+4519817367
+2044048477
+39.329895
+-76.618880
+2044048477
+8960988164
+39.329882
+-76.618908
+8960988164
+2044048471
+39.329875
+-76.618941
+2044048471
+2044048469
+39.329872
+-76.618973
+2044048469
+8960988163
+39.329866
+-76.618998
+8960988163
+9163290051
+39.329839
+-76.619046
+9163290051
+2044048464
+39.329815
+-76.619090
+2044048464
+9163305879
+39.329804
+-76.619103
+9163305879
+9163305878
+39.329784
+-76.619116
+9163305878
+2044048458
+39.329758
+-76.619129
+2044048458
+2044048455
+39.329738
+-76.619155
+2044048455
+9770539394
+39.329723
+-76.619179
+9770539394
+9166179140
+39.328795
+-76.619688
+9166179140
+8325678377
+39.328795
+-76.619703
+8325678377
+244453056
+39.328794
+-76.619736
+244453056
+244453239
+39.328791
+-76.619802
+244453239
+9163291327
+39.328769
+-76.620344
+9163291327
+244453227
+39.328769
+-76.620353
+244453227
+244453226
+39.328764
+-76.620482
+244453226
+244453397
+39.331069
+-76.621365
+244453397
+9483901826
+39.331120
+-76.621435
+9483901826
+1909367356
+39.331156
+-76.621492
+1909367356
+9483901827
+39.331189
+-76.621551
+9483901827
+1909367368
+39.331214
+-76.621613
+1909367368
+244453391
+39.331233
+-76.621692
+244453391
+1909367376
+39.331229
+-76.621823
+1909367376
+9483901820
+39.331229
+-76.621922
+9483901820
+9483901819
+39.331236
+-76.622054
+9483901819
+1909367378
+39.331247
+-76.622168
+1909367378
+9483901818
+39.331265
+-76.622296
+9483901818
+1909367381
+39.331295
+-76.622476
+1909367381
+1909367386
+39.331324
+-76.622626
+1909367386
+9483901817
+39.331353
+-76.622724
+9483901817
+1676517737
+39.329239
+-76.621135
+1676517737
+4519935165
+39.328990
+-76.621120
+4519935165
+247671570
+39.328517
+-76.621199
+247671570
+8942020513
+39.328513
+-76.621307
+8942020513
+247671571
+39.328511
+-76.621346
+247671571
+3299495630
+39.328560
+-76.621358
+3299495630
+3299495631
+39.328602
+-76.621378
+3299495631
+247671572
+39.328629
+-76.621398
+247671572
+247671573
+39.328648
+-76.621423
+247671573
+3299495633
+39.328660
+-76.621451
+3299495633
+3299495632
+39.328658
+-76.621711
+3299495632
+3299492362
+39.328670
+-76.621788
+3299492362
+4520038735
+39.328678
+-76.621803
+4520038735
+3299492363
+39.328708
+-76.621861
+3299492363
+3299492364
+39.328762
+-76.621927
+3299492364
+3299492365
+39.328807
+-76.621962
+3299492365
+3299492366
+39.328870
+-76.621995
+3299492366
+3299492367
+39.328937
+-76.622016
+3299492367
+3299492368
+39.329006
+-76.622018
+3299492368
+3299492369
+39.329084
+-76.622010
+3299492369
+3299492370
+39.329156
+-76.621980
+3299492370
+244453060
+39.331021
+-76.619446
+244453060
+1909367327
+39.331047
+-76.619390
+1909367327
+9159297052
+39.331063
+-76.619303
+9159297052
+1909367334
+39.331066
+-76.619244
+1909367334
+9159493641
+39.331077
+-76.618973
+9159493641
+247671409
+39.331078
+-76.618960
+247671409
+4520038589
+39.330846
+-76.618949
+4520038589
+247671370
+39.330336
+-76.621230
+247671370
+4519817441
+39.330370
+-76.621157
+4519817441
+247671380
+39.330411
+-76.621040
+247671380
+247671381
+39.330469
+-76.620839
+247671381
+244453417
+39.330485
+-76.620529
+244453417
+4519817446
+39.330495
+-76.620389
+4519817446
+4519817447
+39.330493
+-76.620318
+4519817447
+1909367259
+39.330490
+-76.620255
+1909367259
+244453415
+39.330472
+-76.620127
+244453415
+4519817448
+39.330455
+-76.620056
+4519817448
+4519817451
+39.330414
+-76.619970
+4519817451
+4519817449
+39.330368
+-76.619886
+4519817449
+247671272
+39.328263
+-76.620597
+247671272
+4519782310
+39.328050
+-76.620580
+4519782310
+247671346
+39.327728
+-76.620561
+247671346
+247671368
+39.327353
+-76.620534
+247671368
+2496874920
+39.327141
+-76.620523
+2496874920
+8944064151
+39.329375
+-76.620454
+8944064151
+4519817452
+39.330557
+-76.620531
+4519817452
+244453417
+39.330485
+-76.620529
+244453417
+244453413
+39.330297
+-76.620515
+244453413
+244453418
+39.330107
+-76.620502
+244453418
+244453419
+39.329857
+-76.620488
+244453419
+244453406
+39.330565
+-76.621282
+244453406
+4519817440
+39.330574
+-76.621201
+4519817440
+244453409
+39.330571
+-76.621096
+244453409
+247671381
+39.330469
+-76.620839
+247671381
+244453411
+39.330446
+-76.620768
+244453411
+244453412
+39.330368
+-76.620654
+244453412
+9770539407
+39.330335
+-76.620613
+9770539407
+4519817442
+39.330307
+-76.620572
+4519817442
+244453413
+39.330297
+-76.620515
+244453413
+9770539408
+39.330310
+-76.620472
+9770539408
+244453414
+39.330340
+-76.620421
+244453414
+4519817443
+39.330386
+-76.620352
+4519817443
+1909367255
+39.330432
+-76.620250
+1909367255
+4519817444
+39.330456
+-76.620173
+4519817444
+244453415
+39.330472
+-76.620127
+244453415
+8325111644
+39.330481
+-76.620063
+8325111644
+8325111645
+39.330551
+-76.619913
+8325111645
+2459264440
+39.330742
+-76.621319
+2459264440
+2838797679
+39.331401
+-76.620058
+2838797679
+244453382
+39.331407
+-76.620164
+244453382
+244453383
+39.331417
+-76.620329
+244453383
+9483861098
+39.331421
+-76.620462
+9483861098
+1909367380
+39.331417
+-76.620667
+1909367380
+9178840060
+39.331406
+-76.620795
+9178840060
+244453387
+39.331393
+-76.620893
+244453387
+9483861097
+39.331375
+-76.620995
+9483861097
+9483861096
+39.331344
+-76.621135
+9483861096
+244453388
+39.331325
+-76.621231
+244453388
+244453389
+39.331303
+-76.621319
+244453389
+4520038553
+39.331285
+-76.621383
+4520038553
+9483901824
+39.331270
+-76.621457
+9483901824
+9483901823
+39.331256
+-76.621533
+9483901823
+9483901822
+39.331246
+-76.621602
+9483901822
+244453391
+39.331233
+-76.621692
+244453391
+9169650983
+39.331272
+-76.621823
+9169650983
+244453392
+39.331314
+-76.621983
+244453392
+244453393
+39.331418
+-76.622289
+244453393
+244453394
+39.331490
+-76.622365
+244453394
+244453395
+39.331570
+-76.622432
+244453395
+1909367412
+39.331657
+-76.622495
+1909367412
+4402679803
+39.331699
+-76.622518
+4402679803
+1909367421
+39.331783
+-76.622542
+1909367421
+9169650984
+39.331850
+-76.622553
+9169650984
+1909367428
+39.331925
+-76.622558
+1909367428
+244453058
+39.330767
+-76.619133
+244453058
+9159297043
+39.330697
+-76.619124
+9159297043
+9159297044
+39.330635
+-76.619119
+9159297044
+9163271037
+39.329835
+-76.619712
+9163271037
+4520237259
+39.329853
+-76.619745
+4520237259
+244453314
+39.329878
+-76.619808
+244453314
+4519935172
+39.329897
+-76.619861
+4519935172
+1909367182
+39.329911
+-76.619930
+1909367182
+244453217
+39.329938
+-76.620109
+244453217
+244453315
+39.329988
+-76.620222
+244453315
+1909367201
+39.330035
+-76.620300
+1909367201
+244453316
+39.330088
+-76.620371
+244453316
+1909367221
+39.330107
+-76.620403
+1909367221
+244453418
+39.330107
+-76.620502
+244453418
+244453317
+39.330106
+-76.620587
+244453317
+9770548534
+39.330092
+-76.620615
+9770548534
+1909367218
+39.330075
+-76.620635
+1909367218
+244453318
+39.330008
+-76.620702
+244453318
+9770548522
+39.329973
+-76.620743
+9770548522
+9770548523
+39.329926
+-76.620807
+9770548523
+244453220
+39.329904
+-76.620863
+244453220
+9184285851
+39.329873
+-76.620998
+9184285851
+9855925673
+39.329849
+-76.621106
+9855925673
+244453294
+39.328689
+-76.619078
+244453294
+244453295
+39.328691
+-76.619003
+244453295
+8902171324
+39.328688
+-76.618893
+8902171324
+9167456871
+39.328682
+-76.618807
+9167456871
+244453240
+39.328892
+-76.620128
+244453240
+9166179165
+39.328917
+-76.620060
+9166179165
+9166179166
+39.328946
+-76.619972
+9166179166
+244453238
+39.328963
+-76.619913
+244453238
+9166179167
+39.328979
+-76.619836
+9166179167
+4519935167
+39.328983
+-76.619798
+4519935167
+9163291327
+39.328769
+-76.620344
+9163291327
+244453240
+39.328892
+-76.620128
+244453240
+9166179164
+39.328943
+-76.620070
+9166179164
+9166179163
+39.328996
+-76.620018
+9166179163
+244453237
+39.329033
+-76.619982
+244453237
+9166179162
+39.329080
+-76.619941
+9166179162
+1909366952
+39.329123
+-76.619908
+1909366952
+9166179161
+39.329177
+-76.619874
+9166179161
+244453241
+39.329229
+-76.619851
+244453241
+244453221
+39.329270
+-76.620384
+244453221
+9166179160
+39.329237
+-76.620302
+9166179160
+244453235
+39.329206
+-76.620231
+244453235
+4520077126
+39.329172
+-76.620165
+4520077126
+9166179159
+39.329138
+-76.620110
+9166179159
+244453236
+39.329101
+-76.620061
+244453236
+244453237
+39.329033
+-76.619982
+244453237
+9166179157
+39.329000
+-76.619948
+9166179157
+244453238
+39.328963
+-76.619913
+244453238
+9166179158
+39.328919
+-76.619880
+9166179158
+9732729076
+39.328819
+-76.619809
+9732729076
+8942020494
+39.328662
+-76.620474
+8942020494
+244453226
+39.328764
+-76.620482
+244453226
+244453222
+39.329265
+-76.620510
+244453222
+8944064154
+39.329356
+-76.620515
+8944064154
+8944064153
+39.329358
+-76.620453
+8944064153
+8944064155
+39.329360
+-76.620389
+8944064155
+244453221
+39.329270
+-76.620384
+244453221
+244453227
+39.328769
+-76.620353
+244453227
+244453016
+39.330674
+-76.618938
+244453016
+9159297040
+39.330707
+-76.619008
+9159297040
+9159297042
+39.330738
+-76.619076
+9159297042
+244453058
+39.330767
+-76.619133
+244453058
+9159297059
+39.330820
+-76.619167
+9159297059
+1909367314
+39.330892
+-76.619226
+1909367314
+9159297051
+39.330898
+-76.619234
+9159297051
+9159297058
+39.330930
+-76.619275
+9159297058
+244453059
+39.330967
+-76.619331
+244453059
+244453060
+39.331021
+-76.619446
+244453060
+9159297053
+39.331015
+-76.619523
+9159297053
+9159297054
+39.331012
+-76.619607
+9159297054
+244453061
+39.331012
+-76.619669
+244453061
+1909367332
+39.331056
+-76.619792
+1909367332
+1909367335
+39.331079
+-76.619900
+1909367335
+8750045849
+39.329166
+-76.618993
+8750045849
+2044048392
+39.329200
+-76.619058
+2044048392
+8750045850
+39.329226
+-76.619086
+8750045850
+49409570
+39.329252
+-76.619111
+49409570
+49409571
+39.329305
+-76.619142
+49409571
+8750045852
+39.329352
+-76.619175
+8750045852
+9170515133
+39.329365
+-76.619188
+9170515133
+8750045851
+39.329400
+-76.619218
+8750045851
+49409576
+39.329412
+-76.619229
+49409576
+8750045855
+39.329429
+-76.619304
+8750045855
+4520038552
+39.329448
+-76.619410
+4520038552
+8960958471
+39.329456
+-76.619495
+8960958471
+8960958470
+39.329457
+-76.619560
+8960958470
+9170515135
+39.329450
+-76.619631
+9170515135
+1909366973
+39.329466
+-76.619647
+1909366973
+9163280366
+39.329338
+-76.619803
+9163280366
+244453018
+39.330407
+-76.619216
+244453018
+244453022
+39.330259
+-76.619291
+244453022
+244453023
+39.330092
+-76.619333
+244453023
+244453024
+39.329957
+-76.619340
+244453024
+1909367172
+39.329863
+-76.619351
+1909367172
+244453025
+39.329739
+-76.619392
+244453025
+8750045845
+39.329659
+-76.619439
+8750045845
+49409580
+39.329606
+-76.619491
+49409580
+244453016
+39.330674
+-76.618938
+244453016
+9159297041
+39.330660
+-76.618976
+9159297041
+4520038547
+39.330639
+-76.619018
+4520038547
+1909367277
+39.330598
+-76.619075
+1909367277
+244453017
+39.330559
+-76.619121
+244453017
+244453018
+39.330407
+-76.619216
+244453018
+244453019
+39.330316
+-76.619367
+244453019
+244453020
+39.330219
+-76.619566
+244453020
+1909367231
+39.330131
+-76.619714
+1909367231
+244453021
+39.330061
+-76.619788
+244453021
+4519935173
+39.330030
+-76.619911
+4519935173
+1909367190
+39.329986
+-76.620025
+1909367190
+244453217
+39.329938
+-76.620109
+244453217
+8907123790
+39.329919
+-76.620164
+8907123790
+244453218
+39.329895
+-76.620239
+244453218
+8907123792
+39.329881
+-76.620311
+8907123792
+1909367178
+39.329867
+-76.620385
+1909367178
+244453419
+39.329857
+-76.620488
+244453419
+244453219
+39.329859
+-76.620619
+244453219
+4519817454
+39.329868
+-76.620707
+4519817454
+1909367176
+39.329887
+-76.620785
+1909367176
+244453220
+39.329904
+-76.620863
+244453220
+8907123793
+39.329951
+-76.620999
+8907123793
+1909367187
+39.329979
+-76.621093
+1909367187
+9855925706
+39.329986
+-76.621125
+9855925706
+49409604
+39.330007
+-76.621210
+49409604
+8325678397
+39.330145
+-76.621219
+8325678397
+247671370
+39.330336
+-76.621230
+247671370
+Shortest distance: 3.200527
+247671381 -> 244453411 -> 244453412 -> 9770539407 -> 4519817442 -> 244453413 -> 244453418 -> 244453317 -> 9770548534 -> 1909367218 -> 244453318 -> 9770548522 -> done!
