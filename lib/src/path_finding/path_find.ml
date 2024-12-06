@@ -5,7 +5,6 @@
 [@@@warning "-37"]
 [@@@warning "-69"]
 [@@@warning "-27"]
-[@@@warning "-8"]
 [@@@warning "-11"]
 open Core
 open Json_utils
@@ -23,6 +22,7 @@ to execute this: dune exec _build/default/lib/src/path_finding/path_find.exe
 let () =
   let elements = nodes_request ~radius:200 |> request_body_to_yojson |> yojson_list_to_element_list in
   match elements with
+  | None -> Printf.printf "No locations found.\n"
   | Some elems ->
       List.iter ~f:(fun elem -> print_element elem) elems;
       let location_list = elems |> element_list_to_locations in
@@ -39,7 +39,7 @@ let () =
           List.iter ~f:(fun loc -> Printf.printf "%s -> " loc.location_name) path;
           print_endline "done!"
       | None -> Printf.printf "No path found.\n"
-  | None -> Printf.printf "No locations found.\n"
+  
 
 
 

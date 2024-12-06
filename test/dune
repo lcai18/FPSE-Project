@@ -13,3 +13,8 @@
     ounit2
     map_utils_test
   ))
+
+(library
+ (name priority_queue_test)
+ (modules priority_queue_test)
+ (libraries ounit2 core types priority_queue))
