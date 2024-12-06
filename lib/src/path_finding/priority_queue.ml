@@ -32,10 +32,9 @@ let rec insert_tree t (heap : t) =
   | hd :: tl ->
     if t.rank < hd.rank then
       t :: hd :: tl
-    else if t.rank = hd.rank then
-      insert_tree (link t hd) tl
     else
-      hd :: insert_tree t tl
+      insert_tree (link t hd) tl
+
 
 let add_element (heap : t) (elem : element) : t =
   let single_tree = {rank = 0; root = elem; children = []} in
@@ -49,10 +48,7 @@ let rec merge h1 h2 =
   | t1 :: r1, t2 :: r2 ->
     if t1.rank < t2.rank then
       t1 :: merge r1 h2
-    else if t2.rank < t1.rank then
-      t2 :: merge h1 r2
     else
-      (* Same rank, link and continue *)
       insert_tree (link t1 t2) (merge r1 r2)
 
 (* Remove the minimum tree from the heap.
@@ -75,3 +71,4 @@ let extract_min (heap : t) : ((float * location) * t) option =
     let reversed_children = List.map ~f:(fun c -> {c with children = c.children}) min_tree.children in
     let new_heap = merge (List.rev reversed_children) rest in
     Some (min_tree.root, new_heap)
+

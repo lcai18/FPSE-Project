@@ -14,3 +14,4 @@ val add_element : t -> (float * location) -> t
 (** Extract the minimum element from the priority queue, 
     returning None if the queue is empty or Some (elem, new_queue) otherwise. *)
 val extract_min : t -> ((float * location) * t) option
+

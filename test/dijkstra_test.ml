@@ -35,7 +35,8 @@ let elements = [
   Way ["A"; "B"];
   Way ["A"; "C"];
   Way ["B"; "D"];
-  Way ["C"; "D"]
+  Way ["C"; "D"];
+
 ]
 
 let test_graph =

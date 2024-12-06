@@ -25,30 +25,27 @@ let shortest_path (graph: graph) ~(start: location) ~(dest: location) : (locatio
     match extract_min pq with
     | None -> None  (* No path found *)
     | Some ((curr_dist, u), pq) ->
-      if Map.mem visited u then
-        loop pq dist prev visited
+      let visited = Map.set visited ~key:u ~data:true in
+      if String.equal u.location_name dest.location_name then
+        (* Reconstruct path *)
+        let path = reconstruct_path prev u [] in
+        Some (path, curr_dist)
       else
-        let visited = Map.set visited ~key:u ~data:true in
-        if String.equal u.location_name dest.location_name then
-          (* Reconstruct path *)
-          let path = reconstruct_path prev u [] in
-          Some (path, curr_dist)
-        else
-          let neighbors = Map.find_exn graph u in
-          let (pq, dist, prev) =
-            Set.fold neighbors ~init:(pq, dist, prev) ~f:(fun (pq, dist, prev) (v, cost) ->
-              if Map.mem visited v then (pq, dist, prev)
+        let neighbors = Map.find_exn graph u in
+        let (pq, dist, prev) =
+          Set.fold neighbors ~init:(pq, dist, prev) ~f:(fun (pq, dist, prev) (v, cost) ->
+            if Map.mem visited v then (pq, dist, prev)
+            else
+              let alt = curr_dist +. cost in
+              let current_v_dist = Option.value (Map.find dist v) ~default:Float.infinity in
+              if Float.compare alt current_v_dist < 0 then
+                let dist = Map.set dist ~key:v ~data:alt in
+                let prev = Map.set prev ~key:v ~data:u in
+                let pq = add_element pq (alt, v) in
+                (pq, dist, prev)
               else
-                let alt = curr_dist +. cost in
-                let current_v_dist = Option.value (Map.find dist v) ~default:Float.infinity in
-                if Float.compare alt current_v_dist < 0 then
-                  let dist = Map.set dist ~key:v ~data:alt in
-                  let prev = Map.set prev ~key:v ~data:u in
-                  let pq = add_element pq (alt, v) in
-                  (pq, dist, prev)
-                else
-                  (pq, dist, prev))
-          in
-          loop pq dist prev visited
+                (pq, dist, prev))
+        in
+        loop pq dist prev visited
   in
   loop pq dist prev visited

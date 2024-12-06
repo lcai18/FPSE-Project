@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8"/>
     <title>dijkstra.ml &mdash; Coverage report</title>
-    <meta name="description" content="96.55% coverage in lib/src/path_finding/dijkstra.ml">
+    <meta name="description" content="100.00% coverage in lib/src/path_finding/dijkstra.ml">
     <link rel="stylesheet" href="../../../coverage.css"/>
     <script src="../../../highlight.pack.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
@@ -15,10 +15,9 @@
           <span class="dirname">lib/src/path_finding/</span>dijkstra.ml
         </a>
       </h1>
-      <h2>96.55%</h2>
+      <h2>100.00%</h2>
     </div>
     <div id="navbar">
-      <span class="unvisited" style="bottom:46.30%"></span>
     </div>
     <div id="report">
       <div id="lines-layer">
@@ -51,7 +50,7 @@
 <a id="L26"></a><span class="visited"> </span>
 <a id="L27"></a><span class="visited"> </span>
 <a id="L28"></a><span > </span>
-<a id="L29"></a><span class="unvisited"> </span>
+<a id="L29"></a><span class="visited"> </span>
 <a id="L30"></a><span > </span>
 <a id="L31"></a><span class="visited"> </span>
 <a id="L32"></a><span class="visited"> </span>
@@ -60,23 +59,20 @@
 <a id="L35"></a><span class="visited"> </span>
 <a id="L36"></a><span > </span>
 <a id="L37"></a><span class="visited"> </span>
-<a id="L38"></a><span class="visited"> </span>
-<a id="L39"></a><span > </span>
+<a id="L38"></a><span > </span>
+<a id="L39"></a><span class="visited"> </span>
 <a id="L40"></a><span class="visited"> </span>
-<a id="L41"></a><span > </span>
+<a id="L41"></a><span class="visited"> </span>
 <a id="L42"></a><span class="visited"> </span>
 <a id="L43"></a><span class="visited"> </span>
 <a id="L44"></a><span class="visited"> </span>
 <a id="L45"></a><span class="visited"> </span>
-<a id="L46"></a><span class="visited"> </span>
+<a id="L46"></a><span > </span>
 <a id="L47"></a><span class="visited"> </span>
-<a id="L48"></a><span class="visited"> </span>
-<a id="L49"></a><span > </span>
-<a id="L50"></a><span class="visited"> </span>
+<a id="L48"></a><span > </span>
+<a id="L49"></a><span class="visited"> </span>
+<a id="L50"></a><span > </span>
 <a id="L51"></a><span > </span>
-<a id="L52"></a><span class="visited"> </span>
-<a id="L53"></a><span > </span>
-<a id="L54"></a><span > </span>
 </pre>
       </div>
       <div id="text-layer">
@@ -132,9 +128,6 @@
 <a href="#L49">49</a>
 <a href="#L50">50</a>
 <a href="#L51">51</a>
-<a href="#L52">52</a>
-<a href="#L53">53</a>
-<a href="#L54">54</a>
 </pre>
 <pre><code class="ocaml">[@@@warning "-32"]
 open Core
@@ -163,31 +156,28 @@ let shortest_path (graph: graph) ~(start: location) ~(dest: location) : (locatio
     <span data-count="13">m</span>atch extract_min pq with
     | <span data-count="1">N</span>one -&gt; None  (* No path found *)
     | <span data-count="12">S</span>ome ((curr_dist, u), pq) -&gt;
-      if Map.mem visited u then
-        <span data-count="0">l</span>oop pq dist prev visited
+      let visited = Map.set visited ~key:u ~data:true in
+      <span data-count="12">i</span>f String.equal u.location_name dest.location_name then
+        (* Reconstruct path *)
+        <span data-count="3">l</span>et path = reconstruct_path prev u [] in
+        <span data-count="3">S</span>ome (path, curr_dist)
       else
-        <span data-count="12">l</span>et visited = Map.set visited ~key:u ~data:true in
-        <span data-count="12">i</span>f String.equal u.location_name dest.location_name then
-          (* Reconstruct path *)
-          <span data-count="3">l</span>et path = reconstruct_path prev u [] in
-          <span data-count="3">S</span>ome (path, curr_dist)
-        else
-          <span data-count="9">l</span>et neighbors = Map.find_exn graph u in
-          <span data-count="9">l</span>et (pq, dist, prev) =
-            Set.fold neighbors ~init:(pq, dist, prev) ~f:(fun (pq, dist, prev) (v, cost) -&gt;
-              <span data-count="18">i</span>f Map.mem visited v then <span data-count="7">(</span>pq, dist, prev)
+        <span data-count="9">l</span>et neighbors = Map.find_exn graph u in
+        <span data-count="9">l</span>et (pq, dist, prev) =
+          Set.fold neighbors ~init:(pq, dist, prev) ~f:(fun (pq, dist, prev) (v, cost) -&gt;
+            <span data-count="18">i</span>f Map.mem visited v then <span data-count="7">(</span>pq, dist, prev)
+            else
+              <span data-count="11">l</span>et alt = curr_dist +. cost in
+              let current_v_dist = Option.value (Map.fin<span data-count="11">d</span> dist v) ~default:Float.infinity in
+              <span data-count="11">i</span>f Float.compar<span data-count="11">e</span> alt current_v_dist &lt; 0 then
+                <span data-count="9">l</span>et dist = Map.set dist ~key:v ~data:alt in
+                <span data-count="9">l</span>et prev = Map.set prev ~key:v ~data:u in
+                <span data-count="9">l</span>et pq = add_element pq (alt, v) in
+                <span data-count="9">(</span>pq, dist, prev)
               else
-                <span data-count="11">l</span>et alt = curr_dist +. cost in
-                let current_v_dist = Option.value (Map.fin<span data-count="11">d</span> dist v) ~default:Float.infinity in
-                <span data-count="11">i</span>f Float.compar<span data-count="11">e</span> alt current_v_dist &lt; 0 then
-                  <span data-count="9">l</span>et dist = Map.set dist ~key:v ~data:alt in
-                  <span data-count="9">l</span>et prev = Map.set prev ~key:v ~data:u in
-                  <span data-count="9">l</span>et pq = add_element pq (alt, v) in
-                  <span data-count="9">(</span>pq, dist, prev)
-                else
-                  <span data-count="2">(</span>pq, dist, prev))
-          in
-          <span data-count="9">l</span>oop pq dist prev visited
+                <span data-count="2">(</span>pq, dist, prev))
+        in
+        <span data-count="9">l</span>oop pq dist prev visited
   in
   loop pq dist prev visited
 </code></pre>
