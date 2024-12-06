@@ -72,12 +72,8 @@ let ways_and_base_map_to_full_map (ways: string list list) (base_graph: graph) (
     match way with
     | hd1 :: hd2 :: tl ->
       let hd1_node = hd1 |> Map.find_exn node_ids in
-      print_endline hd1_node.location_name;
-      Printf.printf "%f\n" hd1_node.lat;
-      Printf.printf "%f\n" hd1_node.long;
       let hd2_node = hd2 |> Map.find_exn node_ids in
       let hd1_set = hd1_node |> Map.find_exn g in
-      print_endline hd1_node.location_name;
       let hd2_set = hd2_node |> Map.find_exn g in
       let path_cost = nodes_to_path_cost hd1_node hd2_node in
       let new_graph = 
