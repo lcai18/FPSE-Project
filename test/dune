@@ -1,2 +1,15 @@
+(library
+ (name map_utils_test)
+ (modules map_utils_test)
+ (libraries
+   ounit2
+   core))
+
 (test
- (name test_OCamaps))
+  (name tests)
+  (modules tests)
+  (libraries
+    core
+    ounit2
+    map_utils_test
+  ))

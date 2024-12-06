@@ -1,0 +1,6 @@
+(executable
+ (name map_gen_exec)
+ (modules map_gen_exec)
+ (libraries OCamapsUtils core yojson cohttp-lwt-unix lwt)
+ (preprocess (pps ppx_inline_test ppx_jane))
+)
