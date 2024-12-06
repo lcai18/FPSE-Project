@@ -1,5 +1,4 @@
 (library
  (name json_utils)
- (libraries utils yojson)
- (modules_without_implementation json_utils)
-)
+ (modules json_utils)
+ (libraries core cohttp-lwt-unix yojson types))

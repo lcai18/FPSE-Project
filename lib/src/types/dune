@@ -1,0 +1,6 @@
+(library
+ (name types)
+ (modules types)
+ (libraries core)
+ (preprocess (pps ppx_inline_test ppx_jane))
+)

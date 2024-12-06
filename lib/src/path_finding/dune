@@ -1,5 +1,20 @@
+(executable
+ (name path_find)
+ (modules path_find)
+ (libraries core core_kernel.pairing_heap priority_queue json_utils graph types dijkstra)
+ (preprocess (pps ppx_inline_test ppx_jane))
+)       
+
 (library
- (name path_finding)
- (libraries utils yojson)
- (modules_without_implementation path_find)
-)
+ (name priority_queue)
+ (modules priority_queue)
+ (libraries core core_kernel.pairing_heap types)
+ (preprocess (pps ppx_inline_test ppx_jane))
+ )
+
+(library
+ (name dijkstra)
+ (modules dijkstra)
+ (libraries core priority_queue types graph)
+ (preprocess (pps ppx_inline_test ppx_jane))
+ )
