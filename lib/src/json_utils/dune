@@ -1,4 +1,6 @@
 (library
  (name json_utils)
  (modules json_utils)
- (libraries core cohttp-lwt-unix yojson types))
+ (libraries core cohttp-lwt-unix yojson types)
+ (preprocess (pps bisect_ppx))
+)
