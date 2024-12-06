@@ -2,16 +2,16 @@ open Core
 open Types
 
 
-
+[@@@coverage off]
 module LocationKey = struct
   type t = location [@@deriving sexp, compare]
-
 end
 
 
 module LocationSetKey = struct
   type t = location * float [@@deriving sexp, compare]
 end
+[@@@coverage on]
 
 module LocationMap = Map.Make(LocationKey)
 

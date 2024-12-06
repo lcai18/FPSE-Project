@@ -3,7 +3,9 @@
  (modules map_utils_test)
  (libraries
    ounit2
-   core))
+   core
+   graph
+   json_utils))
 
 (test
   (name tests)
