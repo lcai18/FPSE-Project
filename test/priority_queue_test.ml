@@ -2,7 +2,7 @@ open OUnit2
 open Types
 open Priority_queue
 (* Helper function to create a location *)
-let create_location location_name lat long = { location_name; lat; long } (* Adjust if the location type differs *)
+let create_location location_name lat long = { location_name; lat; long }
 
 let test_create _ =
   let pq = create () in
