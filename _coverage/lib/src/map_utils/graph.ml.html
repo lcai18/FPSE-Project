@@ -240,10 +240,6 @@ let element_list_to_locations (list: element list) : location list =
       <span data-count="43">m</span>atch elem with
       | <span data-count="23">L</span>ocation l -&gt; l :: accum
       | <span data-count="20">W</span>ay _ -&gt; accum
-  <span data-count="5">L</span>ist.fold ~init:[] ~f: (fun accum elem -&gt;
-      <span data-count="43">m</span>atch elem with
-      | <span data-count="23">L</span>ocation l -&gt; l :: accum
-      | <span data-count="20">W</span>ay _ -&gt; accum
     ) list
 
 (* Create a map that maps node id to Location *)
