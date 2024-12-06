@@ -1,6 +1,6 @@
 (library
- (name OCamapsUtils)
- (modules utils)
- (libraries yojson core cohttp-lwt-unix lwt)
+ (name graph)
+ (modules graph)
+ (libraries yojson core cohttp-lwt-unix lwt types)
  (preprocess (pps ppx_inline_test ppx_jane))
 )
