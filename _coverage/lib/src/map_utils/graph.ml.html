@@ -244,10 +244,10 @@ let empty_graph = LocationMap.empty
 
 (* Get all the Location nodes from received elements *)
 let element_list_to_locations (list: element list) : location list =
-  <span data-count="2">L</span>ist.fold ~init:[] ~f: (fun accum elem -&gt;
-      <span data-count="16">m</span>atch elem with
-      | <span data-count="8">L</span>ocation l -&gt; l :: accum
-      | <span data-count="8">W</span>ay _ -&gt; accum
+  <span data-count="5">L</span>ist.fold ~init:[] ~f: (fun accum elem -&gt;
+      <span data-count="43">m</span>atch elem with
+      | <span data-count="23">L</span>ocation l -&gt; l :: accum
+      | <span data-count="20">W</span>ay _ -&gt; accum
     ) list
 
 (* Create a map that maps node id to Location *)
@@ -256,14 +256,14 @@ type id_map = location StringMap.t
 let empty_id_map = StringMap.empty
 
 let locations_to_id_map (loc_list: location list) : id_map =
-  <span data-count="2">L</span>ist.fold ~init:empty_id_map ~f:(fun accum elem -&gt; 
-      <span data-count="8">a</span>ccum |&gt; Map.set ~key:elem.location_name ~data:elem
+  <span data-count="5">L</span>ist.fold ~init:empty_id_map ~f:(fun accum elem -&gt; 
+      <span data-count="23">a</span>ccum |&gt; Map.set ~key:elem.location_name ~data:elem
     ) loc_list
 
 (* Adds all nodes to the graph, all mapped to empty lists. *)
 let locations_to_map (loc_list: location list) : graph = 
-  <span data-count="2">L</span>ist.fold ~init:empty_graph ~f:(fun accum elem -&gt;
-      <span data-count="8">a</span>ccum
+  <span data-count="5">L</span>ist.fold ~init:empty_graph ~f:(fun accum elem -&gt;
+      <span data-count="23">a</span>ccum
       |&gt; Map.set ~key:elem ~data:empty_loc_set
     ) loc_list
 
@@ -273,42 +273,42 @@ let locations_to_map (loc_list: location list) : graph =
   
 (* Gets all Ways from received elements *)
 let element_list_to_ways (list: element list) : string list list =
-  <span data-count="2">L</span>ist.fold ~init:[] ~f:(fun accum elem -&gt;
-      <span data-count="16">m</span>atch elem with
-      | <span data-count="8">W</span>ay w -&gt; w :: accum
-      | <span data-count="8">L</span>ocation _ -&gt; accum
+  <span data-count="5">L</span>ist.fold ~init:[] ~f:(fun accum elem -&gt;
+      <span data-count="43">m</span>atch elem with
+      | <span data-count="20">W</span>ay w -&gt; w :: accum
+      | <span data-count="23">L</span>ocation _ -&gt; accum
     ) list
 
 (* acos(sin(lat1)sin(lat2) + cos(lat1)cos(lat2)cos(lon2-lon1)) *    6371 *)
 let nodes_to_path_cost (n1: location) (n2: location) : float =
-  <span data-count="8">l</span>et earth_rad = 6371. in
-    Float.aco<span data-count="8">s</span>(Float.si<span data-count="8">n</span>(n1.lat) *. Float.si<span data-count="8">n</span>(n2.lat) +. Float.co<span data-count="8">s</span>(n1.lat) *. Float.co<span data-count="8">s</span>(n2.lat) *. Float.co<span data-count="8">s</span>(n2.long -. n1.long)) *. earth_rad
+  <span data-count="20">l</span>et earth_rad = 6371. in
+    Float.aco<span data-count="20">s</span>(Float.si<span data-count="20">n</span>(n1.lat) *. Float.si<span data-count="20">n</span>(n2.lat) +. Float.co<span data-count="20">s</span>(n1.lat) *. Float.co<span data-count="20">s</span>(n2.lat) *. Float.co<span data-count="20">s</span>(n2.long -. n1.long)) *. earth_rad
 
 (* Takes list of ways, a base graph of just locations mapped to empty sets, and a map from node ids to nodes, and creates the full adjacency list representation *)
 let ways_and_base_map_to_full_map (ways: string list list) (base_graph: graph) (node_ids: id_map) : (graph * int) =
-  <span data-count="2">l</span>et rec process_way_list ((g, connections): (graph * int)) (way: string list) : (graph * int) =
-    <span data-count="16">m</span>atch way with
-    | <span data-count="8">h</span>d1 :: hd2 :: tl -&gt;
+  <span data-count="5">l</span>et rec process_way_list ((g, connections): (graph * int)) (way: string list) : (graph * int) =
+    <span data-count="40">m</span>atch way with
+    | <span data-count="20">h</span>d1 :: hd2 :: tl -&gt;
       let hd1_node = hd1 |&gt; Map.find_exn node_ids in
-      <span data-count="8">p</span>rint_endline hd1_node.location_name;
-      <span data-count="8">P</span>rintf.printf "%f\n" hd1_node.lat;
-      <span data-count="8">P</span>rintf.printf "%f\n" hd1_node.long;
-      <span data-count="8">l</span>et hd2_node = hd2 |&gt; Map.find_exn node_ids in
-      <span data-count="8">l</span>et hd1_set = hd1_node |&gt; Map.find_exn g in
-      <span data-count="8">p</span>rint_endline hd1_node.location_name;
-      <span data-count="8">l</span>et hd2_set = hd2_node |&gt; Map.find_exn g in
-      <span data-count="8">l</span>et path_cost = nodes_to_path_cost hd1_node hd2_node in
-      <span data-count="8">l</span>et new_graph = 
+      <span data-count="20">p</span>rint_endline hd1_node.location_name;
+      <span data-count="20">P</span>rintf.printf "%f\n" hd1_node.lat;
+      <span data-count="20">P</span>rintf.printf "%f\n" hd1_node.long;
+      <span data-count="20">l</span>et hd2_node = hd2 |&gt; Map.find_exn node_ids in
+      <span data-count="20">l</span>et hd1_set = hd1_node |&gt; Map.find_exn g in
+      <span data-count="20">p</span>rint_endline hd1_node.location_name;
+      <span data-count="20">l</span>et hd2_set = hd2_node |&gt; Map.find_exn g in
+      <span data-count="20">l</span>et path_cost = nodes_to_path_cost hd1_node hd2_node in
+      <span data-count="20">l</span>et new_graph = 
         g 
-        |&gt; Map.se<span data-count="8">t</span> ~key:hd1_node ~data:(Set.ad<span data-count="8">d</span> hd1_set (hd2_node, path_cost)) 
-        |&gt; Map.set ~key:hd2_node ~data:(Set.ad<span data-count="8">d</span> hd2_set (hd1_node, path_cost))
+        |&gt; Map.se<span data-count="20">t</span> ~key:hd1_node ~data:(Set.ad<span data-count="20">d</span> hd1_set (hd2_node, path_cost)) 
+        |&gt; Map.set ~key:hd2_node ~data:(Set.ad<span data-count="20">d</span> hd2_set (hd1_node, path_cost))
         
       in
-      <span data-count="8">p</span>rocess_way_list (new_graph, connections + 1) (hd2 :: tl)
-    | <span data-count="8">[</span>_] | <span data-count="0">_</span> -&gt; (g, connections)
+      <span data-count="20">p</span>rocess_way_list (new_graph, connections + 1) (hd2 :: tl)
+    | <span data-count="20">[</span>_] | <span data-count="0">_</span> -&gt; (g, connections)
   in
   List.fold ~init:(base_graph, 0) ~f:(fun accum elem -&gt;
-      <span data-count="8">p</span>rocess_way_list accum elem
+      <span data-count="20">p</span>rocess_way_list accum elem
     ) ways
 </code></pre>
       </div>

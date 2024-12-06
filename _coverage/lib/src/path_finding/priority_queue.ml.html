@@ -205,7 +205,7 @@ type t = tree list
 (* Comparison function for elements (min-heap on float) *)
 let compare_elements (f1, _) (f2, _) = <span data-count="10">F</span>loat.compare f1 f2
 
-let create () : t = <span data-count="9">[</span>]
+let create () : t = <span data-count="8">[</span>]
 
 (* Link two trees of the same rank: the one with the smaller root becomes the parent. *)
 let link t1 t2 =
@@ -255,8 +255,8 @@ let rec remove_min_tree h =
     <span data-count="1">i</span>f compare_element<span data-count="1">s</span> t.root t_min.root &lt;= 0 then <span data-count="0">(</span>t, ts) else <span data-count="1">(</span>t_min, t :: ts_min)
 
 let extract_min (heap : t) : ((float * location) * t) option =
-  <span data-count="24">m</span>atch heap with
-  | <span data-count="6">[</span>] -&gt; None
+  <span data-count="23">m</span>atch heap with
+  | <span data-count="5">[</span>] -&gt; None
   | <span data-count="18">_</span> -&gt;
     let (min_tree, rest) = remove_min_tree heap in
     (* The children of min_tree form a heap, but in reverse rank order.
