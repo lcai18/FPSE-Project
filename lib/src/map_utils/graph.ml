@@ -123,4 +123,63 @@ let sexp_of_graph (g: graph) : Sexp.t =
   let sexp_list_of_sexps = Sexp.List list_of_sexps in
   Sexp.List [Sexp.Atom "graph" ; sexp_list_of_sexps]
 
-  
+[@@@warning "-8"]
+let graph_of_sexp ((Sexp.List [_ ; Sexp.List lst]): Sexp.t) : graph option = (* [lst] is a list of sexp shells *)
+  let id_map_opt = List.fold ~init:(Some empty_id_map) ~f:
+    (fun accum_opt elem ->
+      match elem with
+      | Sexp.List [Sexp.List [_; Sexp.Atom loc_name]; Sexp.List [_ ; Sexp.Atom lat_string] ; Sexp.List [_ ; Sexp.Atom long_string] ; Sexp.List [_ ; _]] ->
+        let lat_f_opt = float_of_string_opt lat_string in
+        if Option.is_none lat_f_opt then
+          None
+        else
+        let long_f_opt = float_of_string_opt long_string in
+        if Option.is_none long_f_opt then
+          None
+        else
+        let Some lat_f = lat_f_opt in
+        let Some long_f = long_f_opt in
+        let cur_loc : location = {location_name=loc_name; lat=lat_f; long = long_f} in
+        let Some accum = accum_opt in
+        Some (accum|> Map.set ~key:cur_loc.location_name ~data:cur_loc)
+      | Sexp.Atom _ | _ -> print_endline "improperly formatted sexp -- does not match graph format"; None
+    ) lst
+  in
+  match id_map_opt with
+  | None -> None
+  | Some id_map ->
+      (List.fold ~init:(Some empty_graph) ~f:
+        (fun accum_opt elem ->
+          match accum_opt with
+          | None -> None
+          | Some accum ->
+            match elem with
+            | Sexp.List [Sexp.List [_; Sexp.Atom loc_name]; Sexp.List [_ ; Sexp.Atom _] ; Sexp.List [_ ; Sexp.Atom _] ; Sexp.List [_ ; Sexp.List neighbor_list]] ->
+              let cur_loc = Map.find_exn id_map loc_name in
+
+              let created_neighbor_list_opt = List.fold ~init:(Some empty_loc_set) ~f:(
+
+                fun neighbor_set_accum_opt elem ->
+                  match neighbor_set_accum_opt with
+                  | None -> None
+                  | Some neighbor_set_accum ->
+                    match elem with
+                    | Sexp.List [Sexp.Atom neighbor_id ; Sexp.Atom neighbor_distance_string] ->
+                      let neighbor_distance_opt = float_of_string_opt neighbor_distance_string in
+                      if Option.is_none neighbor_distance_opt then
+                        None
+                      else
+                      let neighbor_loc_object = Map.find_exn id_map neighbor_id in
+                      let Some neighbor_distance = neighbor_distance_opt in
+                      let neighbor_tuple = (neighbor_loc_object, neighbor_distance) in
+                      Option.return (Set.add neighbor_set_accum neighbor_tuple)
+                    | Sexp.Atom _ | _ -> print_endline "improperly formatted sexp -- does not match graph format"; None
+
+              ) neighbor_list in
+              let Some created_neighbor_list = created_neighbor_list_opt in
+              Option.return (accum |> Map.set ~key:cur_loc ~data:created_neighbor_list)
+
+            | Sexp.Atom _ | _ -> print_endline "improperly formatted sexp -- does not match graph format"; None
+        ) lst)
+      
+
