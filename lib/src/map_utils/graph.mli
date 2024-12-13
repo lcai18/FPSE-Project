@@ -41,4 +41,4 @@ val ways_and_base_map_to_full_map :
   id_map -> 
   graph * int
 
-val graph_to_sexp: graph -> Sexp.t
+val sexp_of_graph: graph -> Sexp.t

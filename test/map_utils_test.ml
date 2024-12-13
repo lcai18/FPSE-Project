@@ -87,7 +87,7 @@ let request_body_to_yojson_test _ =
       Map.iteri full_graph ~f:(fun ~key:_ ~data ->
         assert_equal (Set.length data) 2
         );
-      let sexp_graph = Sexp.to_string (graph_to_sexp full_graph) in
+      let sexp_graph = Sexp.to_string (sexp_of_graph full_graph) in
       print_endline sexp_graph
 
 

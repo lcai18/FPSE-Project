@@ -99,7 +99,7 @@ let ways_and_base_map_to_full_map (ways: string list list) (base_graph: graph) (
 
 (* SEXP CONVERSION METHODS *)
 [@@@warning "-32"]
-let graph_to_sexp (g: graph) : Sexp.t =
+let sexp_of_graph (g: graph) : Sexp.t =
   (* [graph] key is a location, data is a set of (location * float) tuples *)
   let list_of_sexps = Map.fold ~init:[] ~f:(
     fun ~key ~data accum -> 
