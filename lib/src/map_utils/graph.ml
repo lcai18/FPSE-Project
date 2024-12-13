@@ -64,8 +64,13 @@ let element_list_to_ways (list: element list) : string list list =
 
 (* acos(sin(lat1)sin(lat2) + cos(lat1)cos(lat2)cos(lon2-lon1)) *    6371 *)
 let nodes_to_path_cost (n1: location) (n2: location) : float =
+  let deg_to_rad degrees = degrees *. (Float.pi /. 180.) in
+  let n1_lat_rad = deg_to_rad n1.lat in
+  let n1_long_rad = deg_to_rad n1.long in
+  let n2_lat_rad = deg_to_rad n2.lat in
+  let n2_long_rad = deg_to_rad n2.long in
   let earth_rad = 6371. in
-    Float.acos(Float.sin(n1.lat) *. Float.sin(n2.lat) +. Float.cos(n1.lat) *. Float.cos(n2.lat) *. Float.cos(n2.long -. n1.long)) *. earth_rad
+    Float.acos(Float.sin(n1_lat_rad) *. Float.sin(n2_lat_rad) +. Float.cos(n1_lat_rad) *. Float.cos(n2_lat_rad) *. Float.cos(n2_long_rad -. n1_long_rad)) *. earth_rad
 
 (* Takes list of ways, a base graph of just locations mapped to empty sets, and a map from node ids to nodes, and creates the full adjacency list representation *)
 let ways_and_base_map_to_full_map (ways: string list list) (base_graph: graph) (node_ids: id_map) : (graph * int) =
