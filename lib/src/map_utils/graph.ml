@@ -1,5 +1,6 @@
 open Core
 open Types
+open Sexplib
 
 
 [@@@coverage off]
@@ -88,3 +89,33 @@ let ways_and_base_map_to_full_map (ways: string list list) (base_graph: graph) (
   List.fold ~init:(base_graph, 0) ~f:(fun accum elem ->
       process_way_list accum elem
     ) ways
+
+
+
+(* SEXP CONVERSION METHODS *)
+[@@@warning "-32"]
+let graph_to_sexp (g: graph) : Sexp.t =
+  (* [graph] key is a location, data is a set of (location * float) tuples *)
+  let list_of_sexps = Map.fold ~init:[] ~f:(
+    fun ~key ~data accum -> 
+      let sexp_neighbors_shell = Set.fold ~init:[] ~f:(
+        fun accum (loc, distance) ->
+          let sexp_neighbor_inner_shell = Sexp.List [
+            Sexp.List [Sexp.Atom "loc-id"; Sexp.Atom loc.location_name];
+            Sexp.List [Sexp.Atom "dist" ;  Sexp.Atom (string_of_float distance)]
+          ] in
+          sexp_neighbor_inner_shell :: accum
+      ) data
+      in 
+      let sexp_shell = Sexp.List [
+        Sexp.List [Sexp.Atom "loc-id" ; Sexp.Atom key.location_name];
+        Sexp.List [Sexp.Atom "lat" ; Sexp.Atom (string_of_float key.lat)]; 
+        Sexp.List [Sexp.Atom "long" ; Sexp.Atom (string_of_float key.long)];
+        Sexp.List [Sexp.Atom "adj-list" ; Sexp.List sexp_neighbors_shell]
+      ] in sexp_shell :: accum
+  ) g 
+  in
+  let sexp_list_of_sexps = Sexp.List list_of_sexps in
+  Sexp.List [Sexp.Atom "graph" ; sexp_list_of_sexps]
+
+  

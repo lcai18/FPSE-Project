@@ -86,7 +86,10 @@ let request_body_to_yojson_test _ =
       assert_equal (Map.length full_graph) 4;
       Map.iteri full_graph ~f:(fun ~key:_ ~data ->
         assert_equal (Set.length data) 2
-        )
+        );
+      let sexp_graph = Sexp.to_string (graph_to_sexp full_graph) in
+      print_endline sexp_graph
+
 
 [@@@warning "-8"]
 let get_request_test _ =
