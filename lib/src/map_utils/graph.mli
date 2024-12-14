@@ -44,3 +44,7 @@ val ways_and_base_map_to_full_map :
 val sexp_of_graph: graph -> Sexp.t
 
 val graph_of_sexp : Sexp.t -> graph option
+
+val save_graph : graph -> unit
+
+val load_graph : filename:string -> graph option
