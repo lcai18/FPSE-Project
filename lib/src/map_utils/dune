@@ -1,6 +1,6 @@
 (library
  (name graph)
  (modules graph)
- (libraries yojson core cohttp-lwt-unix lwt types)
+ (libraries yojson core cohttp-lwt-unix lwt types sexplib)
  (preprocess (pps ppx_inline_test ppx_jane bisect_ppx))
 )
