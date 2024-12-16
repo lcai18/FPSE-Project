@@ -5,7 +5,7 @@ rule astj
   command = /Users/larrycai/fpse/FPSE-Project/lib/src/map_output/map-gen-rescript/node_modules/rescript/darwinarm64/bsc.exe  -bs-v 11.1.4 -bs-jsx 4 -uncurried -open RescriptCore -absname -bs-ast -o $out $i
 o src/App.ast : astj ../../src/App.res
 rule deps
-  command = /Users/larrycai/fpse/FPSE-Project/lib/src/map_output/map-gen-rescript/node_modules/rescript/darwinarm64/bsb_helper.exe -hash 280ea944b905dec837dfa2508cde2992 $in
+  command = /Users/larrycai/fpse/FPSE-Project/lib/src/map_output/map-gen-rescript/node_modules/rescript/darwinarm64/bsb_helper.exe -hash 20b0cf54b7749d672316092d31787b1f $in
   restat = 1
 o src/App.d : deps src/App.ast src/App.iast
 o src/App.iast : astj ../../src/App.resi
@@ -37,6 +37,9 @@ o src/Button.cmj ../../src/Button.res.mjs : mj src/Button.ast src/Button.cmi
 o src/Leaflet.ast : astj ../../src/Leaflet.res
 o src/Leaflet.d : deps src/Leaflet.ast
 o src/Leaflet.cmj src/Leaflet.cmi ../../src/Leaflet.res.mjs : mij src/Leaflet.ast
+o src/RouteForm.ast : astj ../../src/RouteForm.res
+o src/RouteForm.d : deps src/RouteForm.ast
+o src/RouteForm.cmj src/RouteForm.cmi ../../src/RouteForm.res.mjs : mij src/RouteForm.ast
 o src/Create_map.ast : astj ../../src/Create_map.res
 o src/Create_map.d : deps src/Create_map.ast
 o src/Create_map.cmj src/Create_map.cmi ../../src/Create_map.res.mjs : mij src/Create_map.ast

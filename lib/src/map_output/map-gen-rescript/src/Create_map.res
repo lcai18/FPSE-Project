@@ -50,6 +50,6 @@ let make = (~nodes: array<node>) => {
 
   // Render a div that will hold the Leaflet map
   
-  <div ref={ReactDOM.Ref.domRef(mapRef)} style={ReactDOM.Style.make(~width="100%", ~height="100vh", ())} />
+  <div ref={ReactDOM.Ref.domRef(mapRef)} style={ReactDOM.Style.make(~width="50%", ~height="50vh", ~marginLeft="auto", ~marginRight="10%",())} />
 
 }

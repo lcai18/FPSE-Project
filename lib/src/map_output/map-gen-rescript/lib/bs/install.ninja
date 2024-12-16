@@ -27,8 +27,12 @@ o Leaflet.cmi : cp ../bs/src/Leaflet.cmi
 o Leaflet.cmj : cp ../bs/src/Leaflet.cmj
 o Leaflet.cmt : cp ../bs/src/Leaflet.cmt
 o Leaflet.res : cp ../../src/Leaflet.res
+o RouteForm.cmi : cp ../bs/src/RouteForm.cmi
+o RouteForm.cmj : cp ../bs/src/RouteForm.cmj
+o RouteForm.cmt : cp ../bs/src/RouteForm.cmt
+o RouteForm.res : cp ../../src/RouteForm.res
 o Create_map.cmi : cp ../bs/src/Create_map.cmi
 o Create_map.cmj : cp ../bs/src/Create_map.cmj
 o Create_map.cmt : cp ../bs/src/Create_map.cmt
 o Create_map.res : cp ../../src/Create_map.res
-build install.stamp : touch App.cmi App.cmj Main.cmi Main.cmj Types.cmi Types.cmj Button.cmi Button.cmj Leaflet.cmi Leaflet.cmj Create_map.cmi Create_map.cmj 
+build install.stamp : touch App.cmi App.cmj Main.cmi Main.cmj Types.cmi Types.cmj Button.cmi Button.cmj Leaflet.cmi Leaflet.cmj RouteForm.cmi RouteForm.cmj Create_map.cmi Create_map.cmj 
