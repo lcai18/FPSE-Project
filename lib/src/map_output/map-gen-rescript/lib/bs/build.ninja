@@ -1,0 +1,42 @@
+rescript = 1
+g_finger := /Users/larrycai/fpse/FPSE-Project/lib/src/map_output/map-gen-rescript/node_modules/@rescript/core/lib/ocaml/install.stamp
+g_finger := /Users/larrycai/fpse/FPSE-Project/lib/src/map_output/map-gen-rescript/node_modules/@rescript/react/lib/ocaml/install.stamp
+rule astj
+  command = /Users/larrycai/fpse/FPSE-Project/lib/src/map_output/map-gen-rescript/node_modules/rescript/darwinarm64/bsc.exe  -bs-v 11.1.4 -bs-jsx 4 -uncurried -open RescriptCore -absname -bs-ast -o $out $i
+o src/App.ast : astj ../../src/App.res
+rule deps
+  command = /Users/larrycai/fpse/FPSE-Project/lib/src/map_output/map-gen-rescript/node_modules/rescript/darwinarm64/bsb_helper.exe -hash 280ea944b905dec837dfa2508cde2992 $in
+  restat = 1
+o src/App.d : deps src/App.ast src/App.iast
+o src/App.iast : astj ../../src/App.resi
+rule mi
+  command = /Users/larrycai/fpse/FPSE-Project/lib/src/map_output/map-gen-rescript/node_modules/rescript/darwinarm64/bsc.exe -I src/assets -I src -I /Users/larrycai/fpse/FPSE-Project/lib/src/map_output/map-gen-rescript/node_modules/@rescript/core/lib/ocaml -I /Users/larrycai/fpse/FPSE-Project/lib/src/map_output/map-gen-rescript/node_modules/@rescript/react/lib/ocaml -open RescriptCore  -uncurried -bs-v $g_finger $i
+  dyndep = 1
+  restat = 1
+o src/App.cmi : mi src/App.iast
+rule mj
+  command = /Users/larrycai/fpse/FPSE-Project/lib/src/map_output/map-gen-rescript/node_modules/rescript/darwinarm64/bsc.exe -bs-read-cmi -I src/assets -I src -I /Users/larrycai/fpse/FPSE-Project/lib/src/map_output/map-gen-rescript/node_modules/@rescript/core/lib/ocaml -I /Users/larrycai/fpse/FPSE-Project/lib/src/map_output/map-gen-rescript/node_modules/@rescript/react/lib/ocaml -open RescriptCore  -uncurried -bs-package-name map-gen-rescript -bs-package-output esmodule:$in_d:.res.mjs -bs-v $g_finger $i
+  dyndep = 1
+  restat = 1
+o src/App.cmj ../../src/App.res.mjs : mj src/App.ast src/App.cmi
+o src/Main.ast : astj ../../src/Main.res
+o src/Main.d : deps src/Main.ast
+rule mij
+  command = /Users/larrycai/fpse/FPSE-Project/lib/src/map_output/map-gen-rescript/node_modules/rescript/darwinarm64/bsc.exe -I src/assets -I src -I /Users/larrycai/fpse/FPSE-Project/lib/src/map_output/map-gen-rescript/node_modules/@rescript/core/lib/ocaml -I /Users/larrycai/fpse/FPSE-Project/lib/src/map_output/map-gen-rescript/node_modules/@rescript/react/lib/ocaml -open RescriptCore  -uncurried -bs-package-name map-gen-rescript -bs-package-output esmodule:$in_d:.res.mjs -bs-v $g_finger $i
+  dyndep = 1
+  restat = 1
+o src/Main.cmj src/Main.cmi ../../src/Main.res.mjs : mij src/Main.ast
+o src/Types.ast : astj ../../src/Types.res
+o src/Types.d : deps src/Types.ast
+o src/Types.cmj src/Types.cmi ../../src/Types.res.mjs : mij src/Types.ast
+o src/Button.ast : astj ../../src/Button.res
+o src/Button.d : deps src/Button.ast src/Button.iast
+o src/Button.iast : astj ../../src/Button.resi
+o src/Button.cmi : mi src/Button.iast
+o src/Button.cmj ../../src/Button.res.mjs : mj src/Button.ast src/Button.cmi
+o src/Leaflet.ast : astj ../../src/Leaflet.res
+o src/Leaflet.d : deps src/Leaflet.ast
+o src/Leaflet.cmj src/Leaflet.cmi ../../src/Leaflet.res.mjs : mij src/Leaflet.ast
+o src/Create_map.ast : astj ../../src/Create_map.res
+o src/Create_map.d : deps src/Create_map.ast
+o src/Create_map.cmj src/Create_map.cmi ../../src/Create_map.res.mjs : mij src/Create_map.ast
