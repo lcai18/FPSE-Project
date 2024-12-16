@@ -1,8 +1,19 @@
 @react.component
-let make = (~onSubmit : ReactEvent.Form.t => unit) => {
+let make = (~onSubmit: (string, string) => unit) => {
+  // Define state for the form inputs
+  let (start, setStart) = React.useState(() => "")
+  let (destination, setDestination) = React.useState(() => "")
+
   let handleSubmit = evt => {
     evt->ReactEvent.Form.preventDefault // Prevent form refresh
-    onSubmit(evt) // Trigger the parent's onSubmit handler
+
+    // Check if the values are empty
+    if (start == "" || destination == "") {
+      Js.log("Error: Both Start and Destination must be filled!")
+    } else {
+      // Pass the values to the parent's onSubmit handler
+      onSubmit(start, destination)
+    }
   }
 
   <form
@@ -23,6 +34,8 @@ let make = (~onSubmit : ReactEvent.Form.t => unit) => {
       {React.string("Start:")}
       <input
         type_="text"
+        value=start
+        onChange={evt => setStart(ReactEvent.Form.target(evt)["value"])}
         style={ReactDOM.Style.make(
           ~display="block",
           ~marginBottom="10px",
@@ -38,6 +51,8 @@ let make = (~onSubmit : ReactEvent.Form.t => unit) => {
       {React.string("Destination:")}
       <input
         type_="text"
+        value=destination
+        onChange={event => setDestination(ReactEvent.Form.target(event)["value"])}
         style={ReactDOM.Style.make(
           ~display="block",
           ~marginBottom="10px",

@@ -3,9 +3,10 @@ open RouteForm
 
 @react.component
 let make = () => {
-  let create_map = evt => {
-    evt->ReactEvent.Form.preventDefault // Prevent form from refreshing the page
-    Js.log("form submitted")
+  let create_map = (start, destination) => {
+    Js.log("Start: " ++ start)
+    Js.log("Destination: " ++ destination)
+    // You can now use `start` and `destination` variables here
   }
 
   let n1 = {id: 244453411, lat: 39.2910, lon: -76.6120}
