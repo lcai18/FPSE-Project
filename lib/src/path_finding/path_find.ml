@@ -1,3 +1,15 @@
+(* 
+
+NOTE: THIS FILE IS DEPRECIATED AND MOST CONTENTS MOVED TO path_find_lib.ml
+
+(maybe) todo: just delete this file altogether
+    -> but it might still be useful for demoing the executable.... so leave it here for now i guess
+
+
+*)
+
+
+
 [@@@warning "-33"]
 [@@@warning "-34"]
 [@@@warning "-26"]
