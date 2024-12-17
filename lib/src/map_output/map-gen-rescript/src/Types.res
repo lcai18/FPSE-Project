@@ -1,5 +1,5 @@
 type node = {
-  id : int,
+  id : string,
   lat : float,
   lon : float
 }

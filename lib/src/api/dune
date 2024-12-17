@@ -1,0 +1,4 @@
+(executable
+ (name ocamaps_api)
+ (libraries dream yojson graph path_find_lib)
+)
