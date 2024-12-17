@@ -125,7 +125,7 @@ let sexp_of_graph (g: graph) : Sexp.t =
 
 
 [@@@warning "-8"]
-let graph_of_sexp ((Sexp.List [_ ; Sexp.List lst]): Sexp.t) : graph option = (* [lst] is a list of sexp shells *)
+let graph_of_sexp ((Sexp.List [_ ; Sexp.List lst]): Sexp.t) : (graph * id_map) option = (* [lst] is a list of sexp shells *)
   let id_map_opt = List.fold ~init:(Some empty_id_map) ~f:
     (fun accum_opt elem ->
       match elem with
@@ -146,7 +146,7 @@ let graph_of_sexp ((Sexp.List [_ ; Sexp.List lst]): Sexp.t) : graph option = (* 
       | Sexp.Atom _ | _ -> print_endline "improperly formatted sexp -- does not match graph format. elem is not a sexp.list."; None
     ) lst
   in
-  Option.bind id_map_opt ~f:(fun id_map ->
+  let graph_res = Option.bind id_map_opt ~f:(fun id_map ->
     List.fold ~init:(Some empty_graph) ~f:
       (* In this fold, [elem] contains all information about a particular node *)
       (fun accum_opt elem ->
@@ -178,6 +178,10 @@ let graph_of_sexp ((Sexp.List [_ ; Sexp.List lst]): Sexp.t) : graph option = (* 
           | Sexp.Atom _ | _ -> print_endline "improperly formatted sexp -- does not match graph format. elem is not a sexp.list in second loop. "; None
       )
     ) lst)
+    in
+    match (graph_res, id_map_opt) with
+    | (Some graph, Some node_map) -> Some (graph, node_map)
+    | _ -> None
       
 let save_sexp_to_file ~(filename: string) (sexp: Sexp.t) : unit=
   let sexp_string = Sexp.to_string sexp in
@@ -186,13 +190,13 @@ let save_sexp_to_file ~(filename: string) (sexp: Sexp.t) : unit=
 let save_graph (g: graph) : unit =
   g
   |> sexp_of_graph
-  |> save_sexp_to_file ~filename:"../../../map_sexp_files/test_map.txt"
+  |> save_sexp_to_file ~filename:"map_sexp_files/homewood_map.txt"
 
 let load_sexp_from_file ~(filename: string) : Sexp.t =
   let sexp_string = In_channel.read_all filename in
   Sexp.of_string sexp_string
 
-let load_graph ~(filename: string) : graph option =
+let load_graph ~(filename: string) : (graph * id_map) option =
   let loaded_sexp = load_sexp_from_file ~filename in
   graph_of_sexp loaded_sexp
 

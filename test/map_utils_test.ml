@@ -93,7 +93,7 @@ let request_body_to_yojson_test _ =
       let loaded_graph_opt = load_graph ~filename:"../../../map_sexp_files/test_map.txt" in
       match loaded_graph_opt with
       | None -> failwith "Expected graph to load from .txt successfully"
-      | Some loaded_graph -> 
+      | Some (loaded_graph, _) -> 
         assert_equal (Map.length loaded_graph) 4;
         let new_sexp_graph = Sexp.to_string (sexp_of_graph loaded_graph) in
         print_endline "NEW GRAPH AFTER INVARIANT";

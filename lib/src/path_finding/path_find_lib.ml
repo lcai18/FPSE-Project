@@ -1,15 +1,3 @@
-(* 
-
-NOTE: THIS FILE IS DEPRECIATED AND MOST CONTENTS MOVED TO path_find_lib.ml
-
-(maybe) todo: just delete this file altogether
-    -> but it might still be useful for demoing the executable.... so leave it here for now i guess
-
-
-*)
-
-
-
 [@@@warning "-33"]
 [@@@warning "-34"]
 [@@@warning "-26"]
@@ -23,6 +11,7 @@ open Json_utils
 open Graph
 open Types
 open Dijkstra
+open Yojson.Basic
 (*
 
 to execute this: dune exec _build/default/lib/src/path_finding/path_find.exe
@@ -82,49 +71,41 @@ let get_graph (graph_path: string option): (graph * id_map) option =
         )
     | Some path ->
         load_graph ~filename:path
-
+        
 
 (* eventually want this to return 'string list option' *)
 [@@@warning "-8"]
-let find_shortest_path (loc_name_1: string) (loc_name_2: string) (graph_path: string option) : unit =
+let find_shortest_path_lib (loc_name_1: string) (loc_name_2: string) (graph_path: string option) : (location list * float) option =
     let graph_opt = get_graph graph_path in
     match graph_opt with
     | None -> failwith "Graph creation failed!"
     | Some (g, node_map) ->
-        save_graph g;
 
         let loc_1_id = location_label_to_id_if_specified loc_name_1 in
         let loc_2_id = location_label_to_id_if_specified loc_name_2 in
 
         let loc1_opt = Map.find node_map loc_1_id and loc2_opt = Map.find node_map loc_2_id in
         match (loc1_opt, loc2_opt) with
-        | (Some loc1, Some loc2) ->
-            (
-            
-            match shortest_path g ~start:loc1 ~dest:loc2 with
-            | Some (path, dist) ->
-                Printf.printf "Shortest distance: %f\n" dist;
-                List.iter ~f:(fun loc -> Printf.printf "%s -> " loc.location_name) path;
-                print_endline "done!"
-            | None -> Printf.printf "No path found.\n"
-            )
-        | (None, _) | (_, None) | _ -> failwith "No inputted locations, or locations not found. Maybe check the map radius?" 
-        
+        | (Some loc1, Some loc2) -> shortest_path g ~start:loc1 ~dest:loc2 
+        | (None, _) | (_, None) | _ -> print_endline "No inputted locations, or locations not found. Maybe check the map radius?"; None
 
+let shortest_path_to_json ((list, distance): location list * float) : Yojson.Basic.t =
+  let location_list_to_yojson_string_list (l: location list) : Yojson.Basic.t =
+    `List (List.map ~f:(fun loc -> 
+      `Assoc [
+        ("id", `String loc.location_name);
+        ("lat", `String (string_of_float loc.lat));
+        ("long", `String (string_of_float loc.long));
+      ]
+      ) l)
+  in
+  `Assoc [
+    ("distance", `Float distance);
+    ("path", (location_list_to_yojson_string_list list))
+  ]
 
-
-(* 
-
-test node ids from last test:
-244357719
-8942020496
-
-*)
-
-
-let () =
-    find_shortest_path "amr 1" "hackerman hall" None 
-
-(* let () =
-    find_shortest_path "9159493732" "2496874894" None  *)
-  
+let api_get_path (start: string) (dest: string) ~(path: string option) : Yojson.Basic.t option =
+  let res_opt = find_shortest_path_lib start dest path in
+  match res_opt with
+  | None -> None
+  | Some res -> Some (shortest_path_to_json res)

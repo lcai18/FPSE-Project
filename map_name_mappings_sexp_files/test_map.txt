@@ -1,0 +1,8 @@
+(name_mappings
+(
+(name ames) (node_id 1)
+(name mergenthaler) (node_id 2)
+(name krieger) (node_id 3)
+(name remsen) (node_id 4)
+)
+)

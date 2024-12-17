@@ -3,6 +3,13 @@
  (modules path_find)
  (libraries core core_kernel.pairing_heap priority_queue json_utils graph types dijkstra)
  (preprocess (pps ppx_inline_test ppx_jane bisect_ppx))
+)    
+
+(library
+ (name path_find_lib)
+ (modules path_find_lib)
+ (libraries core core_kernel.pairing_heap priority_queue json_utils graph types dijkstra yojson)
+ (preprocess (pps ppx_inline_test ppx_jane bisect_ppx))
 )       
 
 (library

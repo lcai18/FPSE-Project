@@ -19,6 +19,9 @@ external setView: ('map, array<float>, int) => 'map = "setView"
 @send
 external bindPopup: ('marker, string) => 'marker = "bindPopup"
 
+@module("leaflet")
+external polyline: Js.Array.t<Js.Array.t<float>> => 'polyline = "polyline"
+
 @react.component
 let make = (~nodes: array<node>) => {
   let mapRef = useRef(Nullable.null)
@@ -32,24 +35,39 @@ let make = (~nodes: array<node>) => {
         
         // Initialize the Leaflet map
         let map = leafletMap(el, Js.Dict.empty())
-        setView(map, [39.2904, -76.6122], 13)
+        setView(map, [39.3285, -76.62039], 16)
         let layer = tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {"maxZoom": 19})
         addTo(layer, map)
-        // Add markers for each node
+
+        // add markers for start and end nodes
+        let Some(start_node) = nodes[0];
+        let Some(end_node) = nodes[Array.length(nodes) - 1];
+
+        let start_node_marker = marker([start_node.lat, start_node.lon]);
+        let end_node_marker = marker([end_node.lat, end_node.lon]);
+        addTo(start_node_marker, map)
+        addTo(end_node_marker, map)
+        let path_points = [];
         Array.forEach(nodes, node => {
-          let m = marker([node.lat, node.lon])
-          addTo(m, map)
-          bindPopup(m, "Node ID: " ++ Int.toString(node.id))
+          path_points->Array.push([node.lat, node.lon])
         })
+
+        let polylineOptions = Js.Dict.empty()
+        Js.Dict.set(polylineOptions, "color", Js.Json.string("blue"))
+        Js.Dict.set(polylineOptions, "weight", Js.Json.number(Belt.Int.toFloat(5)))
+
+        let path = polyline(path_points)
+        addTo(path, map)
+
+
         Js.log(mapRef)
       }
+    } else {
+      Js.log("Updating markers since nodes changed")
     }
 
     None
-  }, [])
+  }, [nodes])
 
-  // Render a div that will hold the Leaflet map
-  
-  <div ref={ReactDOM.Ref.domRef(mapRef)} style={ReactDOM.Style.make(~width="50%", ~height="50vh", ~marginLeft="auto", ~marginRight="10%",())} />
-
+  <div ref={ReactDOM.Ref.domRef(mapRef)} style={ReactDOM.Style.make(~width="50%", ~height="50vh", ~marginLeft="auto", ~marginRight="10%", ())} />
 }

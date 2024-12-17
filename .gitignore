@@ -54,7 +54,9 @@ dist-ssr
 *.sw?
 
 # ReScript
-/lib/
+/lib/src/map_output/package-lock.json
+/lib/src/map_output/map-gen-rescript/lib
+/lib/src/map_output/map-gen-rescript/package-lock.json
 .bsb.lock
 .merlin
 
