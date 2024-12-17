@@ -79,6 +79,7 @@ let find_shortest_path (loc_name_1: string) (loc_name_2: string) (graph_path: st
     match graph_opt with
     | None -> failwith "Graph creation failed!"
     | Some (g, node_map) ->
+        save_graph g;
 
         let loc_1_id = location_label_to_id_if_specified loc_name_1 in
         let loc_2_id = location_label_to_id_if_specified loc_name_2 in
