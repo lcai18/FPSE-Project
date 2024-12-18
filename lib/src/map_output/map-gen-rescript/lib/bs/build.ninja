@@ -5,7 +5,7 @@ rule astj
   command = /Users/larrycai/fpse/FPSE-Project/lib/src/map_output/map-gen-rescript/node_modules/rescript/darwinarm64/bsc.exe  -bs-v 11.1.4 -bs-jsx 4 -uncurried -open RescriptCore -absname -bs-ast -o $out $i
 o src/App.ast : astj ../../src/App.res
 rule deps
-  command = /Users/larrycai/fpse/FPSE-Project/lib/src/map_output/map-gen-rescript/node_modules/rescript/darwinarm64/bsb_helper.exe -hash 20b0cf54b7749d672316092d31787b1f $in
+  command = /Users/larrycai/fpse/FPSE-Project/lib/src/map_output/map-gen-rescript/node_modules/rescript/darwinarm64/bsb_helper.exe -hash f3cf15b4148c8ba202d3234a61663968 $in
   restat = 1
 o src/App.d : deps src/App.ast src/App.iast
 o src/App.iast : astj ../../src/App.resi
@@ -29,14 +29,6 @@ o src/Main.cmj src/Main.cmi ../../src/Main.res.mjs : mij src/Main.ast
 o src/Types.ast : astj ../../src/Types.res
 o src/Types.d : deps src/Types.ast
 o src/Types.cmj src/Types.cmi ../../src/Types.res.mjs : mij src/Types.ast
-o src/Button.ast : astj ../../src/Button.res
-o src/Button.d : deps src/Button.ast src/Button.iast
-o src/Button.iast : astj ../../src/Button.resi
-o src/Button.cmi : mi src/Button.iast
-o src/Button.cmj ../../src/Button.res.mjs : mj src/Button.ast src/Button.cmi
-o src/Leaflet.ast : astj ../../src/Leaflet.res
-o src/Leaflet.d : deps src/Leaflet.ast
-o src/Leaflet.cmj src/Leaflet.cmi ../../src/Leaflet.res.mjs : mij src/Leaflet.ast
 o src/RouteForm.ast : astj ../../src/RouteForm.res
 o src/RouteForm.d : deps src/RouteForm.ast
 o src/RouteForm.cmj src/RouteForm.cmi ../../src/RouteForm.res.mjs : mij src/RouteForm.ast
