@@ -10,14 +10,6 @@ NOTE: THIS FILE IS DEPRECIATED AND MOST CONTENTS MOVED TO path_find_lib.ml
 
 
 
-[@@@warning "-33"]
-[@@@warning "-34"]
-[@@@warning "-26"]
-[@@@warning "-32"]
-[@@@warning "-37"]
-[@@@warning "-69"]
-[@@@warning "-27"]
-[@@@warning "-11"]
 open Core
 open Json_utils
 open Graph
@@ -108,23 +100,9 @@ let find_shortest_path (loc_name_1: string) (loc_name_2: string) (graph_path: st
                 print_endline "done!"
             | None -> Printf.printf "No path found.\n"
             )
-        | (None, _) | (_, None) | _ -> failwith "No inputted locations, or locations not found. Maybe check the map radius?" 
-        
-
-
-
-(* 
-
-test node ids from last test:
-244357719
-8942020496
-
-*)
 
 
 let () =
-    find_shortest_path "latrobe hall" "krieger hall" None 
+    find_shortest_path "amr 1" "hackerman hall" None 
 
-(* let () =
-    find_shortest_path "9159493732" "2496874894" None  *)
   

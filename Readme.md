@@ -17,11 +17,11 @@ We then implemented a simple persistence model by writing functions to convert t
 Overpass Turbo returned node labels as "ids", which were entirely numerical (e.g. 837291986). Since these were not very human-readable, we implemented a small mechanism to import node labels to a map, making locations such as "amr 1" or "hackerman hall" valid user input. We had to hardcode these values for Homewood campus, which was an unfortunate last resort. Overpass Turbo does not always provide building names, so we could not generalize this solution given our resources at hand. Using other certain paid map APIs (instead of Overpass) could be a possible solution to this.
 
 ### Pathfinding 🔍
-OCamaps also includes a 'directions' service, allowing users to input two locations, and see the shortest path between them. We implemented Dijkstra's algorithm by using distance between nodes as path costs, calculated using the Haversine formula (which accounts for the curvature of the Earth).
+OCamaps also includes a 'directions' service, allowing users to input two locations, and see the shortest path between them. We implemented Dijkstra's algorithm by using distance between nodes as path costs, calculated using the Haversine formula (which accounts for the curvature of the Earth). Doing so would allow us to get path weights through only the knowledge of latitude and longitude represented in degrees.
 
-Because Core's priority queue was not functional, we decided to instead make our own, and implemented a fully functional priority queue using a binary tree. We were then able to use the map object above, combined with our implementation of Dijkstras using our custom heap, to return a list of nodes consisting of the shortest path between two locations.
+In an efficient implementation of Dijkstra's algorithm, a priority queue is used to keep track of the min-cost path. But, since Core's heap was not a functional data struture, we decided to implement from scratch a functional priority queue. To do this we implemented a binomial heap which supports logarithmic insertion and deletion operations. The binomial heap also inherently supports the concept of a functional data struture.
 
-The list of nodes is then processed into JSON data, and is able to be retrieved through our frontend via a GET request.
+After constructing our map and building our Dijkstra's with a custom Priority Queue, we were finally able to construct a list of nodes detailing the shortest paths between two locations. The list of nodes is then processed into JSON data, and is able to be retrieved through our frontend via a GET request.
 
 ### UI/UX 🖌️
 We implemented a simple frontend using Rescript to allow users to interact with a live map, visually seeing the shortest path returned by our algorithms.

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8"/>
     <title>json_utils.ml &mdash; Coverage report</title>
-    <meta name="description" content="78.72% coverage in lib/src/json_utils/json_utils.ml">
+    <meta name="description" content="87.23% coverage in lib/src/json_utils/json_utils.ml">
     <link rel="stylesheet" href="../../../coverage.css"/>
     <script src="../../../highlight.pack.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
@@ -15,7 +15,7 @@
           <span class="dirname">lib/src/json_utils/</span>json_utils.ml
         </a>
       </h1>
-      <h2>78.72%</h2>
+      <h2>87.23%</h2>
     </div>
     <div id="navbar">
       <span class="unvisited" style="top:25.71%"></span>
@@ -24,10 +24,6 @@
       <span class="unvisited" style="bottom:40.00%"></span>
       <span class="unvisited" style="bottom:18.57%"></span>
       <span class="unvisited" style="bottom:10.00%"></span>
-      <span class="unvisited" style="bottom:5.71%"></span>
-      <span class="unvisited" style="bottom:4.29%"></span>
-      <span class="unvisited" style="bottom:2.86%"></span>
-      <span class="unvisited" style="bottom:0.00%"></span>
     </div>
     <div id="report">
       <div id="lines-layer">
@@ -56,11 +52,11 @@
 <a id="L22"></a><span class="visited"> </span>
 <a id="L23"></a><span > </span>
 <a id="L24"></a><span > </span>
-<a id="L25"></a><span > </span>
-<a id="L26"></a><span class="visited"> </span>
+<a id="L25"></a><span class="visited"> </span>
+<a id="L26"></a><span > </span>
 <a id="L27"></a><span > </span>
-<a id="L28"></a><span > </span>
-<a id="L29"></a><span class="visited"> </span>
+<a id="L28"></a><span class="visited"> </span>
+<a id="L29"></a><span > </span>
 <a id="L30"></a><span class="visited"> </span>
 <a id="L31"></a><span > </span>
 <a id="L32"></a><span > </span>
@@ -75,9 +71,9 @@
 <a id="L41"></a><span class="unvisited"> </span>
 <a id="L42"></a><span class="unvisited"> </span>
 <a id="L43"></a><span > </span>
-<a id="L44"></a><span > </span>
+<a id="L44"></a><span class="visited"> </span>
 <a id="L45"></a><span class="visited"> </span>
-<a id="L46"></a><span class="visited"> </span>
+<a id="L46"></a><span > </span>
 <a id="L47"></a><span class="visited"> </span>
 <a id="L48"></a><span > </span>
 <a id="L49"></a><span class="visited"> </span>
@@ -90,18 +86,18 @@
 <a id="L56"></a><span class="visited"> </span>
 <a id="L57"></a><span class="unvisited"> </span>
 <a id="L58"></a><span > </span>
-<a id="L59"></a><span > </span>
-<a id="L60"></a><span class="visited"> </span>
+<a id="L59"></a><span class="visited"> </span>
+<a id="L60"></a><span > </span>
 <a id="L61"></a><span class="visited"> </span>
 <a id="L62"></a><span class="visited"> </span>
 <a id="L63"></a><span class="unvisited"> </span>
 <a id="L64"></a><span > </span>
-<a id="L65"></a><span > </span>
-<a id="L66"></a><span class="unvisited"> </span>
-<a id="L67"></a><span class="unvisited"> </span>
-<a id="L68"></a><span class="unvisited"> </span>
+<a id="L65"></a><span class="visited"> </span>
+<a id="L66"></a><span > </span>
+<a id="L67"></a><span class="visited"> </span>
+<a id="L68"></a><span class="visited"> </span>
 <a id="L69"></a><span > </span>
-<a id="L70"></a><span class="unvisited"> </span>
+<a id="L70"></a><span class="visited"> </span>
 </pre>
       </div>
       <div id="text-layer">
@@ -189,64 +185,64 @@ open Types
 
 
 let get_request ~(uri: string) : string option Lwt.t =
-  <span data-count="2">C</span>lient.ge<span data-count="2">t</span> (Uri.of_strin<span data-count="2">g</span> uri) &gt;&gt;= fun (response, body) -&gt;
-    <span data-count="2">l</span>et status = Response.status response in
-    <span data-count="2">i</span>f Code.is_success (Code.code_of_statu<span data-count="2">s</span> status) then
-      <span data-count="2">C</span>ohttp_lwt.Body.to_strin<span data-count="2">g</span> body &gt;|= fun body_str -&gt; <span data-count="2">S</span>ome body_str
+  <span data-count="5">C</span>lient.ge<span data-count="5">t</span> (Uri.of_strin<span data-count="5">g</span> uri) &gt;&gt;= fun (response, body) -&gt;
+    <span data-count="5">l</span>et status = Response.status response in
+    <span data-count="5">i</span>f Code.is_success (Code.code_of_statu<span data-count="5">s</span> status) then
+      <span data-count="5">C</span>ohttp_lwt.Body.to_strin<span data-count="5">g</span> body &gt;|= fun body_str -&gt; <span data-count="5">S</span>ome body_str
     else
       <span data-count="0">L</span>wt.return_none
 
 let nodes_request ~(radius: int) : string option =
-  <span data-count="2">l</span>et rad_string = string_of_int radius in
-  <span data-count="2">l</span>et uri_base = "https://overpass-api.de/api/interpreter" in
-  let uri_data = "?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0Anode%28around%3A"^rad_string^"%2C39.3299%2C-76.6205%29%3B%20%0Away%28around%3A"^rad_string^"%2C39.3299%2C-76.6205%29%5B%22highway%22%3D%22footway%22%5D%3B%0A%28._%3B%3E%3B%29%3B%0Aout%20body%20geom%3B" in
+  <span data-count="5">l</span>et rad_string = string_of_int radius in
+  <span data-count="5">l</span>et uri_base = "https://overpass-api.de/api/interpreter" in
+  let uri_data = "?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0Anode%28around%3A"^rad_string^"%2C39.3299%2C-76.6205%29%3B%20%0Away%28around%3A"^rad_string^"%2C39.3299%2C-76.6205%29%5B%22highway%22~%22footway|steps%22%5D%3B%0A%28._%3B%3E%3B%29%3B%0Aout%20body%20geom%3B" in
   let uri = uri_base ^ uri_data in
-  let request_body = Lwt_main.run (get_request ~uri) in
-  <span data-count="2">r</span>equest_body
+  let request_body = Lwt_main.run (get_request ~uri) i<span data-count="5">n</span>
+  request_body
 
-let request_body_to_yojson (body: string option) : Yojson.Basic.t list option =
-  <span data-count="6">m</span>atch body with
-  | <span data-count="6">S</span>ome body_str -&gt;
+let request_body_to_yojson (body: string option) : Yojson.Basic.t list option <span data-count="5">=</span>
+  match body with
+<span data-count="5"> </span> | Some body_str -&gt;
     (try
         let node_list_raw =
           body_str
           |&gt; Yojson.Basic.from_string
-          |&gt; <span data-count="6">m</span>ember "elements"
-          |&gt; <span data-count="6">t</span>o_list
+         <span data-count="5"> </span>|&gt; member "elements"
+         <span data-count="5"> </span>|&gt; to_list
         in
-        <span data-count="6">S</span>ome node_list_raw
-      with <span data-count="0">Y</span>ojson.Json_error msg -&gt;
+    <span data-count="5"> </span>   Some node_list_raw
+      w<span data-count="0">i</span>th Yojson.Json_error msg -&gt;
         Printf.printf "JSON parse error: %s\n" msg;
-        <span data-count="0">N</span>one)
-  | <span data-count="0">N</span>one -&gt; None
+    <span data-count="0"> </span>   None)
+<span data-count="0"> </span> | None -&gt; None
 
-let json_elem_to_location_or_way (json_elem: Yojson.Basic.t) : element option =
-  <span data-count="16">l</span>et elem_type = json_elem |&gt; member "type" |&gt; <span data-count="16">t</span>o_string in
-  <span data-count="16">m</span>atch elem_type with
-  | <span data-count="8">"</span>node" -&gt;
+let json_elem_to_location_or_way (json_elem: Yojson.Basic.t) : element option <span data-count="23393">=</span>
+  let elem_type = json_elem |&gt; member "type"<span data-count="23393"> </span>|&gt; to_string i<span data-count="23393">n</span>
+  match elem_type with
+<span data-count="17862"> </span> | "node" -&gt;
     let loc = {
-      location_name = (json_elem |&gt; member "id" |&gt; <span data-count="8">t</span>o_int |&gt; <span data-count="8">s</span>tring_of_in<span data-count="8">t</span>);
-      lat = (json_elem |&gt; member "lat" |&gt; <span data-count="8">t</span>o_floa<span data-count="8">t</span>);
-      long = (json_elem |&gt; member "lon" |&gt; <span data-count="8">t</span>o_floa<span data-count="8">t</span>); 
+      location_name = (json_elem |&gt; member "id"<span data-count="17862"> </span>|&gt; to_int<span data-count="17862"> </span>|&gt; string_o<span data-count="17862">f</span>_int);
+      lat = (json_elem |&gt; member "lat"<span data-count="17862"> </span>|&gt; to_<span data-count="17862">f</span>loat);
+      long = (json_elem |&gt; member "lon"<span data-count="17862"> </span>|&gt; to_<span data-count="17862">f</span>loat); 
     } in
     Some (Location loc)
-  | <span data-count="8">"</span>way" -&gt;
-    let way_nodes = json_elem |&gt; member "nodes" |&gt; <span data-count="8">t</span>o_list |&gt; <span data-count="8">L</span>ist.map ~f:(fun elem -&gt; <span data-count="16">e</span>lem |&gt; to_int |&gt; <span data-count="16">s</span>tring_of_int) in
-    <span data-count="8">S</span>ome (Way way_nodes)
-  | <span data-count="0">_</span> -&gt; None
+<span data-count="5531"> </span> | "way" -&gt;
+    let way_nodes = json_elem |&gt; member "nodes"<span data-count="5531"> </span>|&gt; to_list<span data-count="5531"> </span>|&gt; List.map ~f:(fun elem<span data-count="24202"> </span>-&gt; elem |&gt; to_int<span data-count="24202"> </span>|&gt; string_of_int) in
+<span data-count="5531"> </span>   Some (Way way_nodes)
+<span data-count="0"> </span> | _ -&gt; None
 
-let yojson_list_to_element_list (yojson_list: Yojson.Basic.t list option) : element list option =
-  <span data-count="2">m</span>atch yojson_list with
-  | <span data-count="2">S</span>ome valid_list -&gt;
-    Some (List.filter_ma<span data-count="2">p</span> valid_list ~f:json_elem_to_location_or_way)
-  | <span data-count="0">N</span>one -&gt; None
+let yojson_list_to_element_list (yojson_list: Yojson.Basic.t list option) : element list option <span data-count="5">=</span>
+  match yojson_list with
+<span data-count="5"> </span> | Some valid_list -&gt;
+    Some (List.filte<span data-count="5">r</span>_map valid_list ~f:json_elem_to_location_or_way)
+<span data-count="0"> </span> | None -&gt; None
 
-let print_element (e: element) : unit =
-  <span data-count="0">m</span>atch e with
-  | <span data-count="0">L</span>ocation loc -&gt; Printf.printf "Location: %s, Lat: %.4f, Long: %.4f\n" loc.location_name loc.lat loc.long
-  | <span data-count="0">W</span>ay node_list -&gt;
+let print_element (e: element) : unit <span data-count="23393">=</span>
+  match e with
+<span data-count="17862"> </span> | Location loc -&gt; Printf.printf "Location: %s, Lat: %.4f, Long: %.4f\n" loc.location_name loc.lat loc.long
+<span data-count="5531"> </span> | Way node_list -&gt;
     let node_list_str = node_list |&gt; String.concat ~sep:", " in
-    <span data-count="0">P</span>rintf.printf "List of nodes in Way: %s\n" node_list_str
+<span data-count="5531"> </span>   Printf.printf "List of nodes in Way: %s\n" node_list_str
 </code></pre>
       </div>
     </div>
