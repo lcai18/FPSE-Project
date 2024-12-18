@@ -1,3 +1,84 @@
+# OCamaps 🗺️
+- A map-generation and pathfinding tool built in OCaml
+- Lawrence Cai, Spencer Huang
+
+## Summary
+Our project is a map application designed to both construct map-typed values in OCaml, and find the shortest path between locations.
+
+![OCamaps demo showing path between the Academy and Hackerman](./static/ocamaps_demo.png)
+
+### Map generation 🔨
+We designed a small map generation library designed to be able to create map-typed objects in OCaml, using information from Overpass Turbo. Overpass Turbo is a free-to-use and open-sourced map wiki, and using it, we parsed node and path information to construct a graph centered at a specific point with a given radius. For the purpose of the demo, we built a map centered approximately in the middle of Homewood Campus, with a radius of 600 meters.
+
+After making the appropriate API calls and parsing the information from Overpass, we implemented a number of algorithms to convert the returned json to a map-typed value, which is represented as an adjacency list of nodes mapped to a set of (node, distance) tuples consisting of neighbors.
+
+We then implemented a simple persistence model by writing functions to convert the map-typed value to an s-expression, then write it to a text file. To use the same map for future calls, such as when pathfinding, we also wrote functions to decode the sexp-containing text files to recreate the map without repeating API calls to Overpass.
+
+Overpass Turbo returned node labels as "ids", which were entirely numerical (e.g. 837291986). Since these were not very human-readable, we implemented a small mechanism to import node labels to a map, making locations such as "amr 1" or "hackerman hall" valid user input. We had to hardcode these values for Homewood campus, which was an unfortunate last resort. Overpass Turbo does not always provide building names, so we could not generalize this solution given our resources at hand. Using other certain paid map APIs (instead of Overpass) could be a possible solution to this.
+
+### Pathfinding 🔍
+OCamaps also includes a 'directions' service, allowing users to input two locations, and see the shortest path between them. We implemented Dijkstra's algorithm by using distance between nodes as path costs, calculated using the Haversine formula (which accounts for the curvature of the Earth).
+
+Because Core's priority queue was not functional, we decided to instead make our own, and implemented a fully functional priority queue using a binary tree. We were then able to use the map object above, combined with our implementation of Dijkstras using our custom heap, to return a list of nodes consisting of the shortest path between two locations.
+
+The list of nodes is then processed into JSON data, and is able to be retrieved through our frontend via a GET request.
+
+### UI/UX 🖌️
+We implemented a simple frontend using Rescript to allow users to interact with a live map, visually seeing the shortest path returned by our algorithms.
+
+We used the Leaflet map library to display our map, allowing us to plot points and draw lines given a list of coordinates.
+
+We then wired our frontend to our Dream-powered backend by making a GET request which included information about start and destination nodes. After receiving JSON which included all necessary information to construct a path, we parsed the object appropriately and used Leaflet to render our outputs.
+
+## Usage guide 
+
+### Dependencies
+To install opam dependencies, run the following from the root directory:
+
+`$ opam install . --deps-only`
+
+Then, run the following commands to install the necessary frontend packages:
+
+```
+$ cd ./lib/src/map_output/map-gen-rescript
+$ npm install
+```
+
+### Running the backend
+```
+$ dune build
+$ dune exec ./lib/src/api/ocamaps_api.exe
+```
+This should be running on port 5432.
+
+### Running the frontend
+`cd` to the frontend directory (if not there already):
+```
+$ cd ./lib/src/map_output/map-gen-rescript
+```
+
+Then start the vite project as usual:
+```
+$ npm run dev
+```
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+# (everything below is old)
+
 ### Code checkpoint progress report: 12/6
 So far, we have implemented a number of key algorithms, and have begun testing using Hopkins campus and some small replica graphs.
 

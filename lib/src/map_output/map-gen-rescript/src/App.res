@@ -77,11 +77,22 @@ let make = () => {
   }
 
 
-  <>
-    <h1> {React.string("Welcome to OCamaps")} </h1>
+  // let styles = Reac.Style.make(
+  //   ~display="flex", 
+  //   ~flexDirection="column",
+  //   ~alignItems="center", 
+  //   ~justifyContent="center", 
+  //   ~height="100vh", 
+  //   ~margin="0",  
+  //   ()
+  // )
+
+  <div>
+    <h1 style={ReactDOM.Style.make(~color="#444444", ~fontSize="68px", ())}> {React.string("OCamaps")} </h1>
+    <h2 style={ReactDOM.Style.make(~color="#444444", ~fontSize="20px", ~fontStyle="italic", ())}> {React.string("@ Johns Hopkins")} </h2>
     <RouteForm onSubmit={create_map} />
     <div>
       {queried ? createMap() : <></>}
     </div>
-  </>
+  </div>
 }
