@@ -20,6 +20,7 @@ let create () : t = []
 
 (* Link two trees of the same rank: the one with the smaller root becomes the parent. *)
 let link t1 t2 =
+  (* allowing the smaller root to be the parent allows logn removals as we only need to check the top node for each binomial tree in the heap*)
   if compare_elements t1.root t2.root <= 0 then
     { t1 with children = t2 :: t1.children; rank = t1.rank + 1 }
   else
@@ -32,8 +33,12 @@ let rec insert_tree t (heap : t) =
   | hd :: tl ->
     if t.rank < hd.rank then
       t :: hd :: tl
-    else
+    else if t.rank = hd.rank then
       insert_tree (link t hd) tl
+    else (* case occurs in removal if the tree we removed from is larger than all the other trees in the heap*)
+      hd :: insert_tree t tl
+      
+      
 
 
 let add_element (heap : t) (elem : element) : t =
@@ -48,6 +53,8 @@ let rec merge h1 h2 =
   | t1 :: r1, t2 :: r2 ->
     if t1.rank < t2.rank then
       t1 :: merge r1 h2
+    else if t2.rank < t1.rank then
+      t2 :: merge h1 r2
     else
       insert_tree (link t1 t2) (merge r1 r2)
 
@@ -59,7 +66,8 @@ let rec remove_min_tree h =
   | [t] -> (t, [])
   | t :: ts ->
     let (t_min, ts_min) = remove_min_tree ts in
-    if compare_elements t.root t_min.root <= 0 then (t, ts) else (t_min, t :: ts_min)
+    (* if we find a new min, the heap without the current tree is the remaining heap *)
+    if compare_elements t.root t_min.root <= 0 then (t, ts) else (t_min, t :: ts_min) 
 
 let extract_min (heap : t) : ((float * location) * t) option =
   match heap with

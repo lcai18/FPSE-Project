@@ -136,6 +136,39 @@ let test_increasing_priority_inserts _ =
   let sorted_by_priority = List.sort (fun (p1,_) (p2,_) -> Float.compare p1 p2) elems in
   extract_all pq sorted_by_priority
 
+
+let test_random_inserts _ =
+  let pq = create () in
+  (* Insert elements with decreasing priority *)
+  let elems = [
+    (3.0, create_location "loc10" 10.0 10.0);
+    (5.0, create_location "loc9" 9.0 9.0);
+    (2.0, create_location "loc8" 8.0 8.0);
+    (1.0, create_location "loc7" 7.0 7.0);
+    (4.0, create_location "loc6" 6.0 6.0);
+  ] in
+  let pq = List.fold_left add_element pq elems in
+
+  (* Extracting should now cause merges internally to reorder the heap. 
+     We'll just ensure it returns the correct minimum each time,
+     which indirectly tests the merging logic. *)
+  let rec extract_all pq expected =
+    match expected with
+    | [] -> 
+       (* All extracted, should be empty now *)
+       assert_equal None (extract_min pq)
+    | (exp_prio, _)::tl ->
+      match extract_min pq with
+      | Some ((p, _), new_pq) ->
+        assert_equal exp_prio p;
+        extract_all new_pq tl
+      | None -> assert_failure "Expected more elements"
+  in
+
+  (* We inserted from high to low priority, so extraction should yield ascending order of priorities *)
+  let sorted_by_priority = List.sort (fun (p1,_) (p2,_) -> Float.compare p1 p2) elems in
+  extract_all pq sorted_by_priority
+
 let suite =
   "Tests" >::: [
     "test_create" >:: test_create;
@@ -144,5 +177,6 @@ let suite =
     "test_add_duplicate_priorities" >:: test_add_duplicate_priorities;
     "test_decreasing_priority_inserts" >:: test_decreasing_priority_inserts;
     "test_increasing_priority_inserts" >:: test_increasing_priority_inserts;
+    "test_random_inserts" >:: test_random_inserts;
   ]
 

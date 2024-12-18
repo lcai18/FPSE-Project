@@ -90,7 +90,7 @@ let request_body_to_yojson_test _ =
       let sexp_graph = Sexp.to_string (sexp_of_graph full_graph) in
       print_endline sexp_graph;
       save_graph full_graph;
-      let loaded_graph_opt = load_graph ~filename:"../../../map_sexp_files/test_map.txt" in
+      let loaded_graph_opt = load_graph ~filename:"../../../map_sexp_files/test.txt" in
       match loaded_graph_opt with
       | None -> failwith "Expected graph to load from .txt successfully"
       | Some (loaded_graph, _) -> 
