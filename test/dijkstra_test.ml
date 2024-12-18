@@ -93,12 +93,86 @@ let test_start_equals_dest _ =
     assert_equal ~msg:"Path should be [A]" [loc_a] path;
     assert_equal ~msg:"Distance should be 0" 0.0 dist
 
+(* Extended graph setup *)
+let loc_a = make_location "A" 0.0 0.0
+let loc_b = make_location "B" 0.0 0.1
+let loc_c = make_location "C" 0.1 0.0
+let loc_d = make_location "D" 0.1 0.1
+let loc_e = make_location "E" 1.0 1.0 (* isolated node *)
+let loc_f = make_location "F" 0.2 0.2
+let loc_g = make_location "G" 0.3 0.3
+
+(* Create elements to form a more complex graph. *)
+let elements = [
+  Location loc_a; Location loc_b; Location loc_c; Location loc_d; Location loc_e; Location loc_f; Location loc_g;
+  Way ["A"; "B"];
+  Way ["A"; "C"];
+  Way ["B"; "D"];
+  Way ["C"; "D"];
+  Way ["D"; "F"];
+  Way ["F"; "G"];
+  Way ["A"; "G"];
+]
+
+let test_graph =
+  let loc_list = element_list_to_locations elements in
+  let base_map = locations_to_map loc_list in
+  let id_map = locations_to_id_map loc_list in
+  let ways = element_list_to_ways elements in
+  fst (ways_and_base_map_to_full_map ways base_map id_map)
+
+let location_equal l1 l2 =
+  String.equal l1.location_name l2.location_name &&
+  Float.equal l1.lat l2.lat &&
+  Float.equal l1.long l2.long
+
+let location_list_equal l1 l2 =
+  List.length l1 = List.length l2 &&
+  List.for_all2_exn l1 l2 ~f:location_equal
+
+(* Test a path with multiple possible routes *)
+let test_multiple_routes _ =
+  match Dijkstra.shortest_path test_graph ~start:loc_a ~dest:loc_f with
+  | None -> assert_failure "Expected a path from A to F"
+  | Some (path, dist) ->
+    let expected_paths = [[loc_a; loc_b; loc_d; loc_f]; [loc_a; loc_c; loc_d; loc_f]] in
+    let path_is_expected = List.exists expected_paths ~f:(fun p -> location_list_equal p path) in
+    assert_bool "Path should be A->B->D->F or A->C->D->F" path_is_expected;
+    assert_bool "Distance should be positive" (Float.compare dist 0.0 > 0)
+
+(* Test a disconnected node *)
+let test_disconnected_node _ =
+  match Dijkstra.shortest_path test_graph ~start:loc_a ~dest:loc_e with
+  | None -> () (* correct *)
+  | Some _ -> assert_failure "Expected no path from A to E"
+
+(* Test a longer path *)
+let test_longer_path _ =
+  match Dijkstra.shortest_path test_graph ~start:loc_a ~dest:loc_g with
+  | None -> assert_failure "Expected a path from A to G"
+  | Some (path, dist) ->
+    let expected_path = [loc_a; loc_g;] in
+    assert_equal ~msg:"Path should be A->C->D->F->G" expected_path path;
+    assert_bool "Distance should be positive" (Float.compare dist 0.0 > 0)
+
+(* Test invalid start or destination node *)
+let test_invalid_nodes _ =
+  let invalid_loc = make_location "Z" 10.0 10.0 in
+  match Dijkstra.shortest_path test_graph ~start:invalid_loc ~dest:loc_a with
+  | None -> () (* correct *)
+  | Some _ -> assert_failure "Expected no path for invalid start node"
+
 let suite =
   "Dijkstra tests" >::: [
     "test_direct_connection" >:: test_direct_connection;
     "test_no_path" >:: test_no_path;
     "test_simple_rectangle" >:: test_simple_rectangle;
     "test_start_equals_dest" >:: test_start_equals_dest;
+    "test_multiple_routes" >:: test_multiple_routes;
+    "test_disconnected_node" >:: test_disconnected_node;
+    "test_longer_path" >:: test_longer_path;
+    "test_invalid_nodes" >:: test_invalid_nodes;
   ]
+
 
 
