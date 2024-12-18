@@ -112,6 +112,7 @@ let elements = [
   Way ["D"; "F"];
   Way ["F"; "G"];
   Way ["A"; "G"];
+  Way ["G"; "F"];
 ]
 
 let test_graph =
@@ -152,7 +153,7 @@ let test_longer_path _ =
   | None -> assert_failure "Expected a path from A to G"
   | Some (path, dist) ->
     let expected_path = [loc_a; loc_g;] in
-    assert_equal ~msg:"Path should be A->C->D->F->G" expected_path path;
+    assert_equal ~msg:"Path should be A->G" expected_path path;
     assert_bool "Distance should be positive" (Float.compare dist 0.0 > 0)
 
 (* Test invalid start or destination node *)

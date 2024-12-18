@@ -62,6 +62,14 @@ Then start the vite project as usual:
 $ npm run dev
 ```
 
+#### Changes Since the Demo
+After our demo today, we received some feedback and have decided to implement some changes.
+
+These changes are as follows:
+- An error message that pops up when a user types in an invalid building name. 
+- More complex Dijkstra's algorithm test cases.
+
+
 <br />
 <br />
 <br />
@@ -97,3 +105,8 @@ We currently have a way to represent a graph, and a way to generate a list of lo
 Some other things we want to have in the final implementation:
 - Feature to save graphs in a sexp-format, allowing you to load previously-constructed graphs (as opposed to making the API call and parsing the output every time)
 - Create a way to add in paths between nodes manually, in the event that for certain cases, our algorithms don't connect certain nodes adequately
+
+
+
+
+    
