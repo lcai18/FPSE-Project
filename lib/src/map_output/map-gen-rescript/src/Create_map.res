@@ -46,7 +46,7 @@ let make = (~nodes: array<node>) => {
             remove(existingMap);
         | Null | Undefined => ()
         };
-
+        Js.log("invalid")
         // Initialize the Leaflet map
         let map = leafletMap(el, Js.Dict.empty())
         mapInstanceRef.current = Nullable.fromOption(Some(map));
