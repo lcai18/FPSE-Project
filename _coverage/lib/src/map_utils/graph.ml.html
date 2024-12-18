@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8"/>
     <title>graph.ml &mdash; Coverage report</title>
-    <meta name="description" content="53.76% coverage in lib/src/map_utils/graph.ml">
+    <meta name="description" content="40.86% coverage in lib/src/map_utils/graph.ml">
     <link rel="stylesheet" href="../../../coverage.css"/>
     <script src="../../../highlight.pack.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
@@ -15,10 +15,18 @@
           <span class="dirname">lib/src/map_utils/</span>graph.ml
         </a>
       </h1>
-      <h2>53.76%</h2>
+      <h2>40.86%</h2>
     </div>
     <div id="navbar">
       <span class="some-visited" style="top:45.54%"></span>
+      <span class="unvisited" style="bottom:48.51%"></span>
+      <span class="unvisited" style="bottom:47.52%"></span>
+      <span class="unvisited" style="bottom:46.53%"></span>
+      <span class="unvisited" style="bottom:45.54%"></span>
+      <span class="unvisited" style="bottom:43.07%"></span>
+      <span class="unvisited" style="bottom:42.08%"></span>
+      <span class="unvisited" style="bottom:41.58%"></span>
+      <span class="unvisited" style="bottom:39.11%"></span>
       <span class="unvisited" style="bottom:36.14%"></span>
       <span class="unvisited" style="bottom:35.15%"></span>
       <span class="unvisited" style="bottom:34.65%"></span>
@@ -51,6 +59,10 @@
       <span class="unvisited" style="bottom:9.90%"></span>
       <span class="unvisited" style="bottom:9.41%"></span>
       <span class="unvisited" style="bottom:8.91%"></span>
+      <span class="unvisited" style="bottom:7.43%"></span>
+      <span class="unvisited" style="bottom:6.93%"></span>
+      <span class="unvisited" style="bottom:5.45%"></span>
+      <span class="unvisited" style="bottom:4.95%"></span>
       <span class="unvisited" style="bottom:2.97%"></span>
       <span class="unvisited" style="bottom:2.48%"></span>
       <span class="unvisited" style="bottom:0.99%"></span>
@@ -161,26 +173,26 @@
 <a id="L101"></a><span > </span>
 <a id="L102"></a><span > </span>
 <a id="L103"></a><span > </span>
-<a id="L104"></a><span class="visited"> </span>
+<a id="L104"></a><span class="unvisited"> </span>
 <a id="L105"></a><span > </span>
-<a id="L106"></a><span class="visited"> </span>
+<a id="L106"></a><span class="unvisited"> </span>
 <a id="L107"></a><span > </span>
-<a id="L108"></a><span class="visited"> </span>
+<a id="L108"></a><span class="unvisited"> </span>
 <a id="L109"></a><span > </span>
-<a id="L110"></a><span class="visited"> </span>
+<a id="L110"></a><span class="unvisited"> </span>
 <a id="L111"></a><span > </span>
 <a id="L112"></a><span > </span>
 <a id="L113"></a><span > </span>
 <a id="L114"></a><span > </span>
-<a id="L115"></a><span class="visited"> </span>
+<a id="L115"></a><span class="unvisited"> </span>
 <a id="L116"></a><span > </span>
-<a id="L117"></a><span class="visited"> </span>
-<a id="L118"></a><span class="visited"> </span>
+<a id="L117"></a><span class="unvisited"> </span>
+<a id="L118"></a><span class="unvisited"> </span>
 <a id="L119"></a><span > </span>
 <a id="L120"></a><span > </span>
 <a id="L121"></a><span > </span>
 <a id="L122"></a><span > </span>
-<a id="L123"></a><span class="visited"> </span>
+<a id="L123"></a><span class="unvisited"> </span>
 <a id="L124"></a><span > </span>
 <a id="L125"></a><span > </span>
 <a id="L126"></a><span > </span>
@@ -244,12 +256,12 @@
 <a id="L184"></a><span class="unvisited"> </span>
 <a id="L185"></a><span > </span>
 <a id="L186"></a><span > </span>
-<a id="L187"></a><span class="visited"> </span>
-<a id="L188"></a><span class="visited"> </span>
+<a id="L187"></a><span class="unvisited"> </span>
+<a id="L188"></a><span class="unvisited"> </span>
 <a id="L189"></a><span > </span>
 <a id="L190"></a><span > </span>
-<a id="L191"></a><span class="visited"> </span>
-<a id="L192"></a><span class="visited"> </span>
+<a id="L191"></a><span class="unvisited"> </span>
+<a id="L192"></a><span class="unvisited"> </span>
 <a id="L193"></a><span > </span>
 <a id="L194"></a><span > </span>
 <a id="L195"></a><span > </span>
@@ -497,9 +509,9 @@ let empty_graph = LocationMap.empty
 (* Get all the Location nodes from received elements *)
 let element_list_to_locations (list: element list) : location list =
   <span data-count="8">L</span>ist.fold ~init:[] ~f: (fun accum elem -&gt;
-      <span data-count="23420">m</span>atch elem with
-      | <span data-count="17877">L</span>ocation l -&gt; l :: accum
-      | <span data-count="5543">W</span>ay _ -&gt; accum
+      <span data-count="88">m</span>atch elem with
+      | <span data-count="44">L</span>ocation l -&gt; l :: accum
+      | <span data-count="44">W</span>ay _ -&gt; accum
     ) list
 
 (* Create a map that maps node id to Location *)
@@ -509,13 +521,13 @@ let empty_id_map = StringMap.empty
 
 let locations_to_id_map (loc_list: location list) : id_map =
   <span data-count="8">L</span>ist.fold ~init:empty_id_map ~f:(fun accum elem -&gt; 
-      <span data-count="17877">a</span>ccum |&gt; Map.set ~key:elem.location_name ~data:elem
+      <span data-count="44">a</span>ccum |&gt; Map.set ~key:elem.location_name ~data:elem
     ) loc_list
 
 (* Adds all nodes to the graph, all mapped to empty lists. *)
 let locations_to_map (loc_list: location list) : graph = 
   <span data-count="8">L</span>ist.fold ~init:empty_graph ~f:(fun accum elem -&gt;
-      <span data-count="17877">a</span>ccum
+      <span data-count="44">a</span>ccum
       |&gt; Map.set ~key:elem ~data:empty_loc_set
     ) loc_list
 
@@ -526,42 +538,42 @@ let locations_to_map (loc_list: location list) : graph =
 (* Gets all Ways from received elements *)
 let element_list_to_ways (list: element list) : string list list =
   <span data-count="8">L</span>ist.fold ~init:[] ~f:(fun accum elem -&gt;
-      <span data-count="23420">m</span>atch elem with
-      | <span data-count="5543">W</span>ay w -&gt; w :: accum
-      | <span data-count="17877">L</span>ocation _ -&gt; accum
+      <span data-count="88">m</span>atch elem with
+      | <span data-count="44">W</span>ay w -&gt; w :: accum
+      | <span data-count="44">L</span>ocation _ -&gt; accum
     ) list
 
 (* acos(sin(lat1)sin(lat2) + cos(lat1)cos(lat2)cos(lon2-lon1)) *    6371 *)
 let nodes_to_path_cost (n1: location) (n2: location) : float =
-  <span data-count="18683">l</span>et deg_to_rad degrees = <span data-count="74732">d</span>egrees *. (Float.pi /. 180.) in
+  <span data-count="44">l</span>et deg_to_rad degrees = <span data-count="176">d</span>egrees *. (Float.pi /. 180.) in
   let n1_lat_rad = deg_to_rad n1.lat in
-  <span data-count="18683">l</span>et n1_long_rad = deg_to_rad n1.long in
-  <span data-count="18683">l</span>et n2_lat_rad = deg_to_rad n2.lat in
-  <span data-count="18683">l</span>et n2_long_rad = deg_to_rad n2.long in
-  <span data-count="18683">l</span>et earth_rad = 6371. in
-    Float.aco<span data-count="18683">s</span>(Float.si<span data-count="18683">n</span>(n1_lat_rad) *. Float.si<span data-count="18683">n</span>(n2_lat_rad) +. Float.co<span data-count="18683">s</span>(n1_lat_rad) *. Float.co<span data-count="18683">s</span>(n2_lat_rad) *. Float.co<span data-count="18683">s</span>(n2_long_rad -. n1_long_rad)) *. earth_rad
+  <span data-count="44">l</span>et n1_long_rad = deg_to_rad n1.long in
+  <span data-count="44">l</span>et n2_lat_rad = deg_to_rad n2.lat in
+  <span data-count="44">l</span>et n2_long_rad = deg_to_rad n2.long in
+  <span data-count="44">l</span>et earth_rad = 6371. in
+    Float.aco<span data-count="44">s</span>(Float.si<span data-count="44">n</span>(n1_lat_rad) *. Float.si<span data-count="44">n</span>(n2_lat_rad) +. Float.co<span data-count="44">s</span>(n1_lat_rad) *. Float.co<span data-count="44">s</span>(n2_lat_rad) *. Float.co<span data-count="44">s</span>(n2_long_rad -. n1_long_rad)) *. earth_rad
 
 (* Takes list of ways, a base graph of just locations mapped to empty sets, and a map from node ids to nodes, and creates the full adjacency list representation *)
 let ways_and_base_map_to_full_map (ways: string list list) (base_graph: graph) (node_ids: id_map) : (graph * int) =
   <span data-count="8">l</span>et rec process_way_list ((g, connections): (graph * int)) (way: string list) : (graph * int) =
-    <span data-count="24226">m</span>atch way with
-    | <span data-count="18683">h</span>d1 :: hd2 :: tl -&gt;
+    <span data-count="88">m</span>atch way with
+    | <span data-count="44">h</span>d1 :: hd2 :: tl -&gt;
       let hd1_node = hd1 |&gt; Map.find_exn node_ids in
-      <span data-count="18683">l</span>et hd2_node = hd2 |&gt; Map.find_exn node_ids in
-      <span data-count="18683">l</span>et hd1_set = hd1_node |&gt; Map.find_exn g in
-      <span data-count="18683">l</span>et hd2_set = hd2_node |&gt; Map.find_exn g in
-      <span data-count="18683">l</span>et path_cost = nodes_to_path_cost hd1_node hd2_node in
-      <span data-count="18683">l</span>et new_graph = 
+      <span data-count="44">l</span>et hd2_node = hd2 |&gt; Map.find_exn node_ids in
+      <span data-count="44">l</span>et hd1_set = hd1_node |&gt; Map.find_exn g in
+      <span data-count="44">l</span>et hd2_set = hd2_node |&gt; Map.find_exn g in
+      <span data-count="44">l</span>et path_cost = nodes_to_path_cost hd1_node hd2_node in
+      <span data-count="44">l</span>et new_graph = 
         g 
-        |&gt; Map.se<span data-count="18683">t</span> ~key:hd1_node ~data:(Set.ad<span data-count="18683">d</span> hd1_set (hd2_node, path_cost)) 
-        |&gt; Map.set ~key:hd2_node ~data:(Set.ad<span data-count="18683">d</span> hd2_set (hd1_node, path_cost))
+        |&gt; Map.se<span data-count="44">t</span> ~key:hd1_node ~data:(Set.ad<span data-count="44">d</span> hd1_set (hd2_node, path_cost)) 
+        |&gt; Map.set ~key:hd2_node ~data:(Set.ad<span data-count="44">d</span> hd2_set (hd1_node, path_cost))
         
       in
-      <span data-count="18683">p</span>rocess_way_list (new_graph, connections + 1) (hd2 :: tl)
-    | <span data-count="5543">[</span>_] | <span data-count="0">_</span> -&gt; (g, connections)
+      <span data-count="44">p</span>rocess_way_list (new_graph, connections + 1) (hd2 :: tl)
+    | <span data-count="44">[</span>_] | <span data-count="0">_</span> -&gt; (g, connections)
   in
   List.fold ~init:(base_graph, 0) ~f:(fun accum elem -&gt;
-      <span data-count="5543">p</span>rocess_way_list accum elem
+      <span data-count="44">p</span>rocess_way_list accum elem
     ) ways
 
 
@@ -570,26 +582,26 @@ let ways_and_base_map_to_full_map (ways: string list list) (base_graph: graph) (
 [@@@warning "-32"]
 let sexp_of_graph (g: graph) : Sexp.t =
   (* [graph] key is a location, data is a set of (location * float) tuples *)
-  <span data-count="4">l</span>et list_of_sexps = Map.fold ~init:[] ~f:(
+  <span data-count="0">l</span>et list_of_sexps = Map.fold ~init:[] ~f:(
     fun ~key ~data accum -&gt; 
-      <span data-count="16889">l</span>et sexp_neighbors_shell = Set.fold ~init:[] ~f:(
+      <span data-count="0">l</span>et sexp_neighbors_shell = Set.fold ~init:[] ~f:(
         fun accum (loc, distance) -&gt;
-          <span data-count="35296">l</span>et sexp_neighbor_inner_shell = Sexp.List [
+          <span data-count="0">l</span>et sexp_neighbor_inner_shell = Sexp.List [
             Sexp.List [Sexp.Atom "loc-id"; Sexp.Atom loc.location_name];
-            Sexp.List [Sexp.Atom "dist" ;  Sexp.Atom (string_of_floa<span data-count="35296">t</span> distance)]
+            Sexp.List [Sexp.Atom "dist" ;  Sexp.Atom (string_of_floa<span data-count="0">t</span> distance)]
           ] in
           sexp_neighbor_inner_shell :: accum
       ) data
       in 
-      <span data-count="16889">l</span>et sexp_shell = Sexp.List [
+      <span data-count="0">l</span>et sexp_shell = Sexp.List [
         Sexp.List [Sexp.Atom "loc-id" ; Sexp.Atom key.location_name];
-        Sexp.List [Sexp.Atom "lat" ; Sexp.Atom (string_of_floa<span data-count="16889">t</span> key.lat)]; 
-        Sexp.List [Sexp.Atom "long" ; Sexp.Atom (string_of_floa<span data-count="16889">t</span> key.long)];
+        Sexp.List [Sexp.Atom "lat" ; Sexp.Atom (string_of_floa<span data-count="0">t</span> key.lat)]; 
+        Sexp.List [Sexp.Atom "long" ; Sexp.Atom (string_of_floa<span data-count="0">t</span> key.long)];
         Sexp.List [Sexp.Atom "adj-list" ; Sexp.List sexp_neighbors_shell]
       ] in sexp_shell :: accum
   ) g 
   in
-  <span data-count="4">l</span>et sexp_list_of_sexps = Sexp.List list_of_sexps in
+  <span data-count="0">l</span>et sexp_list_of_sexps = Sexp.List list_of_sexps in
   Sexp.List [Sexp.Atom "graph" ; sexp_list_of_sexps]
 
 
@@ -653,12 +665,12 @@ let graph_of_sexp ((Sexp.List [_ ; Sexp.List lst]): Sexp.t) : (graph * id_map) o
     | <span data-count="0">_</span> -&gt; None
       
 let save_sexp_to_file ~(filename: string) (sexp: Sexp.t) : unit=
-  <span data-count="4">l</span>et sexp_string = Sexp.to_string sexp in
-  <span data-count="4">O</span>ut_channel.write_all filename ~data:sexp_string
+  <span data-count="0">l</span>et sexp_string = Sexp.to_string sexp in
+  <span data-count="0">O</span>ut_channel.write_all filename ~data:sexp_string
 
 let save_graph (g: graph) : unit =
-  <span data-count="4">g</span>
-  |&gt; sexp_of_grap<span data-count="4">h</span>
+  <span data-count="0">g</span>
+  |&gt; sexp_of_grap<span data-count="0">h</span>
   |&gt; save_sexp_to_file ~filename:"map_sexp_files/homewood_map.txt"
 
 let load_sexp_from_file ~(filename: string) : Sexp.t =
