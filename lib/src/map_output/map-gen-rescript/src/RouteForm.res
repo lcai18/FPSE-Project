@@ -16,68 +16,71 @@ let make = (~onSubmit: (string, string) => unit) => {
     }
   }
 
-  <form
-    onSubmit={handleSubmit}
-    style={ReactDOM.Style.make(
-      ~display="flex",
-      ~flexDirection="column",
-      ~alignItems="flex-start",
-      ~border="1px solid black",
-      ~padding="10px",
-      ~borderRadius="5px",
-      ~maxWidth="300px",
-      ~margin="10px",
-      ()
-    )}
-  >
-    <label>
-      {React.string("Start:")}
-      <input
-        type_="text"
-        value=start
-        onChange={evt => setStart(ReactEvent.Form.target(evt)["value"])}
-        style={ReactDOM.Style.make(
-          ~display="block",
-          ~marginBottom="10px",
-          ~width="100%",
-          ~padding="8px",
-          ~border="1px solid black",
-          ~borderRadius="3px",
-          ()
-        )}
-      />
-    </label>
-    <label>
-      {React.string("Destination:")}
-      <input
-        type_="text"
-        value=destination
-        onChange={event => setDestination(ReactEvent.Form.target(event)["value"])}
-        style={ReactDOM.Style.make(
-          ~display="block",
-          ~marginBottom="10px",
-          ~width="100%",
-          ~padding="8px",
-          ~border="1px solid black",
-          ~borderRadius="3px",
-          ()
-        )}
-      />
-    </label>
-    <button
-      type_="submit"
+  <div>
+    <form
+      onSubmit={handleSubmit}
       style={ReactDOM.Style.make(
-        ~marginTop="10px",
-        ~padding="8px 16px",
-        ~backgroundColor="#007bff",
-        ~color="white",
-        ~border="none",
+        ~display="flex",
+        ~flexDirection="column",
+        ~alignItems="flex-start",
+        ~border="1px solid black",
+        ~padding="10px",
         ~borderRadius="5px",
-        ~cursor="pointer",
+        ~maxWidth="300px",
+        ~boxShadow="0 4px 8px rgba(0, 0, 0, 0.1)",
+        ~backgroundColor="white",
         ()
       )}
     >
-      {React.string("Start")}
-    </button>
-  </form>
+      <label>
+        {React.string("Start:")}
+        <input
+          type_="text"
+          value=start
+          onChange={evt => setStart(ReactEvent.Form.target(evt)["value"])}
+          style={ReactDOM.Style.make(
+            ~display="block",
+            ~marginBottom="10px",
+            ~width="100%",
+            ~padding="8px",
+            ~border="1px solid black",
+            ~borderRadius="3px",
+            ()
+          )}
+        />
+      </label>
+      <label>
+        {React.string("Destination:")}
+        <input
+          type_="text"
+          value=destination
+          onChange={event => setDestination(ReactEvent.Form.target(event)["value"])}
+          style={ReactDOM.Style.make(
+            ~display="block",
+            ~marginBottom="10px",
+            ~width="100%",
+            ~padding="8px",
+            ~border="1px solid black",
+            ~borderRadius="3px",
+            ()
+          )}
+        />
+      </label>
+      <button
+        type_="submit"
+        style={ReactDOM.Style.make(
+          ~marginTop="10px",
+          ~padding="8px 16px",
+          ~backgroundColor="#007bff",
+          ~color="white",
+          ~border="none",
+          ~borderRadius="5px",
+          ~cursor="pointer",
+          ()
+        )}
+      >
+        {React.string("Start")}
+      </button>
+    </form>
+  </div>
 }

@@ -82,5 +82,5 @@ let make = (~nodes: array<node>) => {
     None
   }, [nodes])
 //displaying the map
-  <div ref={ReactDOM.Ref.domRef(mapRef)} style={ReactDOM.Style.make(~width="50%", ~height="50vh", ~marginLeft="auto", ~marginRight="10%", ())} />
+  <div ref={ReactDOM.Ref.domRef(mapRef)} style={ReactDOM.Style.make(~width="60%", ~height="75vh", ~marginLeft="auto", ~marginRight="10%", ())} />
 }
