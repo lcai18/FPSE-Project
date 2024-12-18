@@ -43,6 +43,7 @@ Then, run the following commands to install the necessary frontend packages:
 $ cd ./lib/src/map_output/map-gen-rescript
 $ npm install
 ```
+For the frontend we used the leaflet library as well as rescript.
 
 ### Running the backend
 ```

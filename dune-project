@@ -10,7 +10,7 @@
   (depends
   (ounit2 (>= 2.2.7)) ; for each opam dependency list the version
   (core (>= 0.17.1)) ; `opam list core` will display which version of core you have
-  (yosjon (>= 2.2.2))
+  (yojson (>= 2.2.2))
   (cohttp-lwt-unix (>= 6.0.0))
   (lwt (>= 5.9.0))
   (dream (>= 1.0.0~alpha7))
