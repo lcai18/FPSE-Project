@@ -123,7 +123,7 @@ test node ids from last test:
 
 
 let () =
-    find_shortest_path "amr 1" "hackerman hall" None 
+    find_shortest_path "latrobe hall" "krieger hall" None 
 
 (* let () =
     find_shortest_path "9159493732" "2496874894" None  *)

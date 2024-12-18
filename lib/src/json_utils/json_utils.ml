@@ -20,7 +20,7 @@ let get_request ~(uri: string) : string option Lwt.t =
 let nodes_request ~(radius: int) : string option =
   let rad_string = string_of_int radius in
   let uri_base = "https://overpass-api.de/api/interpreter" in
-  let uri_data = "?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0Anode%28around%3A"^rad_string^"%2C39.3299%2C-76.6205%29%3B%20%0Away%28around%3A"^rad_string^"%2C39.3299%2C-76.6205%29%5B%22highway%22%3D%22footway%22%5D%3B%0A%28._%3B%3E%3B%29%3B%0Aout%20body%20geom%3B" in
+  let uri_data = "?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0Anode%28around%3A"^rad_string^"%2C39.3299%2C-76.6205%29%3B%20%0Away%28around%3A"^rad_string^"%2C39.3299%2C-76.6205%29%5B%22highway%22~%22footway|steps%22%5D%3B%0A%28._%3B%3E%3B%29%3B%0Aout%20body%20geom%3B" in
   let uri = uri_base ^ uri_data in
   let request_body = Lwt_main.run (get_request ~uri) in
   request_body

@@ -22,19 +22,33 @@ external bindPopup: ('marker, string) => 'marker = "bindPopup"
 @module("leaflet")
 external polyline: Js.Array.t<Js.Array.t<float>> => 'polyline = "polyline"
 
+@send
+external off: ('map, string, unit => unit) => unit = "off";
+
+@send
+external remove: ('map) => unit = "remove";
+
 @react.component
 let make = (~nodes: array<node>) => {
   let mapRef = useRef(Nullable.null)
+  let mapInstanceRef = useRef(Nullable.null)
   let initialized = React.useRef(false)
   useEffect(() => {
-    if (!initialized.current) {
-      initialized.current = true
       switch mapRef.current {
       | Null | Undefined => (Js.log("here"))
       | Value(el) =>
         
+        switch mapInstanceRef.current {
+        | Value(existingMap) =>
+            Js.log("Cleaning up map instance...");
+            off(existingMap, "click", () => ()); /* Example: unbinding 'click' listeners */
+            remove(existingMap);
+        | Null | Undefined => ()
+        };
+
         // Initialize the Leaflet map
         let map = leafletMap(el, Js.Dict.empty())
+        mapInstanceRef.current = Nullable.fromOption(Some(map));
         setView(map, [39.3285, -76.62039], 16)
         let layer = tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {"maxZoom": 19})
         addTo(layer, map)
@@ -58,13 +72,11 @@ let make = (~nodes: array<node>) => {
 
         let path = polyline(path_points)
         addTo(path, map)
-
+        
 
         Js.log(mapRef)
       }
-    } else {
-      Js.log("Updating markers since nodes changed")
-    }
+
 
     None
   }, [nodes])

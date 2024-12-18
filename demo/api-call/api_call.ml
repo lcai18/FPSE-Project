@@ -83,7 +83,7 @@ TODO: Make the lat/long center of the circle a function parameter *)
 let nodes_request ~(radius: int) : string option =
   let rad_string = string_of_int radius in
   let uri_base = "https://overpass-api.de/api/interpreter" in
-  let uri_data = "?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0Anode%28around%3A"^rad_string^"%2C39.3299%2C-76.6205%29%3B%20%0Away%28around%3A"^rad_string^"%2C39.3299%2C-76.6205%29%5B%22highway%22%3D%22footway%22%5D%3B%0A%28._%3B%3E%3B%29%3B%0Aout%20body%20geom%3B" in
+  let uri_data = "?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0Anode%28around%3A"^rad_string^"%2C39.3299%2C-76.6205%29%3B%20%0Away%28around%3A"^rad_string^"%2C39.3299%2C-76.6205%29%5B%22highway%22~%22footway|steps%22%5D%3B%0A%28._%3B%3E%3B%29%3B%0Aout%20body%20geom%3B" in
   let uri = uri_base ^ uri_data in
   let request_body = Lwt_main.run (get_request ~uri) in
   request_body
@@ -230,7 +230,7 @@ let ways_and_base_map_to_full_map (ways: string list list) (base_graph: graph) (
 
 (* Executable func: Gets nodes, converts them to json, converts json into location list *)
 let () =
-  let elements = nodes_request ~radius:200 |> request_body_to_yojson |> yojson_list_to_element_list in
+  let elements = nodes_request ~radius:400 |> request_body_to_yojson |> yojson_list_to_element_list in
   match elements with
   | Some elems -> 
      (
