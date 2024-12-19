@@ -87,7 +87,7 @@ let request_body_to_yojson_test _ =
       Map.iteri full_graph ~f:(fun ~key:_ ~data ->
         assert_equal (Set.length data) 2
         );
-      save_graph full_graph;
+      save_graph full_graph "../../../map_sexp_files/test_map.txt";
       let loaded_graph_opt = load_graph ~filename:"../../../map_sexp_files/test_map.txt" in
       match loaded_graph_opt with
       | None -> failwith "Expected graph to load from .txt successfully"

@@ -187,10 +187,10 @@ let save_sexp_to_file ~(filename: string) (sexp: Sexp.t) : unit=
   let sexp_string = Sexp.to_string sexp in
   Out_channel.write_all filename ~data:sexp_string
 
-let save_graph (g: graph) : unit =
+let save_graph (g: graph) (filename: string): unit =
   g
   |> sexp_of_graph
-  |> save_sexp_to_file ~filename:"../../../map_sexp_files/homewood_map.txt"
+  |> save_sexp_to_file ~filename
 
 let load_sexp_from_file ~(filename: string) : Sexp.t =
   let sexp_string = In_channel.read_all filename in

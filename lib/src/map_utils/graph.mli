@@ -30,9 +30,13 @@ type id_map = location StringMap.t
 val empty_id_map : id_map
 
 val locations_to_id_map : location list -> id_map
+
 val locations_to_map : location list -> graph
+
 val element_list_to_ways : element list -> string list list
+
 val element_list_to_locations : element list -> location list
+
 val nodes_to_path_cost : location -> location -> float
 
 val ways_and_base_map_to_full_map : 
@@ -45,6 +49,6 @@ val sexp_of_graph: graph -> Sexp.t
 
 val graph_of_sexp : Sexp.t -> (graph * id_map) option
 
-val save_graph : graph -> unit
+val save_graph : graph -> string -> unit
 
 val load_graph : filename:string -> (graph * id_map) option

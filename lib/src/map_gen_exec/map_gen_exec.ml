@@ -2,7 +2,7 @@ open Core
 open Graph
 open Json_utils
 let () =
-  let elements = nodes_request ~radius:200 |> request_body_to_yojson |> yojson_list_to_element_list in
+  let elements = nodes_request ~radius:600 |> request_body_to_yojson |> yojson_list_to_element_list in
   match elements with
   | Some elems -> 
      (
@@ -25,4 +25,5 @@ let () =
           accum + 1
       ) full_graph in
       Printf.printf "Nodes with nonempty adjacency sets: %s\n" (string_of_int connected_nodes);
+      save_graph full_graph "./map_sexp_files/homewood_map.txt"
   | None -> Printf.printf "No locations found.\n"
