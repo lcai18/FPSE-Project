@@ -86,7 +86,15 @@ let request_body_to_yojson_test _ =
       assert_equal (Map.length full_graph) 4;
       Map.iteri full_graph ~f:(fun ~key:_ ~data ->
         assert_equal (Set.length data) 2
-        )
+        );
+      save_graph full_graph;
+      let loaded_graph_opt = load_graph ~filename:"../../../map_sexp_files/test_map.txt" in
+      match loaded_graph_opt with
+      | None -> failwith "Expected graph to load from .txt successfully"
+      | Some (loaded_graph, _) -> 
+        assert_equal (Map.length loaded_graph) 4;
+
+
 
 [@@@warning "-8"]
 let get_request_test _ =

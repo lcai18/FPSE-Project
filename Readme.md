@@ -69,6 +69,7 @@ After our demo today, we received some feedback and have decided to implement so
 These changes are as follows:
 - An error message that pops up when a user types in an invalid building name. 
 - More complex Dijkstra's algorithm test cases.
+- A button that shows the list of possible locations to input to our app
 
 
 <br />

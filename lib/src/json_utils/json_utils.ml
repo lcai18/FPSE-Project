@@ -61,10 +61,11 @@ let yojson_list_to_element_list (yojson_list: Yojson.Basic.t list option) : elem
   | Some valid_list ->
     Some (List.filter_map valid_list ~f:json_elem_to_location_or_way)
   | None -> None
-
+  [@@@coverage off]
 let print_element (e: element) : unit =
   match e with
   | Location loc -> Printf.printf "Location: %s, Lat: %.4f, Long: %.4f\n" loc.location_name loc.lat loc.long
   | Way node_list ->
     let node_list_str = node_list |> String.concat ~sep:", " in
     Printf.printf "List of nodes in Way: %s\n" node_list_str
+  [@@@coverage on]
