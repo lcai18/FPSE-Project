@@ -25,4 +25,12 @@ o Create_map.cmi : cp ../bs/src/Create_map.cmi
 o Create_map.cmj : cp ../bs/src/Create_map.cmj
 o Create_map.cmt : cp ../bs/src/Create_map.cmt
 o Create_map.res : cp ../../src/Create_map.res
-build install.stamp : touch App.cmi App.cmj Main.cmi Main.cmj Types.cmi Types.cmj RouteForm.cmi RouteForm.cmj Create_map.cmi Create_map.cmj 
+o BuildingsList.cmi : cp ../bs/src/BuildingsList.cmi
+o BuildingsList.cmj : cp ../bs/src/BuildingsList.cmj
+o BuildingsList.cmt : cp ../bs/src/BuildingsList.cmt
+o BuildingsList.res : cp ../../src/BuildingsList.res
+o AvailableBuildings.cmi : cp ../bs/src/AvailableBuildings.cmi
+o AvailableBuildings.cmj : cp ../bs/src/AvailableBuildings.cmj
+o AvailableBuildings.cmt : cp ../bs/src/AvailableBuildings.cmt
+o AvailableBuildings.res : cp ../../src/AvailableBuildings.res
+build install.stamp : touch App.cmi App.cmj Main.cmi Main.cmj Types.cmi Types.cmj RouteForm.cmi RouteForm.cmj Create_map.cmi Create_map.cmj BuildingsList.cmi BuildingsList.cmj AvailableBuildings.cmi AvailableBuildings.cmj 

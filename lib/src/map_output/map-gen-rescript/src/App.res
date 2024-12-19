@@ -5,12 +5,16 @@ type response
 @val external fetch: string => promise<response> = "fetch"
 @send external json: response => promise<'a> = "json"
 
+
 @react.component
 let make = () => {
-
   let (nodes, setNodes) = React.useState(_ => []);
   let (queried, setQueried) = React.useState(_ => false);
   let (errorMessage, setErrorMessage) = React.useState(_ => None);
+  let (showBuildings, setShowBuildings) = React.useState(_ => false);
+
+  // Hard-coded building list
+
 
   React.useEffect(() => {
     if (Array.length(nodes) != 0) {
@@ -112,6 +116,7 @@ let make = () => {
       }>
       <RouteForm onSubmit={create_map} />
       {queried ? createMap() : <></>}
+      
     </div>
     {
       switch (errorMessage) {
@@ -129,5 +134,7 @@ let make = () => {
       | None => <></>
       }
     }
+    /* Button to toggle building list */
+    <AvailableBuildings/>
   </div>;
 };

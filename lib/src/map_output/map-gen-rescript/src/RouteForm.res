@@ -9,7 +9,7 @@ let make = (~onSubmit: (string, string) => unit) => {
 
     // Check if the values are empty
     if (start == "" || destination == "") {
-      Js.log("Error: Both Start and Destination must be filled!")
+      onSubmit("default", "wrong")
     } else {
       // Pass the values to the parent's onSubmit handler
       onSubmit(start, destination)

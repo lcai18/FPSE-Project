@@ -5,24 +5,24 @@ rule astj
   command = /Users/larrycai/fpse/FPSE-Project/lib/src/map_output/map-gen-rescript/node_modules/rescript/darwinarm64/bsc.exe  -bs-v 11.1.4 -bs-jsx 4 -uncurried -open RescriptCore -absname -bs-ast -o $out $i
 o src/App.ast : astj ../../src/App.res
 rule deps
-  command = /Users/larrycai/fpse/FPSE-Project/lib/src/map_output/map-gen-rescript/node_modules/rescript/darwinarm64/bsb_helper.exe -hash f3cf15b4148c8ba202d3234a61663968 $in
+  command = /Users/larrycai/fpse/FPSE-Project/lib/src/map_output/map-gen-rescript/node_modules/rescript/darwinarm64/bsb_helper.exe -hash 9fff32a565fc9c4a7542677f5e78c19e $in
   restat = 1
 o src/App.d : deps src/App.ast src/App.iast
 o src/App.iast : astj ../../src/App.resi
 rule mi
-  command = /Users/larrycai/fpse/FPSE-Project/lib/src/map_output/map-gen-rescript/node_modules/rescript/darwinarm64/bsc.exe -I src/assets -I src -I /Users/larrycai/fpse/FPSE-Project/lib/src/map_output/map-gen-rescript/node_modules/@rescript/core/lib/ocaml -I /Users/larrycai/fpse/FPSE-Project/lib/src/map_output/map-gen-rescript/node_modules/@rescript/react/lib/ocaml -open RescriptCore  -uncurried -bs-v $g_finger $i
+  command = /Users/larrycai/fpse/FPSE-Project/lib/src/map_output/map-gen-rescript/node_modules/rescript/darwinarm64/bsc.exe -I src -I /Users/larrycai/fpse/FPSE-Project/lib/src/map_output/map-gen-rescript/node_modules/@rescript/core/lib/ocaml -I /Users/larrycai/fpse/FPSE-Project/lib/src/map_output/map-gen-rescript/node_modules/@rescript/react/lib/ocaml -open RescriptCore  -uncurried -bs-v $g_finger $i
   dyndep = 1
   restat = 1
 o src/App.cmi : mi src/App.iast
 rule mj
-  command = /Users/larrycai/fpse/FPSE-Project/lib/src/map_output/map-gen-rescript/node_modules/rescript/darwinarm64/bsc.exe -bs-read-cmi -I src/assets -I src -I /Users/larrycai/fpse/FPSE-Project/lib/src/map_output/map-gen-rescript/node_modules/@rescript/core/lib/ocaml -I /Users/larrycai/fpse/FPSE-Project/lib/src/map_output/map-gen-rescript/node_modules/@rescript/react/lib/ocaml -open RescriptCore  -uncurried -bs-package-name map-gen-rescript -bs-package-output esmodule:$in_d:.res.mjs -bs-v $g_finger $i
+  command = /Users/larrycai/fpse/FPSE-Project/lib/src/map_output/map-gen-rescript/node_modules/rescript/darwinarm64/bsc.exe -bs-read-cmi -I src -I /Users/larrycai/fpse/FPSE-Project/lib/src/map_output/map-gen-rescript/node_modules/@rescript/core/lib/ocaml -I /Users/larrycai/fpse/FPSE-Project/lib/src/map_output/map-gen-rescript/node_modules/@rescript/react/lib/ocaml -open RescriptCore  -uncurried -bs-package-name map-gen-rescript -bs-package-output esmodule:$in_d:.res.mjs -bs-v $g_finger $i
   dyndep = 1
   restat = 1
 o src/App.cmj ../../src/App.res.mjs : mj src/App.ast src/App.cmi
 o src/Main.ast : astj ../../src/Main.res
 o src/Main.d : deps src/Main.ast
 rule mij
-  command = /Users/larrycai/fpse/FPSE-Project/lib/src/map_output/map-gen-rescript/node_modules/rescript/darwinarm64/bsc.exe -I src/assets -I src -I /Users/larrycai/fpse/FPSE-Project/lib/src/map_output/map-gen-rescript/node_modules/@rescript/core/lib/ocaml -I /Users/larrycai/fpse/FPSE-Project/lib/src/map_output/map-gen-rescript/node_modules/@rescript/react/lib/ocaml -open RescriptCore  -uncurried -bs-package-name map-gen-rescript -bs-package-output esmodule:$in_d:.res.mjs -bs-v $g_finger $i
+  command = /Users/larrycai/fpse/FPSE-Project/lib/src/map_output/map-gen-rescript/node_modules/rescript/darwinarm64/bsc.exe -I src -I /Users/larrycai/fpse/FPSE-Project/lib/src/map_output/map-gen-rescript/node_modules/@rescript/core/lib/ocaml -I /Users/larrycai/fpse/FPSE-Project/lib/src/map_output/map-gen-rescript/node_modules/@rescript/react/lib/ocaml -open RescriptCore  -uncurried -bs-package-name map-gen-rescript -bs-package-output esmodule:$in_d:.res.mjs -bs-v $g_finger $i
   dyndep = 1
   restat = 1
 o src/Main.cmj src/Main.cmi ../../src/Main.res.mjs : mij src/Main.ast
@@ -35,3 +35,9 @@ o src/RouteForm.cmj src/RouteForm.cmi ../../src/RouteForm.res.mjs : mij src/Rout
 o src/Create_map.ast : astj ../../src/Create_map.res
 o src/Create_map.d : deps src/Create_map.ast
 o src/Create_map.cmj src/Create_map.cmi ../../src/Create_map.res.mjs : mij src/Create_map.ast
+o src/BuildingsList.ast : astj ../../src/BuildingsList.res
+o src/BuildingsList.d : deps src/BuildingsList.ast
+o src/BuildingsList.cmj src/BuildingsList.cmi ../../src/BuildingsList.res.mjs : mij src/BuildingsList.ast
+o src/AvailableBuildings.ast : astj ../../src/AvailableBuildings.res
+o src/AvailableBuildings.d : deps src/AvailableBuildings.ast
+o src/AvailableBuildings.cmj src/AvailableBuildings.cmi ../../src/AvailableBuildings.res.mjs : mij src/AvailableBuildings.ast
